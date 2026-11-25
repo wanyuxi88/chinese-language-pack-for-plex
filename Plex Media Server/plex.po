@@ -10,7 +10,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "'agent' is invalid for the selected library type"
-msgstr "‘代理’ 对选择的资料库类型无效"
+msgstr "「代理」不适用于所选的资料库类型"
 
 msgid "'agent' is missing or invalid"
 msgstr "‘代理’ 缺失或无效"
@@ -130,7 +130,7 @@ msgid "A global path to music videos for all music libraries."
 msgstr "所有音乐资料库音乐视频的全局存储路径。"
 
 msgid "A server restart is required for a change to take effect."
-msgstr "为了让更改生效需要重启服务器。"
+msgstr "更改需重启服务器后生效。"
 
 msgid "A unique identifier for the machine"
 msgstr "此机器的唯一标识符"
@@ -177,7 +177,7 @@ msgid "Airing"
 msgstr "播出"
 
 msgid "Airing did not start at the required time"
-msgstr "节目未在规定的时间播出"
+msgstr "节目未在规定时间开始播出"
 
 msgid "Airing order"
 msgstr "播出顺序"
@@ -195,7 +195,7 @@ msgid "Album"
 msgstr "专辑"
 
 msgid "Album Art"
-msgstr "专辑图片"
+msgstr "专辑封面"
 
 msgid "Album Artist"
 msgstr "专辑艺人"
@@ -273,7 +273,7 @@ msgid "All Shared"
 msgstr "所有共享"
 
 msgid "All Shows"
-msgstr "所有节目"
+msgstr "所有剧集"
 
 msgid "All episodes"
 msgstr "全集"
@@ -324,10 +324,10 @@ msgid "An error occurred"
 msgstr "出现错误"
 
 msgid "An error occurred while postprocessing the download"
-msgstr "对下载进行后期处理时发生错误"
+msgstr "对下载内容进行后期处理时出错"
 
 msgid "An error occurred while postprocessing the recording"
-msgstr "处理此录制项目时出错"
+msgstr "对录制内容进行后期处理时出错"
 
 msgid "An unexpected error occurred"
 msgstr "出现意外错误"
@@ -357,10 +357,10 @@ msgid "Aperture"
 msgstr "光圈"
 
 msgid "App cannot direct play this item. App requested burned subtitles and conversion of video is required to burn subtitles."
-msgstr "应用程序无法直接播放此项目。应用程序需要刻录字幕，而刻录字幕需要转换视频。"
+msgstr "应用无法直接播放此项目：应用要求烧录字幕，而烧录字幕需要转码视频。"
 
 msgid "App cannot direct play this item. Container is unavailable for analysis."
-msgstr "应用程序无法直接播放此项目。容器不可用于分析。"
+msgstr "应用无法直接播放此项目：容器不可用于分析。"
 
 msgid "App cannot direct play this item. Direct play is disabled."
 msgstr "应用程序无法直接播放此项目。直接播放功能已禁用。"
@@ -481,10 +481,10 @@ msgid "Ask to add a login item for externally mounted drives"
 msgstr "为外接磁盘请求添加登录项"
 
 msgid "Attempt to automatically detect and remove commercials from recordings. This process may take a long time and cause high CPU usage. 'Detect and delete commercials' will delete detected commercial footage from your video files."
-msgstr "尝试自动检测并移除录像中的广告。这个过程可能需要很长时间并且会导致 CPU 使用率较高。\\\"检测并删除广告\\\" 将从您的视频文件中删除检测到的广告片段。"
+msgstr "尝试自动检测并移除录像中的广告。这个过程可能需要很长时间并且会导致 CPU 使用率较高。\\\\\\\"检测并删除广告\\\\\\\" 将从您的视频文件中删除检测到的广告片段。"
 
 msgid "Attempt to automatically detect and remove commercials from recordings. This process may take a long time and cause high CPU usage. 'Detect and delete commercials' will delete detected commercial footage from your video files. 'Detect commercials and mark for skip' will leave the video files intact."
-msgstr "尝试自动检测并移除录像中的广告。这个过程可能需要很长时间并且会导致 CPU 使用率较高。\\\"检测并删除广告\\\" 将从您的视频文件中删除检测到的广告片段。而 \\\"检测广告并标记为跳过\\\" 将保持视频文件不变。"
+msgstr "尝试自动检测并移除录像中的广告。这个过程可能需要很长时间并且会导致 CPU 使用率较高。\\\\\\\"检测并删除广告\\\\\\\" 将从您的视频文件中删除检测到的广告片段。而 \\\\\\\"检测广告并标记为跳过\\\\\\\" 将保持视频文件不变。"
 
 msgid "Audience Rating"
 msgstr "观众评分"
@@ -539,7 +539,7 @@ msgid "Backup directory"
 msgstr "备份目录"
 
 msgid "Bitrate"
-msgstr "比特率"
+msgstr "码率"
 
 msgid "Both Plex Music and Local Files"
 msgstr "Plex Music 和本地文件"
@@ -557,7 +557,7 @@ msgid "By Album"
 msgstr "按专辑"
 
 msgid "By Cluster"
-msgstr "按群集"
+msgstr "按聚类"
 
 msgid "By Collection"
 msgstr "按合集"
@@ -1153,7 +1153,7 @@ msgid "Episode {1,ftime='%m-%d'}"
 msgstr "剧集 {1,ftime='%m-%d'}"
 
 msgid "Episode {1}"
-msgstr "剧集 {1}"
+msgstr "第 {1} 集"
 
 msgid "Episodes"
 msgstr "剧集"
@@ -1378,10 +1378,10 @@ msgid "Hide items which are in collections"
 msgstr "隐藏属于合集的条目"
 
 msgid "High quality (30fps limit)"
-msgstr "高品质（30fps）"
+msgstr "高质量（限制 30fps）"
 
 msgid "Highest quality"
-msgstr "最高品质"
+msgstr "最高质量"
 
 msgid "Home"
 msgstr "首页"
@@ -1560,7 +1560,7 @@ msgid "Lineups are from different providers"
 msgstr "节目单来自其他多个内容供应商"
 
 msgid "Linux systems limit the maximum number of watched directories; this may cause problems with large music libraries."
-msgstr "Linux 系统对最大同时读取的目录数量进行了限制，这将会导致读取较大音乐库时发生异常"
+msgstr "Linux 系统对可监视的目录数量有上限，音乐资料库较大时可能出问题。"
 
 msgid "List of IP addresses and networks that are allowed without auth"
 msgstr "无需身份验证即可获得允许的 IP 地址和网络列表"
@@ -1599,10 +1599,10 @@ msgid "Loudness analysis allows various features, such as loudness leveling and 
 msgstr "音量分析可为多个功能提供支持，比如音量平衡和智能过渡。在处理大量曲目时，分析可能需要很长时间，同时也会导致 CPU 使用率升高。"
 
 msgid "Low quality (240p)"
-msgstr "低品质（240p）"
+msgstr "低质量（240p）"
 
 msgid "Low quality (360p)"
-msgstr "低品质（360p）"
+msgstr "低质量（360p）"
 
 msgid "Make"
 msgstr "制造商"
@@ -1623,7 +1623,7 @@ msgid "Maximum number of Continue Watching items which will appear."
 msgstr "继续观看中显示项目的数量"
 
 msgid "Maximum number of simultaneous streams each user is allowed when not on the local network."
-msgstr "当用户不在本地网络时，允许同时进行串流的最大数量。"
+msgstr "用户不在局域网时允许同时进行的串流数量上限。"
 
 msgid "Maximum video output resolution for the transcoder"
 msgstr "视频转码输出的最大分辨率"
@@ -1638,16 +1638,16 @@ msgid "Media server tokens can be used to gain access to library content. Don't 
 msgstr "媒体服务器令牌可用于获取访问库内容的权限。请勿公开共享包含令牌的日志。需重启服务器以使更改生效。"
 
 msgid "Media that has not been watched in this many weeks will not appear in Continue Watching."
-msgstr "在设置期限内未进行观看的项目将自动从 “继续观看” 中移除。"
+msgstr "超过这么多周未观看的媒体不会出现在「继续观看」中。"
 
 msgid "Medium"
 msgstr "中速"
 
 msgid "Medium quality (480p)"
-msgstr "中等品质（480p）"
+msgstr "中等质量（480p）"
 
 msgid "Medium quality (540p)"
-msgstr "中等品质（540p）"
+msgstr "中等质量（540p）"
 
 msgid "Metadata language"
 msgstr "元数据语言"
@@ -1970,7 +1970,7 @@ msgid "Plex Mixes are not available until the library has finished its first sca
 msgstr "资料库完成首次扫描前，Plex Mix 不可用。"
 
 msgid "Plex Music"
-msgstr "Plex Music"
+msgstr "Plex 音乐"
 
 msgid "Plex Music Only"
 msgstr "Plex Music"
@@ -2342,7 +2342,7 @@ msgid "Show"
 msgstr "电视节目"
 
 msgid "Show Actor"
-msgstr "节目演员"
+msgstr "剧集演员"
 
 msgid "Show Collection"
 msgstr "节目合集"
@@ -2351,16 +2351,16 @@ msgid "Show Director"
 msgstr "节目导演"
 
 msgid "Show Plays"
-msgstr "节目播放次数"
+msgstr "剧集播放次数"
 
 msgid "Show Producer"
 msgstr "节目制片人"
 
 msgid "Show Rating"
-msgstr "节目评分"
+msgstr "剧集评分"
 
 msgid "Show Title"
-msgstr "节目标题"
+msgstr "剧集标题"
 
 msgid "Show Unmatched"
 msgstr "未匹配的节目"
@@ -2369,7 +2369,7 @@ msgid "Show Writer"
 msgstr "节目编剧"
 
 msgid "Show Year"
-msgstr "节目年份"
+msgstr "剧集年份"
 
 msgid "Show collections and their items"
 msgstr "显示合集和合集中的项目"
@@ -2387,7 +2387,7 @@ msgid "Show suggestions and additional albums from TIDAL, and include TIDAL trac
 msgstr "显示来自 TIDAL 的推荐和其他专辑，并在艺人电台中包含来自 TIDAL 的曲目。"
 
 msgid "Show suggestions and additional albums from libraries shared with you, and include shared tracks in Artist Radio."
-msgstr "显示来自与您共享的音乐资料库的推荐和其他专辑，并在艺人电台中包含共享的曲目。"
+msgstr "显示与您共享的资料库中的推荐和其他专辑，并在艺人电台中包含共享曲目。"
 
 msgid "Show this collection and its items"
 msgstr "显示此合集和合集中的项目"
@@ -2614,10 +2614,10 @@ msgid "The butler performed deep analysis on {1} files."
 msgstr "管家已对 {1} 个文件执行深度分析。"
 
 msgid "The butler performed loudness analysis on {1} albums."
-msgstr "管家已对 {1} 张专辑进行了音量分析。"
+msgstr "管家已完成 {1} 张专辑的音量分析。"
 
 msgid "The butler performed sonic analysis on {1} batches of albums."
-msgstr "管家对 {1} 张专辑进行了声波分析。"
+msgstr "管家已完成 {1} 批专辑的声波分析。"
 
 msgid "The butler refreshed all libraries."
 msgstr "管家已刷新所有库。"
@@ -2668,7 +2668,7 @@ msgid "The device is busy"
 msgstr "该设备正忙"
 
 msgid "The device is in use with an existing DVR"
-msgstr "该设备正在被现有的数字录像机占用"
+msgstr "该设备已被现有的数字录像机占用"
 
 msgid "The device is not in use by this DVR"
 msgstr "该设备并未被这台数字录像机使用"
@@ -2716,7 +2716,7 @@ msgid "The recording was cancelled"
 msgstr "录制已经取消"
 
 msgid "The recording was not started because airing was in progress"
-msgstr "因为播放正在进行中，录制没有开始"
+msgstr "录制未开始，因为节目已在播出中"
 
 msgid "The server is not connected to plex.tv"
 msgstr "服务器未连接到 plex.tv"
@@ -2761,7 +2761,7 @@ msgid "There was a transcoder error"
 msgstr "转码器发生错误"
 
 msgid "There was not enough free disk space to start the download"
-msgstr "没有足够的磁盘空间进行下载"
+msgstr "磁盘可用空间不足，无法开始下载"
 
 msgid "There was not enough free disk space to start the recording"
 msgstr "没有足够的可用磁盘空间来开始录制"
@@ -2779,7 +2779,7 @@ msgid "This Month"
 msgstr "这个月"
 
 msgid "This Season"
-msgstr "这一季"
+msgstr "本季"
 
 msgid "This allows the server to stream media to DLNA (Digital Living Network Alliance) devices."
 msgstr "允许服务器将媒体流传输到 DLNA（数字生活网络联盟）设备。"
@@ -2788,7 +2788,7 @@ msgid "This app cannot play this item. The reason is: {1}."
 msgstr "此应用程序无法播放此项目。原因是：{1}。"
 
 msgid "This app does not allow item to be converted for playback. Check your settings and try again."
-msgstr "此应用程序不允许转换项目进行播放。请检查您的设置，然后重试。"
+msgstr "此应用不允许转换该项目进行播放，请检查设置后重试。"
 
 msgid "This app does not allow this item to be direct played. Check your settings and try again."
 msgstr "此应用程序不允许直接播放此项目。请检查您的设置，然后重试。"
@@ -3106,7 +3106,7 @@ msgid "Where to automatically obtain genres for artists and albums."
 msgstr "艺人和专辑类型信息的自动获取来源。"
 
 msgid "Which user's activity (e.g. user rating, play count, or watched status) is used for the collection filtering."
-msgstr "哪个用户的活动（如用户评分、播放次数或观看状态）被用于合集筛选。"
+msgstr "合集筛选依据哪位用户的活动（如评分、播放次数或观看状态）。"
 
 msgid "Writer"
 msgstr "编剧"
@@ -3324,7 +3324,7 @@ msgid "Account default"
 msgstr "同账号"
 
 msgid "Always include English language Cinema Trailers for trailers of movies not in my library."
-msgstr "包含不在我的资料库中的电影的英语预告片"
+msgstr "对于不在资料库中的电影，始终包含其英语预告片"
 
 msgid "Unwatched"
 msgstr "未观看"
@@ -3372,7 +3372,7 @@ msgid "Generate voice activity data"
 msgstr "生成语音活动数据"
 
 msgid "Detects voice activity data for movies and episodes. This is used to help syncronize subtitles to the audio track. This detection can be toggled per-library by editing the individual library and navigating to the advanced section."
-msgstr "检测电影和剧集中的语音活动数据，用于帮助同步字幕和音轨。您可以在每个媒体库的高级设置中单独启用或关闭此功能。"
+msgstr "检测电影和剧集中的语音活动数据，用于帮助将字幕与音轨对齐。编辑单个资料库并进入高级设置，即可按资料库单独启用或关闭此功能。"
 
 msgid "Unwatched Videos"
 msgstr "未观看的视频"
@@ -3384,7 +3384,7 @@ msgid "Folder Location"
 msgstr "文件夹位置"
 
 msgid "Enable transcoding using the HEVC codec if it is supported by the client."
-msgstr "如果客户端支持，启用 HEVC 编解码器进行转码。"
+msgstr "客户端支持时，使用 HEVC 编解码器转码。"
 
 msgid "If available, enable use of HEVC while optimizing your media."
 msgstr "如果可用，在优化媒体时启用 HEVC 编解码器。"
@@ -3445,12 +3445,6 @@ msgstr "仅使用 IPv6"
 
 msgid "IPv4 and IPv6"
 msgstr "同时使用 IPv4 和 IPv6"
-
-msgid "\"{1}\" asked to stop your playback from this server. The device might be busy, restarting, or under maintenance. Try again in a few minutes."
-msgstr "“{1}” 要求停止您在此服务器上的播放。可能是设备正忙、正在重启或正在维护，请过几分钟再试。"
-
-msgid "\"{1}\" asked to stop your playback from this server: {2}"
-msgstr "“{1}” 要求停止您在此服务器上的播放：{2}"
 
 msgid "A provider with the same identifier already exists."
 msgstr "已存在使用相同标识符的提供者。"
@@ -3665,9 +3659,6 @@ msgstr "曲目热度"
 msgid "Video Codec"
 msgstr "视频编解码器"
 
-msgid "When set to \"Required\", some unencrypted connections (originating from the Media Server computer) will still be allowed and apps that don't support secure connections will not be able to connect at all."
-msgstr "设为“需要”时，仍会允许部分未加密连接（来自运行媒体服务器的这台电脑），但不支持安全连接的应用程序将完全无法连接。"
-
 msgid "[Experimental] If enabled use hardware encoders instead of software encoders."
 msgstr "[实验]启用后将使用硬件编码器代替软件编码器。"
 
@@ -3685,3 +3676,12 @@ msgstr "无法为所提供的 “metadataAgentProviderGroupId” 找到条目"
 
 msgid "unavailable"
 msgstr "不可用"
+
+msgid "\"{1}\" asked to stop your playback from this server. The device might be busy, restarting, or under maintenance. Try again in a few minutes."
+msgstr "“{1}” 要求停止您在此服务器上的播放。可能是设备正忙、正在重启或正在维护，请过几分钟再试。"
+
+msgid "\"{1}\" asked to stop your playback from this server: {2}"
+msgstr "“{1}” 要求停止您在此服务器上的播放：{2}"
+
+msgid "When set to \"Required\", some unencrypted connections (originating from the Media Server computer) will still be allowed and apps that don't support secure connections will not be able to connect at all."
+msgstr "设为“需要”时，仍会允许部分未加密连接（来自运行媒体服务器的这台电脑），但不支持安全连接的应用程序将完全无法连接。"
