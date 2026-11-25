@@ -375,7 +375,7 @@ msgid "App cannot direct play this item. Media must be converted in order to use
 msgstr "应用程序无法直接播放此项目。必须转换媒体才能使用 {1} 协议。"
 
 msgid "App cannot direct play this item. Multi-part media requires a conversion when all parts are selected."
-msgstr "应用程序无法直接播放此项目。选择各部分后，需要转换多部分媒体。"
+msgstr "应用无法直接播放此项目。选中全部片段时，多段媒体需要转码。"
 
 msgid "App cannot direct play this item. No direct play music profile exists for protocol {1}, with container {2} using codec {3}."
 msgstr "应用程序无法直接播放此项目。协议 {1}（容器为 {2}、编解码器为 {3}）没有可直接播放的音乐配置文件。"
@@ -393,13 +393,13 @@ msgid "App cannot direct play this item. No direct play video profile exists for
 msgstr "应用程序无法直接播放此项目。协议 {1}（容器为 {2}、视频编解码器为 {3}、音频编解码器为 {4}）没有可直接播放的视频配置文件。"
 
 msgid "App cannot direct play this item. Non-selected embedded subtitle stream {1} cannot be direct-played."
-msgstr "应用程序无法直接播放此项目。未选择的内封字幕 {1} 无法直接播放。"
+msgstr "应用无法直接播放此项目。未选中的内嵌字幕 {1} 无法直接播放。"
 
 msgid "App cannot direct play this item. Selected audio stream is not the first audio stream and app cannot select audio streams in direct play."
-msgstr "应用程序无法直接播放此项目。所选音频流不是第一个音频流，并且应用程序不能在直接播放时选择音频流。"
+msgstr "应用无法直接播放此项目。所选音频串流不是第一条，且应用无法在直接播放时切换音频串流。"
 
 msgid "App cannot direct play this item. Selected embedded subtitle stream is not the first embedded subtitle stream."
-msgstr "应用程序无法直接播放此项目。选择的内封字幕不是第一个内封字幕。"
+msgstr "应用无法直接播放此项目。所选内嵌字幕不是第一条内嵌字幕。"
 
 msgid "App cannot direct play this item. Selected embedded subtitle stream must be extracted to sidecar."
 msgstr "应用程序无法直接播放此项目。需要将选择的内封字幕提取到附属文件中。"
@@ -481,10 +481,10 @@ msgid "Ask to add a login item for externally mounted drives"
 msgstr "为外接磁盘请求添加登录项"
 
 msgid "Attempt to automatically detect and remove commercials from recordings. This process may take a long time and cause high CPU usage. 'Detect and delete commercials' will delete detected commercial footage from your video files."
-msgstr "尝试自动检测并移除录像中的广告。这个过程可能需要很长时间并且会导致 CPU 使用率较高。\\\\\\\\\\\\\\\"检测并删除广告\\\\\\\\\\\\\\\" 将从您的视频文件中删除检测到的广告片段。"
+msgstr "尝试自动检测并移除录制内容中的广告。此过程可能耗时较长，且会占用较多 CPU。“检测并删除广告”会把检测到的广告片段从视频文件中删除。"
 
 msgid "Attempt to automatically detect and remove commercials from recordings. This process may take a long time and cause high CPU usage. 'Detect and delete commercials' will delete detected commercial footage from your video files. 'Detect commercials and mark for skip' will leave the video files intact."
-msgstr "尝试自动检测并移除录像中的广告。这个过程可能需要很长时间并且会导致 CPU 使用率较高。\\\\\\\\\\\\\\\"检测并删除广告\\\\\\\\\\\\\\\" 将从您的视频文件中删除检测到的广告片段。而 \\\\\\\\\\\\\\\"检测广告并标记为跳过\\\\\\\\\\\\\\\" 将保持视频文件不变。"
+msgstr "尝试自动检测并移除录制内容中的广告。此过程可能耗时较长，且会占用较多 CPU。“检测并删除广告”会把检测到的广告片段从视频文件中删除；“检测广告并标记为跳过”则会保留视频文件不变。"
 
 msgid "Audience Rating"
 msgstr "观众评分"
@@ -511,7 +511,7 @@ msgid "Automatic Tags"
 msgstr "自动标签"
 
 msgid "Automatically create collections when there are at least the selected number of items for an available collection. Changing this value will have no effect on any existing collections."
-msgstr "当属于某个合集的项目数量达到所选值时，自动创建合集。更改此值不会影响任何现有的合集。"
+msgstr "当可归入某合集的项目达到设定数量时，自动创建合集。更改此值不会影响已存在的合集。"
 
 msgid "Automatically during scheduled maintenance"
 msgstr "在计划维护期间自动执行"
@@ -644,7 +644,7 @@ msgid "Chapter"
 msgstr "章节"
 
 msgid "Chapter thumbnails provide images in the chapter view on supported apps. They can take a long time to generate and consume additional disk space."
-msgstr "章节缩略图可为支持的应用程序提供章节画面。生成缩略图可能需要较长时间，并会消耗额外的磁盘空间。"
+msgstr "章节缩略图可为支持的应用提供章节预览画面，生成耗时较长，且会额外占用磁盘空间。"
 
 msgid "Chapter {1}"
 msgstr "第 {1} 章"
@@ -711,7 +711,7 @@ msgid "Comma separated list of IP addresses or IP/netmask entries for networks t
 msgstr "无需登录即可访问 Plex 媒体服务器的网络 IP 地址或 IP/子网掩码列表，以逗号分隔。当服务器处于登出状态且设置了该值时，只有本机和此列表中的地址可以访问。"
 
 msgid "Comma separated list of IP addresses or IP/netmask entries for networks that will be considered to be on the local network when enforcing bandwidth restrictions. If set, all other IP addresses will be considered to be on the external network and will be subject to external network bandwidth restrictions. If left blank, only the server's subnet is considered to be on the local network."
-msgstr "强制带宽限制时，列表内的 IP 地址或 IP/子网掩码将会被视为本地网络，以逗号分隔。如果设定，则所有其他 IP 地址将被视为外部网络并且将受外网带宽限制约束。如果留空，则仅服务器所处的子网被视为本地网络。"
+msgstr "以逗号分隔的 IP 或 IP/子网掩码列表，这些地址在带宽限制时视为本地网络。设置后，其他所有 IP 都视为外网，并受外网带宽限制。留空则仅服务器所在子网视为本地网络。"
 
 msgid "Comma-separated list of strings considered articles when sorting titles. A server restart is required for a change to take effect."
 msgstr "标题排序时会被视作冠词的字符串列表，以逗号分隔。更改后需重启服务器才能生效。"
@@ -777,7 +777,7 @@ msgid "Create a backup copy of the server's database in the configured backup di
 msgstr "在指定的备份目录中创建服务器数据库的备份副本"
 
 msgid "Credits markers can be generated locally and/or retrieved via an online database. Online markers may not always exist, if this preference is set to 'both' then any locally detected markers are submitted anonymously back to the online database for future use."
-msgstr "片尾标记可以在本地生成，也可以通过在线数据库获取。在线标记并不总是存在。如果设置为 “同时使用”，那么任何本地检测到的标记都会被匿名提交到在线数据库，以供将来使用。"
+msgstr "片尾标记可以在本地生成，也可以从在线数据库获取。在线标记并不总是存在；若选择“两者”，本地检测到的标记会匿名提交到在线数据库，供以后使用。"
 
 msgid "Critic Rating"
 msgstr "媒体评分"
@@ -981,7 +981,7 @@ msgid "Directors"
 msgstr "导演"
 
 msgid "Disable transcoding of the video stream in transcoder operations. With this set, the transcoder may still transcode audio as well as remux video."
-msgstr "在转码操作中禁用视频流的转码。设置后，转码器仍然可以转码音频或重新封装视频。"
+msgstr "在转码操作中禁用视频串流转码。启用后，转码器仍可转码音频，或对视频重新封装。"
 
 msgid "Disable video stream transcoding"
 msgstr "禁用视频串流转码"
@@ -990,7 +990,7 @@ msgid "Disabled"
 msgstr "禁用"
 
 msgid "Disables legacy weak ciphers, increases DH group size, and switches to ECDSA certificates when renewing. May prevent older clients from connecting."
-msgstr "禁用传统的弱加密算法，增加 DH 组的大小，并在更新证书时切换到 ECDSA 证书。可能会阻止较旧的客户端连接。"
+msgstr "禁用传统的弱加密算法，增大 DH 组长度，并在续期时改用 ECDSA 证书。可能导致旧版客户端无法连接。"
 
 msgid "Discovery Radio"
 msgstr "探索电台"
@@ -1114,7 +1114,7 @@ msgid "Enhanced Guide"
 msgstr "增强版节目指南"
 
 msgid "Enter the full path to the pre-roll video file. If multiple paths separated by commas are entered, videos will be played sequentially. If multiple paths separated by semi-colons are used, a single pre-roll video will be chosen randomly from the list."
-msgstr "输入片头视频文件的完整路径。若有多个路径，用逗号分隔，视频将按顺序播放；如果使用分号分隔，则会随机选择一个片头视频进行播放。"
+msgstr "输入片头视频文件的完整路径。多个路径用逗号分隔时，视频会依次播放；用分号分隔时，会从中随机选择一个播放。"
 
 msgid "Episode"
 msgstr "剧集"
@@ -1551,7 +1551,7 @@ msgid "Limit to channel"
 msgstr "限制频道"
 
 msgid "Limits the number of shows which will appear Continue Watching. Setting it too high can affect performance."
-msgstr "限制 “继续观看” 中显示项目的数量，设置的数量过多可能会影响性能。"
+msgstr "限制“继续观看”中显示的剧集数量，设得过高可能影响性能。"
 
 msgid "Lineup is from a different provider."
 msgstr "节目单来自另一个内容供应商。"
@@ -1572,7 +1572,7 @@ msgid "Live TV & DVR"
 msgstr "直播电视和数字录像机"
 
 msgid "Load album reviews and critic ratings from the cloud. Might make you reconsider your taste in music."
-msgstr "从云端加载专辑评论和评论家评分。也许会让您重新审视自己对音乐的喜好。"
+msgstr "从云端加载乐评与媒体评分。说不定会让您重新审视自己的音乐品味。"
 
 msgid "Load artist biography data from the cloud."
 msgstr "从云端加载艺人简介数据。"
@@ -1593,10 +1593,10 @@ msgid "Location visibility"
 msgstr "位置可见性"
 
 msgid "Logging of the Plex Media Server memory use and the system total used memory in Plex Media Server logs. A server restart is required for the change to take effect."
-msgstr "在 Plex Media Server 日志中记录 Plex Media Server 的内存使用情况和系统使用的内存总量。需要重新启动服务器才能生效。"
+msgstr "在 Plex Media Server 日志中记录服务器内存占用与系统总内存。更改后需重启服务器才能生效。"
 
 msgid "Loudness analysis allows various features, such as loudness leveling and smart transitions. It can take a long time to complete when analyzing many tracks, and cause high CPU usage."
-msgstr "音量分析可为多个功能提供支持，比如音量平衡和智能过渡。在处理大量曲目时，分析可能需要很长时间，同时也会导致 CPU 使用率升高。"
+msgstr "响度分析可支撑响度均衡、智能过渡等功能。分析大量曲目时耗时较长，且会占用较多 CPU。"
 
 msgid "Low quality (240p)"
 msgstr "低质量（240p）"
@@ -1635,7 +1635,7 @@ msgid "Media download by {1}"
 msgstr "{1} 下载了媒体"
 
 msgid "Media server tokens can be used to gain access to library content. Don't share logs containing tokens publicly. A server restart is required for a change to take effect."
-msgstr "媒体服务器令牌可用于获取访问库内容的权限。请勿公开共享包含令牌的日志。需重启服务器以使更改生效。"
+msgstr "媒体服务器令牌可用于访问资料库内容。请勿公开分享含令牌的日志。更改后需重启服务器才能生效。"
 
 msgid "Media that has not been watched in this many weeks will not appear in Continue Watching."
 msgstr "超过这么多周未观看的媒体不会出现在「继续观看」中。"
@@ -1798,13 +1798,13 @@ msgid "Not enough bandwidth for any playback of this item."
 msgstr "带宽不足，无法播放此项目。"
 
 msgid "Not enough bandwidth for any playback of this item. Cannot convert to below minimum bandwidth of {1}kbps."
-msgstr "带宽不足，无法播放此项目。无法转换为低于最低带宽 {1}kbps 的画质。"
+msgstr "带宽不足，无法播放此项目。无法转码到低于最低带宽 {1} kbps。"
 
 msgid "Not enough bandwidth for any playback of this item. Cannot reduce quality down to target bandwidth of {1}kbps."
-msgstr "带宽不足，无法播放此项目。无法将画质降低为目标带宽 {1}kbps 的画质。"
+msgstr "带宽不足，无法播放此项目。无法将画质降到目标带宽 {1} kbps。"
 
 msgid "Not enough bandwidth for any playback of this item. Required bandwidth is not known and only {1}kbps is available."
-msgstr "没有足够的带宽播放此项目。无法预料所需带宽，当前仅{1} kbps 可用。"
+msgstr "带宽不足，无法播放此项目。所需带宽未知，当前仅有 {1} kbps 可用。"
 
 msgid "Not enough bandwidth for any playback of this item. Required bandwidth is {1}kbps and only {2}kbps is available."
 msgstr "带宽不足，无法播放此项目。所需带宽为 {1} kbps，但当前只有 {2} kbps 可用带宽。"
@@ -1964,7 +1964,7 @@ msgid "Plex Media Server is in an unknown state."
 msgstr "Plex 媒体服务器处于未知状态。"
 
 msgid "Plex Media Server will attempt to use hardware-accelerated video codecs when encoding and decoding video. Hardware acceleration can make transcoding faster and allow more simultaneous video transcodes, but it can also reduce video quality and compatibility."
-msgstr "Plex 媒体服务器将在编码和解码视频时尝试使用硬件加速视频编解码器。硬件加速可以加快转码速度，并允许更多同时进行的视频转码，但也可能降低视频质量和兼容性。"
+msgstr "Plex 媒体服务器会在编解码视频时尝试使用硬件加速。硬件加速能提升转码速度、支持更多并发转码，但也可能降低画质与兼容性。"
 
 msgid "Plex Mixes are not available until the library has finished its first scan."
 msgstr "资料库完成首次扫描前，Plex Mix 不可用。"
@@ -2036,7 +2036,7 @@ msgid "Publisher"
 msgstr "发行人"
 
 msgid "Publishing a server makes it automatically available on your client devices without any configuration of your router."
-msgstr "发布服务器使得它无需路由器的任何配置，就可以自动用于客户端设备。"
+msgstr "发布服务器后，无需配置路由器，即可在客户端设备上直接使用。"
 
 msgid "Push Notifications"
 msgstr "推送通知"
@@ -2192,7 +2192,7 @@ msgid "Release date"
 msgstr "发布日期"
 
 msgid "Remember and resume from your previous listening position. Useful for libraries with long-form audio content."
-msgstr "记录播放进度并在下一次播放时接着播放。对于拥有长音频内容的资料库非常有用。"
+msgstr "记住上次的收听位置，下次接着播放。适合有声书等长篇音频资料库。"
 
 msgid "Remixes"
 msgstr "混音"
@@ -2309,7 +2309,7 @@ msgid "September"
 msgstr "九月"
 
 msgid "Server owners may wish to restrict who can see location names for items which contain geolocation metadata. By default only the server owner will have visibility of these."
-msgstr "服务器所有者可以限制某些用户，看到包含地理位置元数据项目的位置名称。默认情况下，只有服务器所有者才能看到这些信息。"
+msgstr "服务器所有者可以限制哪些用户能看到含地理位置元数据的项目位置名称。默认只有服务器所有者可见。"
 
 msgid "Server update Channel"
 msgstr "服务器更新频道"
@@ -2435,7 +2435,7 @@ msgid "Sonic Analysis"
 msgstr "声波分析"
 
 msgid "Sonic analysis allows various features, such as track radio. It can take a long time to complete when analyzing many tracks, and cause high CPU usage."
-msgstr "声波分析可为多个功能提供支持，比如曲目电台。在处理大量曲目时，分析可能需要很长时间，同时也会导致 CPU 使用率升高。"
+msgstr "声学分析可支撑曲目电台等功能。分析大量曲目时耗时较长，且会占用较多 CPU。"
 
 msgid "Sonically Similar Albums"
 msgstr "声波相似的专辑"
@@ -2698,7 +2698,7 @@ msgid "The path where local application data is stored"
 msgstr "本地应用数据的存储路径"
 
 msgid "The quality of the transcoding used for live TV or recording. Selecting original format may result in very large files."
-msgstr "用于直播电视或录制的转码质量。选择原始格式可能会导致文件巨大。"
+msgstr "直播电视或录制所使用的转码质量。选择原始格式可能产生非常大的文件。"
 
 msgid "The recording conflicts with other recordings"
 msgstr "录制与其他录制冲突"
@@ -2740,7 +2740,7 @@ msgid "The user does not have permission to sync"
 msgstr "该用户没有同步权限"
 
 msgid "The x264 preset value used for background transcoding (Sync and Media Optimizer). Slower values will result in better video quality and smaller file sizes, but will take significantly longer to complete processing."
-msgstr "x264 预设值用于后台转码（同步和媒体优化器）。值越小，视频质量越好，文件越小，但处理时间更长。"
+msgstr "用于后台转码（同步与媒体优化器）的 x264 预设。预设越慢，画质越好、文件越小，但处理时间会明显增加。"
 
 msgid "TheTVDB (Absolute)"
 msgstr "TheTVDB（绝对顺序）"
@@ -2809,7 +2809,7 @@ msgid "This name will be used to identify this media server to other computers o
 msgstr "此名称用于在网络上的其他电脑中标识这台媒体服务器。留空则使用电脑的名称。"
 
 msgid "This will influence which content rating system is used. Changing this setting will require refreshing the metadata for the changes to take effect."
-msgstr "此设置会决定使用哪种内容分级系统。修改后，需要刷新元数据才能生效。"
+msgstr "此设置决定使用哪套内容分级体系。更改后需刷新元数据才能生效。"
 
 msgid "Time Travel Radio"
 msgstr "时间旅行电台"
@@ -2890,7 +2890,7 @@ msgid "Transcode"
 msgstr "转码"
 
 msgid "Transcoded HDR content will appear highly dimmed and desaturated with this disabled. Additional driver components may be needed to support hardware transcoding with this feature enabled; see our support articles for further details."
-msgstr "禁用此功能后，转码后的 HDR 内容将出现极为暗淡和不饱和的情况。启用此功能后，可能需要额外的驱动程序组件来支持硬件转码；更多细节请参见我们的支持文章。"
+msgstr "禁用此项后，转码后的 HDR 内容会明显偏暗、色彩变淡。启用后可能需要额外的驱动程序组件才能支持硬件转码，详见支持文章。"
 
 msgid "Transcoder Quality"
 msgstr "转码质量"
@@ -2920,7 +2920,7 @@ msgid "Treat WAN IP As LAN Bandwidth"
 msgstr "将广域网 IP 按局域网带宽处理"
 
 msgid "Treat incoming requests from this network's WAN IP address as LAN requests in terms of bandwidth.  This often occurs when DNS rebinding protection is in place and clients on the LAN cannot contact the server directly but instead have to go through the WAN IP address."
-msgstr "将来自广域网的传入请求视作局域网请求。这种情况通常发生在启用了 DNS 绑定保护时，局域网内的客户端无法直接与服务器联通，而必须通过广域网访问。"
+msgstr "在带宽计算上，将来自本网络 WAN IP 的请求视为局域网请求。启用 DNS 重绑定保护时常见此情况：局域网内的客户端无法直接连接服务器，只能绕经 WAN IP。"
 
 msgid "Tried {1}"
 msgstr "尝试 {1}"
@@ -3040,7 +3040,7 @@ msgid "User currently viewing the content"
 msgstr "当前正在观看此内容的用户"
 
 msgid "Value is in minutes. Terminate any sessions which have been paused for a longer time than specified amount of time.  Audio-only sessions and live sessions are excluded"
-msgstr "以分钟为单位。终止所有暂停时间超过指定时长的会话。纯音频会话和直播会话除外。"
+msgstr "单位为分钟。暂停时间超过设定时长的会话将被终止。纯音频会话与直播会话除外。"
 
 msgid "Verbose logging is only useful to debug specific issues and should only be enabled if requested by support staff."
 msgstr "详细日志只对排查特定问题有用，仅在支持人员要求时开启。"
@@ -3360,13 +3360,13 @@ msgid "After a month"
 msgstr "一个月后"
 
 msgid "Decide whether to use end credits markers to determine the 'watched' state of video items. When markers are not available the selected threshold percentage will be used."
-msgstr "是否使用片尾标记来判断视频项目的 “已观看” 状态。当标记不可用时，将使用设置的阈值百分比。"
+msgstr "设置是否用片尾标记来判断视频的“已观看”状态。没有标记时，会使用设定的阈值百分比。"
 
 msgid "Enable voice activity detection"
 msgstr "启用语音活动检测"
 
 msgid "Detect voice activity for items in this library when enabled in server settings. This is required for subtitle auto-sync functionality."
-msgstr "在服务器设置中启用了该功能时，为此资料库中的项目检测语音活动。需要启用该功能才能使用自动同步字幕功能。"
+msgstr "在服务器设置中启用后，会为此资料库中的项目检测语音活动。字幕自动同步功能依赖于此。"
 
 msgid "Generate voice activity data"
 msgstr "生成语音活动数据"
@@ -3408,7 +3408,7 @@ msgid "Allow matching to explicit content"
 msgstr "允许匹配限制级内容"
 
 msgid "Allow matching to adult/pornographic titles and returning adult titles in fix match results. This may hide the title from some features like your Watchlist."
-msgstr "允许匹配成人/色情内容，并在 “修正匹配” 结果中返回成人内容。某些功能（如 “关注列表”）可能不会显示这些内容。"
+msgstr "允许匹配成人内容，并在“修正匹配”结果中返回成人标题。这可能会让该标题在“关注列表”等功能中被隐藏。"
 
 msgid "How to sort the episodes for shows."
 msgstr "如何排序节目的剧集。"
@@ -3423,10 +3423,10 @@ msgid "Network to advertise to clients."
 msgstr "向客户端通告的网络地址。"
 
 msgid "Domain name to be published to plex.tv using your mapped port; must match a name from the custom certificate file. [IPv4 Only]"
-msgstr "通过映射端口向 plex.tv 提供的域名，必须与自定义证书文件中的域名一致。（仅限 IPv4）"
+msgstr "通过映射端口发布到 plex.tv 的域名，必须与自定义证书文件中的名称一致。（仅限 IPv4）"
 
 msgid "A comma-separated list of URLs (http or https) which are published up to plex.tv for server discovery. IPv6 addresses must specify a port."
-msgstr "用于服务器发现的 URL 列表（以逗号分隔，支持 http 或 https），会向 plex.tv 注册以便客户端访问。IPv6 地址需指定端口。"
+msgstr "用于服务器发现的 URL 列表（逗号分隔，支持 http 或 https），这些地址会注册到 plex.tv。IPv6 地址必须指定端口。"
 
 msgid "Downloads temporary directory"
 msgstr "下载缓存目录"
@@ -3435,7 +3435,7 @@ msgid "Maximum simultaneous background video transcode"
 msgstr "最大同时后台视频转码数量"
 
 msgid "Limit the number of simultaneous video transcode your server can utilize for the optimizer and downloads"
-msgstr "限制服务器在优化和下载视频的过程中同时进行视频转码的最大数量。"
+msgstr "限制服务器为优化和下载同时进行视频转码的数量。"
 
 msgid "IPv4 Only"
 msgstr "仅使用 IPv4"
@@ -3507,10 +3507,10 @@ msgid "Detect loudness properties of all audio streams."
 msgstr "检测所有音频串流的响度属性。"
 
 msgid "Directory to use when storing transcoded downloads until the client downloads them. This should ideally be a location on a local physical drive. It is not recommended to set this to a network location or RAM disk."
-msgstr "用于存放已转码的下载文件、等待客户端下载的目录。理想情况下应位于本地物理硬盘，不建议设置为网络位置或内存盘。"
+msgstr "存放转码后的下载内容、等待客户端取走的目录。最好设在本地物理硬盘上，不建议使用网络位置或内存盘。"
 
 msgid "Directory to use when transcoding for temporary files. This should ideally be a location on a local physical drive. It is not recommended to set this to a network location or RAM disk."
-msgstr "用于存放转码临时文件的目录。理想情况下应位于本地物理硬盘，不建议设置为网络位置或内存盘。"
+msgstr "存放转码临时文件的目录。最好设在本地物理硬盘上，不建议使用网络位置或内存盘。"
 
 msgid "Enable HEVC Optimization"
 msgstr "启用 HEVC 优化"
@@ -3531,7 +3531,7 @@ msgid "How to sort the albums for this artist."
 msgstr "如何排序此艺人的专辑。"
 
 msgid "If this is enabled legacy agents will be available when setting up new libraries. Requires browser refresh after changing."
-msgstr "启用后，创建新资料库时可以选择旧版代理。更改后需要刷新浏览器。"
+msgstr "启用后，新建资料库时可以选择旧版代理。更改后需要刷新浏览器。"
 
 msgid "Limit the number of simultaneous video transcode streams your server can utilize on your CPU"
 msgstr "限制服务器 CPU 可同时处理的视频转码串流数量"
@@ -3663,7 +3663,7 @@ msgid "[Experimental] If enabled use hardware encoders instead of software encod
 msgstr "[实验性] 启用后使用硬件编码器替代软件编码器。"
 
 msgid "[Experimental] Quality scale of 99 (High) - 0 (Low) where the higher quality also results in a higher filesize."
-msgstr "[实验]质量等级从 99（高）到 0（低），质量越高，文件体积也越大。"
+msgstr "[实验性] 质量等级从 99（高）到 0（低），质量越高，文件体积也越大。"
 
 msgid "agent identifier does not match primary identifier of supplied metadata agent provider group"
 msgstr "代理标识符与所提供的元数据代理提供者组的主要标识符不匹配"
@@ -3684,4 +3684,4 @@ msgid "\"{1}\" asked to stop your playback from this server: {2}"
 msgstr "“{1}” 要求停止您在此服务器上的播放：{2}"
 
 msgid "When set to \"Required\", some unencrypted connections (originating from the Media Server computer) will still be allowed and apps that don't support secure connections will not be able to connect at all."
-msgstr "设为“需要”时，仍会允许部分未加密连接（来自运行媒体服务器的这台电脑），但不支持安全连接的应用程序将完全无法连接。"
+msgstr "设为“必需”时，仍会允许部分未加密连接（来自运行媒体服务器的这台电脑），但不支持安全连接的应用将完全无法连接。"
