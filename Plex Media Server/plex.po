@@ -551,7 +551,7 @@ msgid "Browse All"
 msgstr "浏览全部"
 
 msgid "Butler tasks"
-msgstr "管家任务"
+msgstr "后台任务"
 
 msgid "By Album"
 msgstr "按专辑"
@@ -602,7 +602,7 @@ msgid "By name"
 msgstr "按名称"
 
 msgid "CPU is not powerful enough to convert this item."
-msgstr "CPU 性能不佳，不能转换此项目。"
+msgstr "CPU 性能不足，无法转换此项目。"
 
 msgid "Camera Make"
 msgstr "相机品牌"
@@ -762,7 +762,7 @@ msgid "Could not communicate with device"
 msgstr "无法与设备通信"
 
 msgid "Could not move downloaded media to destination"
-msgstr "无法将下载的媒体资源移动到目标位置"
+msgstr "无法将已下载的媒体文件移动到目标位置"
 
 msgid "Could not move recorded media to destination"
 msgstr "无法将录制的媒体移动到目标位置"
@@ -1333,7 +1333,7 @@ msgid "Group albums by type"
 msgstr "按专辑类型分组"
 
 msgid "Group into LPs, EPs & Singles, Compilations, Live Albums, Demos and Remixes."
-msgstr "分为 LP、EP 和单曲、精选辑、现场专辑、Demo 和混音。"
+msgstr "分为 LP、EP 与单曲、精选辑、现场专辑、小样和混音。"
 
 msgid "Guide"
 msgstr "节目指南"
@@ -1563,7 +1563,7 @@ msgid "Linux systems limit the maximum number of watched directories; this may c
 msgstr "Linux 系统对可监视的目录数量有上限，音乐资料库较大时可能出问题。"
 
 msgid "List of IP addresses and networks that are allowed without auth"
-msgstr "无需身份验证即可获得允许的 IP 地址和网络列表"
+msgstr "无需身份验证即可访问的 IP 地址和网络列表"
 
 msgid "Live Albums"
 msgstr "现场专辑"
@@ -1789,10 +1789,10 @@ msgid "None"
 msgstr "无"
 
 msgid "Not enough CPU for conversion of this item."
-msgstr "CPU 性能不佳，无法转换此项目。"
+msgstr "CPU 性能不足，无法转换此项目。"
 
 msgid "Not enough CPU power to convert this item."
-msgstr "CPU 性能不佳，无法转换此项目。"
+msgstr "CPU 性能不足，无法转换此项目。"
 
 msgid "Not enough bandwidth for any playback of this item."
 msgstr "带宽不足，无法播放此项目。"
@@ -2432,16 +2432,16 @@ msgid "Smart shuffling prefers highly rated, popular and less recently heard tra
 msgstr "智能随机播放更倾向于播放评分高、热门且最近较少播放的曲目。"
 
 msgid "Sonic Analysis"
-msgstr "声波分析"
+msgstr "声学分析"
 
 msgid "Sonic analysis allows various features, such as track radio. It can take a long time to complete when analyzing many tracks, and cause high CPU usage."
 msgstr "声学分析可支撑曲目电台等功能。分析大量曲目时耗时较长，且会占用较多 CPU。"
 
 msgid "Sonically Similar Albums"
-msgstr "声波相似的专辑"
+msgstr "声学相似专辑"
 
 msgid "Sonically Similar Artists"
-msgstr "声波相似的艺人"
+msgstr "声学相似艺人"
 
 msgid "Sorry, there is no Plex Mix available for this track."
 msgstr "抱歉，当前单曲没有可用的 Plex Mix"
@@ -2575,70 +2575,70 @@ msgid "The airing was already in progress"
 msgstr "该节目已在播出中"
 
 msgid "The butler analyzed {1} items."
-msgstr "管家已分析 {1} 个项目。"
+msgstr "后台任务已分析 {1} 个项目。"
 
 msgid "The butler backed up your database."
-msgstr "管家已备份数据库。"
+msgstr "后台任务已备份您的数据库。"
 
 msgid "The butler cleaned {1} media bundles."
-msgstr "管家已清理 {1} 个媒体包。"
+msgstr "后台任务已清理 {1} 个媒体包。"
 
 msgid "The butler cleaned {1} metadata bundles."
-msgstr "管家已清理 {1} 个元数据包。"
+msgstr "后台任务已清理 {1} 个元数据包。"
 
 msgid "The butler collected blob garbage."
-msgstr "管家已回收无用数据块。"
+msgstr "后台任务已回收无用数据块。"
 
 msgid "The butler deleted {1} old cache files."
-msgstr "管家已删除 {1} 个旧缓存文件。"
+msgstr "后台任务已删除 {1} 个旧缓存文件。"
 
 msgid "The butler generated ad markers for {1} show(s)."
-msgstr "管家已为 {1} 个剧集生成广告标记。"
+msgstr "后台任务已为 {1} 个节目生成广告标记。"
 
 msgid "The butler generated chapter thumbnails for {1} files."
-msgstr "管家已为 {1} 个文件生成章节缩略图。"
+msgstr "后台任务已为 {1} 个文件生成章节缩略图。"
 
 msgid "The butler generated {1} credits markers."
-msgstr "管家已生成 {1} 个片尾标记。"
+msgstr "后台任务已生成 {1} 个片尾标记。"
 
 msgid "The butler generated {1} season intro markers."
-msgstr "管家已生成 {1} 个季片头标记。"
+msgstr "后台任务已生成 {1} 个季片头标记。"
 
 msgid "The butler generated {1} video preview thumbnails."
-msgstr "管家已为 {1} 个视频生成预览缩略图。"
+msgstr "后台任务已为 {1} 个视频生成预览缩略图。"
 
 msgid "The butler optimized your database."
-msgstr "管家已优化数据库。"
+msgstr "后台任务已优化您的数据库。"
 
 msgid "The butler performed deep analysis on {1} files."
-msgstr "管家已对 {1} 个文件执行深度分析。"
+msgstr "后台任务已对 {1} 个文件执行深度分析。"
 
 msgid "The butler performed loudness analysis on {1} albums."
-msgstr "管家已完成 {1} 张专辑的音量分析。"
+msgstr "后台任务已完成 {1} 张专辑的响度分析。"
 
 msgid "The butler performed sonic analysis on {1} batches of albums."
-msgstr "管家已完成 {1} 批专辑的声波分析。"
+msgstr "后台任务已完成 {1} 批专辑的声学分析。"
 
 msgid "The butler refreshed all libraries."
-msgstr "管家已刷新所有资料库。"
+msgstr "后台任务已刷新所有资料库。"
 
 msgid "The butler refreshed {1} artists."
-msgstr "管家已刷新 {1} 个艺人。"
+msgstr "后台任务已刷新 {1} 位艺人。"
 
 msgid "The butler refreshed {1} items."
-msgstr "管家已刷新 {1} 个项目。"
+msgstr "后台任务已刷新 {1} 个项目。"
 
 msgid "The butler refreshed {1} movies."
-msgstr "管家已刷新 {1} 部电影。"
+msgstr "后台任务已刷新 {1} 部电影。"
 
 msgid "The butler refreshed {1} seasons."
-msgstr "管家已刷新 {1} 季。"
+msgstr "后台任务已刷新 {1} 季。"
 
 msgid "The butler refreshed {1} shows."
-msgstr "管家已刷新 {1} 个剧集。"
+msgstr "后台任务已刷新 {1} 个节目。"
 
 msgid "The butler wasn't able to back up your database."
-msgstr "管家未能备份您的数据库。"
+msgstr "后台任务无法备份您的数据库。"
 
 msgid "The cleanup cleaned {1} media bundles."
 msgstr "清理程序已清理 {1} 个媒体包。"
@@ -3022,7 +3022,7 @@ msgid "Use original titles"
 msgstr "使用原始标题"
 
 msgid "Use red band (restricted audiences) trailers when available"
-msgstr "允许显示限制级预告片（如果存在）。"
+msgstr "在可用时使用限制级（限年龄观众）预告片"
 
 msgid "Use season titles"
 msgstr "使用季标题"
@@ -3103,7 +3103,7 @@ msgid "Where to automatically obtain album cover art."
 msgstr "专辑封面图片的自动获取来源。"
 
 msgid "Where to automatically obtain genres for artists and albums."
-msgstr "艺人和专辑类型信息的自动获取来源。"
+msgstr "艺人及专辑流派的自动获取来源。"
 
 msgid "Which user's activity (e.g. user rating, play count, or watched status) is used for the collection filtering."
 msgstr "合集筛选依据哪位用户的活动（如评分、播放次数或观看状态）。"
@@ -3147,7 +3147,7 @@ msgid "Your library will be updated automatically when changes to library folder
 msgstr "检测到资料库文件夹发生变化时，您的资料库会自动更新。"
 
 msgid "[Experimental] This can save disk space and improve compatibility. Converting requires a fast CPU."
-msgstr "[实验]这可以节省磁盘空间并提高兼容性。转换需要高性能 CPU。"
+msgstr "[实验性] 这可以节省磁盘空间并提高兼容性。转换需要高性能 CPU。"
 
 msgid "[Unknown Season]"
 msgstr "[未知季]"
@@ -3591,7 +3591,7 @@ msgid "The built-in metadata agent provider group cannot be modified or deleted.
 msgstr "内置的元数据代理提供方组无法修改或删除。"
 
 msgid "The butler cleaned {1} directories."
-msgstr "管家已清理 {1} 个目录。"
+msgstr "后台任务已清理 {1} 个目录。"
 
 msgid "The metadata agent provider group is being used by a library section and cannot be deleted."
 msgstr "该元数据代理提供方组正被某个资料库分类使用，无法删除。"
