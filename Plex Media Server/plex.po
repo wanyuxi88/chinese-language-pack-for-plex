@@ -183,7 +183,7 @@ msgid "Airing order"
 msgstr "播出顺序"
 
 msgid "Airing was not high enough quality"
-msgstr "节目的画质不够高"
+msgstr "该节目的画质不达标"
 
 msgid "Airing was not on the required channel"
 msgstr "节目未在指定的频道播出"
@@ -312,7 +312,7 @@ msgid "Alphabetical"
 msgstr "按字母顺序"
 
 msgid "Always the server admin user"
-msgstr "始终是服务器管理员"
+msgstr "始终为服务器管理员用户"
 
 msgid "Amount in past seconds to retain before pruning segments from a transcode."
 msgstr "从转码分片中裁剪数据前保留的时长（秒）。"
@@ -369,7 +369,7 @@ msgid "App cannot direct play this item. Embedded subtitles must be removed for 
 msgstr "应用程序无法直接播放此项目。需要移除内封字幕才能进行直接播放。"
 
 msgid "App cannot direct play this item. Item requires conversion of selected subtitle stream."
-msgstr "应用程序无法直接播放此项目。项目需要转换所选字幕流。"
+msgstr "应用无法直接播放此项目。需转换所选字幕串流后才能播放。"
 
 msgid "App cannot direct play this item. Media must be converted in order to use the {1} protocol."
 msgstr "应用程序无法直接播放此项目。必须转换媒体才能使用 {1} 协议。"
@@ -620,7 +620,7 @@ msgid "Cannot convert this item. No conversion profile found for protocol {1}."
 msgstr "无法转换此项目。找不到协议 {1} 的转换配置文件。"
 
 msgid "Cannot direct play this item. Required bandwidth is not known and only {2}kbps is available."
-msgstr "无法直接播放此项目。无法预料所需带宽，当前仅 {2} kbps 可用。"
+msgstr "无法直接播放此项目。所需带宽未知，当前仅有 {2} kbps 可用。"
 
 msgid "Cannot record airing in the past"
 msgstr "无法录制已经过去的播出时段"
@@ -656,7 +656,7 @@ msgid "Choose Cinema Trailers from"
 msgstr "选择电影预告片的获取范围"
 
 msgid "Choose how quickly episodes are removed after they no longer meet download criteria."
-msgstr "选择剧集不再符合下载条件后将其删除的速度。"
+msgstr "设置剧集不再符合下载条件后多久将其删除。"
 
 msgid "Choose the minimum resolution for airings to be recorded."
 msgstr "选择要录制播出的最小分辨率。"
@@ -683,7 +683,7 @@ msgid "Client stopped playback."
 msgstr "客户端已停止播放。"
 
 msgid "Client-specific configuration settings for the DLNA server."
-msgstr "DLNA 服务器的客户端特定配置设置。"
+msgstr "DLNA 服务器的客户端专属配置。"
 
 msgid "Collection"
 msgstr "合集"
@@ -774,7 +774,7 @@ msgid "Country"
 msgstr "国家"
 
 msgid "Create a backup copy of the server's database in the configured backup directory"
-msgstr "在已配置的备份目录中创建一个服务器数据库备份"
+msgstr "在指定的备份目录中创建服务器数据库的备份副本"
 
 msgid "Credits markers can be generated locally and/or retrieved via an online database. Online markers may not always exist, if this preference is set to 'both' then any locally detected markers are submitted anonymously back to the online database for future use."
 msgstr "片尾标记可以在本地生成，也可以通过在线数据库获取。在线标记并不总是存在。如果设置为 “同时使用”，那么任何本地检测到的标记都会被匿名提交到在线数据库，以供将来使用。"
@@ -786,7 +786,7 @@ msgid "Custom"
 msgstr "自定义"
 
 msgid "Custom certificate domain"
-msgstr "自定义证书域"
+msgstr "自定义证书域名"
 
 msgid "Custom certificate encryption key"
 msgstr "自定义证书加密密钥"
@@ -795,7 +795,7 @@ msgid "Custom certificate location"
 msgstr "自定义证书位置"
 
 msgid "Custom server access URLs"
-msgstr "自定义服务器访问 URL"
+msgstr "自定义服务器访问地址"
 
 msgid "DLNA client preferences"
 msgstr "DLNA 客户端首选项"
@@ -807,16 +807,16 @@ msgid "DLNA media renderer discovery interval"
 msgstr "DLNA 媒体渲染器发现间隔"
 
 msgid "DLNA server announcement lease time"
-msgstr "DLNA 服务器公告租用时间"
+msgstr "DLNA 服务器公告租期"
 
 msgid "DLNA server description icons"
 msgstr "DLNA 服务器说明图标"
 
 msgid "DLNA server logging level"
-msgstr "DLNA 服务器日志记录级别"
+msgstr "DLNA 服务器日志级别"
 
 msgid "DLNA server timeline reporting"
-msgstr "DLNA 服务器时间表报告"
+msgstr "DLNA 服务器进度汇报"
 
 msgid "DVD order"
 msgstr "DVD 顺序"
@@ -984,7 +984,7 @@ msgid "Disable transcoding of the video stream in transcoder operations. With th
 msgstr "在转码操作中禁用视频流的转码。设置后，转码器仍然可以转码音频或重新封装视频。"
 
 msgid "Disable video stream transcoding"
-msgstr "禁用视频流转码"
+msgstr "禁用视频串流转码"
 
 msgid "Disabled"
 msgstr "禁用"
@@ -1050,7 +1050,7 @@ msgid "Duration in minutes to use when transcoding something with an unknown dur
 msgstr "转码时长未知的内容时假定的时长（分钟）。"
 
 msgid "Duration in seconds of DLNA Server SSDP announcement lease time."
-msgstr "DLNA 服务器 SSDP 公告租用时间的持续时长（以秒为单位）。"
+msgstr "DLNA 服务器 SSDP 公告租期的时长（秒）。"
 
 msgid "Edition"
 msgstr "版本"
@@ -1078,7 +1078,7 @@ msgid "Enable Plex Media Server verbose logging"
 msgstr "启用 Plex 媒体服务器详细日志"
 
 msgid "Enable Relay"
-msgstr "启用中转"
+msgstr "启用中继"
 
 msgid "Enable credits detection"
 msgstr "启用片尾检测"
@@ -1090,16 +1090,16 @@ msgid "Enable intro detection"
 msgstr "启用片头检测"
 
 msgid "Enable local network discovery (GDM)"
-msgstr "启用本地网络发现功能（GDM）"
+msgstr "启用本地网络发现（GDM）"
 
 msgid "Enable smart shuffling on artists and smart music playlists"
 msgstr "为艺人和智能音乐播放列表启用智能随机播放"
 
 msgid "Enable the DLNA server"
-msgstr "启动 DLNA 服务器"
+msgstr "启用 DLNA 服务器"
 
 msgid "Enable the DLNA server to report timelines for video play activity."
-msgstr "启用 DLNA 服务器以报告视频播放活动的时间表。"
+msgstr "让 DLNA 服务器汇报视频播放进度。"
 
 msgid "Enable video preview thumbnails"
 msgstr "启用视频预览缩略图"
@@ -1402,7 +1402,7 @@ msgid "ISO"
 msgstr "ISO"
 
 msgid "Icons offered by DLNA server when devices request server description."
-msgstr "当设备请求服务器说明时，图标由 DLNA 服务器提供。"
+msgstr "设备请求服务器说明时，DLNA 服务器提供的图标。"
 
 msgid "If hardware acceleration is enabled, this controls whether it's used for encoding, in addition to decoding."
 msgstr "如果启用了硬件加速，该选项将决定它是否也用于编码，而不仅仅是解码。"
@@ -1411,7 +1411,7 @@ msgid "In Progress"
 msgstr "观看中"
 
 msgid "Include Cinema Trailers from movies in my library"
-msgstr "包含我的资料库中的电影的预告片"
+msgstr "包含资料库中电影的影院预告片"
 
 msgid "Include Cinema Trailers from new and upcoming movies in theaters"
 msgstr "包含新上映和即将上映的院线电影的预告片"
@@ -1955,10 +1955,10 @@ msgid "Plays"
 msgstr "播放次数"
 
 msgid "Plex Media Server is currently running database migrations."
-msgstr "Plex 媒体服务器目前正在运行数据库迁移。"
+msgstr "Plex 媒体服务器正在执行数据库迁移。"
 
 msgid "Plex Media Server is currently running startup maintenance tasks."
-msgstr "Plex 媒体服务器目前正在运行启动维护任务。"
+msgstr "Plex 媒体服务器正在执行启动维护任务。"
 
 msgid "Plex Media Server is in an unknown state."
 msgstr "Plex 媒体服务器处于未知状态。"
@@ -1997,7 +1997,7 @@ msgid "Prefer artwork based on library language"
 msgstr "优先使用资料库语言对应的图片"
 
 msgid "Prefer higher quality encoding"
-msgstr "首选质量更好的编码"
+msgstr "优先采用质量更高的编码"
 
 msgid "Prefer higher speed encoding"
 msgstr "首选速度更快的编码"
@@ -2027,7 +2027,7 @@ msgid "Progress"
 msgstr "播放进度"
 
 msgid "Protocol info string used in GetProtocolInfo responses by the DLNA server."
-msgstr "GetProtocolInfo 所使用的协议信息字符串由 DLNA 服务器来响应。"
+msgstr "DLNA 服务器在 GetProtocolInfo 响应中使用的协议信息字符串。"
 
 msgid "Publish server on Plex Online"
 msgstr "在 Plex Online 上发布服务器"
@@ -2153,7 +2153,7 @@ msgid "Rediscover"
 msgstr "再次发现"
 
 msgid "Refresh library metadata periodically"
-msgstr "定期刷新元数据"
+msgstr "定期刷新资料库元数据"
 
 msgid "Refresh local metadata every three days"
 msgstr "每三天刷新本地元数据"
@@ -2219,7 +2219,7 @@ msgid "Resolution"
 msgstr "分辨率"
 
 msgid "Restrict where content from this library should appear."
-msgstr "限制该资料库中内容的显示位置。"
+msgstr "限制此资料库的内容可以出现在哪些位置。"
 
 msgid "Run a partial scan when changes are detected"
 msgstr "在检测到变更时执行局部扫描"
@@ -2315,10 +2315,10 @@ msgid "Server update Channel"
 msgstr "服务器更新频道"
 
 msgid "Server version updates"
-msgstr "服务端版本更新"
+msgstr "服务器版本更新"
 
 msgid "Set the maximum bitrate of a remote stream from this server."
-msgstr "设置此服务器上远程串流的最大码率。"
+msgstr "设置此服务器远程串流的最大码率。"
 
 msgid "Set the maximum number of episodes to download for the show."
 msgstr "设置要下载的最大剧集数。"
@@ -2686,10 +2686,10 @@ msgid "The media version already exists"
 msgstr "媒体版本已存在"
 
 msgid "The network interface local clients will use to connect."
-msgstr "用于本地客户端连接的网络接口。"
+msgstr "本地客户端连接所用的网络接口。"
 
 msgid "The owner of the server will be allowed to delete media files from disk."
-msgstr "服务器的所有者可以从磁盘中删除媒体文件。"
+msgstr "服务器所有者将被允许从磁盘删除媒体文件。"
 
 msgid "The path is invalid"
 msgstr "指定的路径无效"
@@ -2782,7 +2782,7 @@ msgid "This Season"
 msgstr "本季"
 
 msgid "This allows the server to stream media to DLNA (Digital Living Network Alliance) devices."
-msgstr "允许服务器将媒体流传输到 DLNA（数字生活网络联盟）设备。"
+msgstr "允许服务器向 DLNA（数字生活网络联盟）设备串流媒体。"
 
 msgid "This app cannot play this item. The reason is: {1}."
 msgstr "此应用无法播放该项目，原因：{1}。"
@@ -2797,7 +2797,7 @@ msgid "This device already exists"
 msgstr "该设备已存在"
 
 msgid "This enables the media server to discover other servers and players on the local network."
-msgstr "这使得媒体服务器可以发现本地网络上的其他服务器和播放器。"
+msgstr "让媒体服务器能够发现本地网络上的其他服务器与播放器。"
 
 msgid "This feature is Plex Pass only."
 msgstr "此功能仅适用于 Plex 通行证用户。"
@@ -3088,7 +3088,7 @@ msgid "What's On Now"
 msgstr "正在播出"
 
 msgid "When changes to library folders are detected, only scan the folder that changed."
-msgstr "在检测到资料库文件夹的变更时，只扫描发生变更的文件夹。"
+msgstr "检测到资料库文件夹发生变化时，仅扫描发生变化的文件夹。"
 
 msgid "When enabled, richer information is downloaded for some shows and movies. This makes guide refreshing slower."
 msgstr "启用后，某些节目和电影会下载更丰富的信息，节目指南刷新也会变慢。"
@@ -3144,7 +3144,7 @@ msgid "You have too many active streams."
 msgstr "当前进行的串流过多。"
 
 msgid "Your library will be updated automatically when changes to library folders are detected."
-msgstr "在检测到资料库文件夹的变更时，您的资料库将自动更新。"
+msgstr "检测到资料库文件夹发生变化时，您的资料库会自动更新。"
 
 msgid "[Experimental] This can save disk space and improve compatibility. Converting requires a fast CPU."
 msgstr "[实验]这可以节省磁盘空间并提高兼容性。转换需要高性能 CPU。"
@@ -3222,7 +3222,7 @@ msgid "hourly"
 msgstr "每小时"
 
 msgid "iTunes library XML path"
-msgstr "iTunes 库 XML 路径"
+msgstr "iTunes 资料库 XML 路径"
 
 msgid "is"
 msgstr "是"
@@ -3261,7 +3261,7 @@ msgid "subtitle"
 msgstr "字幕"
 
 msgid "the server administrator has set a limit"
-msgstr "服务器管理员已设限"
+msgstr "服务器管理员设置了限制"
 
 msgid "unknown"
 msgstr "未知"
@@ -3288,7 +3288,7 @@ msgid "Hide collections but show their items"
 msgstr "隐藏合集但显示合集中的项目"
 
 msgid "How the items in the collection are displayed on the Library tab."
-msgstr "如何在资料库页面显示合集中的项目。"
+msgstr "合集项目在资料库标签页中的显示方式。"
 
 msgid "Hide this collection but show its items"
 msgstr "隐藏此合集但显示合集中的项目"
@@ -3354,7 +3354,7 @@ msgid "Recently Watched Episodes"
 msgstr "最近观看的剧集"
 
 msgid "Choose how quickly episodes are removed after the server admin has watched them."
-msgstr "设置在服务器管理员看完剧集多久后删除剧集。"
+msgstr "设置服务器管理员看完后多久删除剧集。"
 
 msgid "After a month"
 msgstr "一个月后"
@@ -3420,7 +3420,7 @@ msgid "Client Network"
 msgstr "客户端网络"
 
 msgid "Network to advertise to clients."
-msgstr "向客户端提供的网络类型。"
+msgstr "向客户端通告的网络地址。"
 
 msgid "Domain name to be published to plex.tv using your mapped port; must match a name from the custom certificate file. [IPv4 Only]"
 msgstr "通过映射端口向 plex.tv 提供的域名，必须与自定义证书文件中的域名一致。（仅限 IPv4）"
@@ -3465,7 +3465,7 @@ msgid "An unknown error occurred."
 msgstr "发生未知错误。"
 
 msgid "An unknown network error occurred while trying to reach the provider URL."
-msgstr "访问提供者地址时发生未知网络错误。"
+msgstr "尝试访问提供商 URL 时发生未知网络错误。"
 
 msgid "App cannot direct play this item. Boost Dialog and Normalize Loudness are enabled."
 msgstr "应用无法直接播放此项目：已启用对白增强和音量标准化。"
@@ -3534,7 +3534,7 @@ msgid "If this is enabled legacy agents will be available when setting up new li
 msgstr "启用后，创建新资料库时可以选择旧版代理。更改后需要刷新浏览器。"
 
 msgid "Limit the number of simultaneous video transcode streams your server can utilize on your CPU"
-msgstr "限制服务器在 CPU 上同时进行的视频转码数量"
+msgstr "限制服务器 CPU 可同时处理的视频转码串流数量"
 
 msgid "Limit the number of simultaneous video transcode streams your server can utilize on your selected GPU"
 msgstr "限制服务器在所选 GPU 上同时进行的视频转码数量"
@@ -3594,7 +3594,7 @@ msgid "The butler cleaned {1} directories."
 msgstr "管家已清理 {1} 个目录。"
 
 msgid "The metadata agent provider group is being used by a library section and cannot be deleted."
-msgstr "该元数据代理提供者组正被某个资料库使用，无法删除。"
+msgstr "该元数据代理提供者组正被某个资料库分类使用，无法删除。"
 
 msgid "The metadata agent provider group is being used by metadata items and cannot be deleted."
 msgstr "该元数据代理提供者组正被元数据项目使用，无法删除。"
