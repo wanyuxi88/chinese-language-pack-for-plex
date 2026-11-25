@@ -1378,10 +1378,10 @@ msgid "Hide items which are in collections"
 msgstr "隐藏属于合集的条目"
 
 msgid "High quality (30fps limit)"
-msgstr "高质量（限制 30fps）"
+msgstr "高画质（限制 30fps）"
 
 msgid "Highest quality"
-msgstr "最高质量"
+msgstr "最高画质"
 
 msgid "Home"
 msgstr "主页"
@@ -1599,10 +1599,10 @@ msgid "Loudness analysis allows various features, such as loudness leveling and 
 msgstr "响度分析可支撑响度均衡、智能过渡等功能。分析大量曲目时耗时较长，且会占用较多 CPU。"
 
 msgid "Low quality (240p)"
-msgstr "低质量（240p）"
+msgstr "低画质（240p）"
 
 msgid "Low quality (360p)"
-msgstr "低质量（360p）"
+msgstr "低画质（360p）"
 
 msgid "Make"
 msgstr "厂商"
@@ -1644,10 +1644,10 @@ msgid "Medium"
 msgstr "中速"
 
 msgid "Medium quality (480p)"
-msgstr "中等质量（480p）"
+msgstr "中画质（480p）"
 
 msgid "Medium quality (540p)"
-msgstr "中等质量（540p）"
+msgstr "中画质（540p）"
 
 msgid "Metadata language"
 msgstr "元数据语言"
@@ -1780,7 +1780,7 @@ msgid "No"
 msgstr "否"
 
 msgid "No recorder was available"
-msgstr "没有可用的录像机"
+msgstr "没有可用的录制设备"
 
 msgid "No write access to destination"
 msgstr "目标位置无写入权限"
@@ -1819,7 +1819,7 @@ msgid "Not enough bandwidth for direct play of this item. Required bandwidth is 
 msgstr "带宽不足，无法直接播放此项目。所需带宽为 {1} kbps，当前仅有 {2} kbps 可用。"
 
 msgid "Not enough bandwidth for requested quality."
-msgstr "带宽不足，无法提供所需质量。"
+msgstr "带宽不足，无法提供所需画质。"
 
 msgid "Not enough disk space to convert this item."
 msgstr "磁盘空间不足，无法转换此项目。"
@@ -1997,7 +1997,7 @@ msgid "Prefer artwork based on library language"
 msgstr "优先使用资料库语言对应的图片"
 
 msgid "Prefer higher quality encoding"
-msgstr "优先采用质量更高的编码"
+msgstr "优先采用画质更高的编码"
 
 msgid "Prefer higher speed encoding"
 msgstr "首选速度更快的编码"
@@ -2042,7 +2042,7 @@ msgid "Push Notifications"
 msgstr "推送通知"
 
 msgid "Quality profile used by the transcoder."
-msgstr "转码所采用的质量配置。"
+msgstr "转码所采用的画质配置。"
 
 msgid "Random Album Radio"
 msgstr "随机专辑电台"
@@ -2698,7 +2698,7 @@ msgid "The path where local application data is stored"
 msgstr "本地应用数据的存储路径"
 
 msgid "The quality of the transcoding used for live TV or recording. Selecting original format may result in very large files."
-msgstr "直播电视或录制所使用的转码质量。选择原始格式可能产生非常大的文件。"
+msgstr "直播电视或录制所使用的转码画质。选择原始格式可能产生非常大的文件。"
 
 msgid "The recording conflicts with other recordings"
 msgstr "录制与其他录制冲突"
@@ -2893,7 +2893,7 @@ msgid "Transcoded HDR content will appear highly dimmed and desaturated with thi
 msgstr "禁用此项后，转码后的 HDR 内容会明显偏暗、色彩变淡。启用后可能需要额外的驱动程序组件才能支持硬件转码，详见支持文章。"
 
 msgid "Transcoder Quality"
-msgstr "转码质量"
+msgstr "转码画质"
 
 msgid "Transcoder default duration"
 msgstr "转码器默认时长"
@@ -2905,7 +2905,7 @@ msgid "Transcoder default throttle buffer"
 msgstr "转码器默认节流缓冲"
 
 msgid "Transcoder quality"
-msgstr "转码质量"
+msgstr "转码画质"
 
 msgid "Transcoder temporary directory"
 msgstr "转码器临时目录"
@@ -3402,7 +3402,7 @@ msgid "Detects movie and episode ads."
 msgstr "检测电影和剧集中的广告。"
 
 msgid "Transcode Quality"
-msgstr "转码质量"
+msgstr "转码画质"
 
 msgid "Allow matching to explicit content"
 msgstr "允许匹配限制级内容"
@@ -3663,7 +3663,7 @@ msgid "[Experimental] If enabled use hardware encoders instead of software encod
 msgstr "[实验性] 启用后使用硬件编码器替代软件编码器。"
 
 msgid "[Experimental] Quality scale of 99 (High) - 0 (Low) where the higher quality also results in a higher filesize."
-msgstr "[实验性] 质量等级从 99（高）到 0（低），质量越高，文件体积也越大。"
+msgstr "[实验性] 画质等级从 99（高）到 0（低），画质越高，文件体积也越大。"
 
 msgid "agent identifier does not match primary identifier of supplied metadata agent provider group"
 msgstr "代理标识符与给定元数据代理提供方组的主要标识符不一致"
