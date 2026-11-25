@@ -491,6 +491,10 @@
   {
    "id": "EMPTY",
    "rule": "空状态统一「暂无」：No results→暂无结果、No options→暂无选项；整句叙述中的「没有」不受此限"
+  },
+  {
+   "id": "MONTH",
+   "rule": "%b 短格式位（Jan–Dec）用「1月–12月」，全称（January）才用「一月」；星期同理：Mon→周一、Monday→星期一"
   }
  ],
  "exceptions": [
