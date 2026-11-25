@@ -213,7 +213,7 @@ msgid "Album Format"
 msgstr "专辑格式"
 
 msgid "Album Genre"
-msgstr "专辑类型"
+msgstr "专辑流派"
 
 msgid "Album Last Played"
 msgstr "最近播放的专辑"
@@ -240,7 +240,7 @@ msgid "Album Title"
 msgstr "专辑标题"
 
 msgid "Album Type"
-msgstr "专辑类别"
+msgstr "专辑类型"
 
 msgid "Album sorting"
 msgstr "专辑排序"
@@ -321,7 +321,7 @@ msgid "Amount in seconds to buffer before throttling the transcoder."
 msgstr "对转码器限速前需要缓冲的秒数。"
 
 msgid "An error occurred"
-msgstr "出现错误"
+msgstr "出现错误。"
 
 msgid "An error occurred while postprocessing the download"
 msgstr "对下载内容进行后期处理时出错"
@@ -330,7 +330,7 @@ msgid "An error occurred while postprocessing the recording"
 msgstr "对录制内容进行后期处理时出错"
 
 msgid "An unexpected error occurred"
-msgstr "出现意外错误"
+msgstr "出现意外错误。"
 
 msgid "An unknown error occurred"
 msgstr "发生未知错误"
@@ -363,7 +363,7 @@ msgid "App cannot direct play this item. Container is unavailable for analysis."
 msgstr "应用无法直接播放此项目：容器不可用于分析。"
 
 msgid "App cannot direct play this item. Direct play is disabled."
-msgstr "应用程序无法直接播放此项目。直接播放功能已禁用。"
+msgstr "应用无法直接播放此项目，直接播放功能已禁用。"
 
 msgid "App cannot direct play this item. Embedded subtitles must be removed for direct play."
 msgstr "应用程序无法直接播放此项目。需要移除内封字幕才能进行直接播放。"
@@ -372,7 +372,7 @@ msgid "App cannot direct play this item. Item requires conversion of selected su
 msgstr "应用无法直接播放此项目。需转换所选字幕串流后才能播放。"
 
 msgid "App cannot direct play this item. Media must be converted in order to use the {1} protocol."
-msgstr "应用程序无法直接播放此项目。必须转换媒体才能使用 {1} 协议。"
+msgstr "应用无法直接播放此项目，必须转换媒体才能使用 {1} 协议。"
 
 msgid "App cannot direct play this item. Multi-part media requires a conversion when all parts are selected."
 msgstr "应用无法直接播放此项目。选中全部片段时，多段媒体需要转码。"
@@ -414,7 +414,7 @@ msgid "App cannot direct play this item. Selected sidecar subtitle stream must b
 msgstr "应用程序无法直接播放此项目。需要将所选的旁挂字幕流进行分段。"
 
 msgid "Apr"
-msgstr "四月"
+msgstr "4月"
 
 msgid "April"
 msgstr "四月"
@@ -440,7 +440,7 @@ msgid "Artist Country"
 msgstr "艺人国家/地区"
 
 msgid "Artist Genre"
-msgstr "艺人类型"
+msgstr "艺人流派"
 
 msgid "Artist Last Played"
 msgstr "最近播放的艺人"
@@ -460,7 +460,7 @@ msgstr "艺人风格"
 
 msgctxt "Artist TV"
 msgid "{1} TV"
-msgstr "{1} 电视台"
+msgstr "{1} 的电视节目"
 
 msgid "Artist Title"
 msgstr "艺人名称"
@@ -493,7 +493,7 @@ msgid "Audio Language"
 msgstr "音频语言"
 
 msgid "Aug"
-msgstr "八月"
+msgstr "8月"
 
 msgid "Augmenting metadata"
 msgstr "正在补充元数据"
@@ -611,7 +611,7 @@ msgid "Camera Model"
 msgstr "相机型号"
 
 msgid "Cannot convert this item. Implementation for {1} {2} '{3}' not found."
-msgstr "无法转换此项。找不到 {1} {2} '{3}' 的实现。"
+msgstr "无法转换此项目，未找到 {1} {2}“{3}”的实现。"
 
 msgid "Cannot convert this item. No conversion audio and video encoders could be found in app profile."
 msgstr "无法转换此项目。应用配置文件中找不到音频和视频转码编码器。"
@@ -873,7 +873,7 @@ msgid "Debug logging enables additional detail in the log files and is helpful i
 msgstr "调试日志会在日志文件中记录更多细节，有助于诊断问题。"
 
 msgid "Dec"
-msgstr "十二月"
+msgstr "12月"
 
 msgid "Decade"
 msgstr "年代"
@@ -1195,7 +1195,7 @@ msgid "Failed to create generator for sync"
 msgstr "无法为同步创建生成器"
 
 msgid "Failed to parse data"
-msgstr "解析数据失败"
+msgstr "无法解析数据"
 
 msgid "Failed to retrieve channels"
 msgstr "获取频道失败"
@@ -1213,7 +1213,7 @@ msgid "Favorites"
 msgstr "收藏"
 
 msgid "Feb"
-msgstr "二月"
+msgstr "2月"
 
 msgid "February"
 msgstr "二月"
@@ -1315,7 +1315,7 @@ msgid "{1} Radio"
 msgstr "{1} 电台"
 
 msgid "Genre Radio"
-msgstr "类型电台"
+msgstr "流派电台"
 
 msgid "Genres"
 msgstr "类型"
@@ -1453,19 +1453,19 @@ msgid "Item Count"
 msgstr "项目数"
 
 msgid "Jan"
-msgstr "一月"
+msgstr "1月"
 
 msgid "January"
 msgstr "一月"
 
 msgid "Jul"
-msgstr "七月"
+msgstr "7月"
 
 msgid "July"
 msgstr "七月"
 
 msgid "Jun"
-msgstr "六月"
+msgstr "6月"
 
 msgid "June"
 msgstr "六月"
@@ -1578,7 +1578,7 @@ msgid "Load artist biography data from the cloud."
 msgstr "从云端加载艺人简介数据。"
 
 msgid "Load concert data for artists, in case you leave the house."
-msgstr "获取艺人的演唱会信息，以便您了解演出情况。"
+msgstr "加载艺人的演唱会信息，方便您外出时查看。"
 
 msgid "Load popular track data, which powers radio stations and the popular tracks area."
 msgstr "加载热门曲目数据，为电台和热门曲目版块提供支持。"
@@ -1611,7 +1611,7 @@ msgid "Make my CPU hurt"
 msgstr "让我的 CPU 受点累"
 
 msgid "Mar"
-msgstr "三月"
+msgstr "3月"
 
 msgid "March"
 msgstr "三月"
@@ -1629,7 +1629,7 @@ msgid "Maximum video output resolution for the transcoder"
 msgstr "转码器的最大视频输出分辨率"
 
 msgid "May"
-msgstr "五月"
+msgstr "5月"
 
 msgid "Media download by {1}"
 msgstr "{1} 下载了媒体"
@@ -1759,7 +1759,7 @@ msgid "New and Repeat Airings"
 msgstr "新播出与重播"
 
 msgid "New season premieres will always appear no matter how many weeks have passed since watching."
-msgstr "无论距离您上次观看过了多少周，新一季首播时都会显示。"
+msgstr "无论距上次观看已过去多少周，新一季首播始终会显示。"
 
 msgid "Newest first"
 msgstr "最新的优先"
@@ -1828,7 +1828,7 @@ msgid "Not enough memory to convert this item."
 msgstr "内存不足，无法转换此项目。"
 
 msgid "Nov"
-msgstr "十一月"
+msgstr "11月"
 
 msgid "November"
 msgstr "十一月"
@@ -1846,7 +1846,7 @@ msgid "Number of seconds to wait before a plugin times out"
 msgstr "插件超时前等待的秒数"
 
 msgid "Oct"
-msgstr "十月"
+msgstr "10月"
 
 msgid "October"
 msgstr "十月"
@@ -1912,7 +1912,7 @@ msgid "Path to a program which postprocesses the recording before adding to the 
 msgstr "在加入资料库前对录制内容进行后期处理的程序路径。该脚本必须位于 {1} 中"
 
 msgid "Perform extensive media analysis during maintenance"
-msgstr "维护期间执行大量媒体分析"
+msgstr "维护期间执行深度媒体分析"
 
 msgid "Perform refresh of program guide data."
 msgstr "刷新节目指南数据。"
@@ -2303,7 +2303,7 @@ msgid "Send crash reports to Plex"
 msgstr "发送崩溃报告至 Plex"
 
 msgid "Sep"
-msgstr "九月"
+msgstr "9月"
 
 msgid "September"
 msgstr "九月"
@@ -2321,7 +2321,7 @@ msgid "Set the maximum bitrate of a remote stream from this server."
 msgstr "设置此服务器远程串流的最大码率。"
 
 msgid "Set the maximum number of episodes to download for the show."
-msgstr "设置要下载的最大剧集数。"
+msgstr "设置该节目最多可下载的剧集数。"
 
 msgid "Set the maximum number of unplayed episodes to keep for the show."
 msgstr "设置该节目最多保留多少集未播放的剧集。"
@@ -2486,7 +2486,7 @@ msgid "Stations"
 msgstr "电台"
 
 msgid "Store track progress"
-msgstr "存储播放进度"
+msgstr "记录播放进度"
 
 msgid "Streaming Session doesn't exist or timed out."
 msgstr "串流会话不存在或已超时。"
@@ -2725,10 +2725,10 @@ msgid "The server's account does not have a Plex Pass and cannot use the Sync fe
 msgstr "该服务器的账号未订阅 Plex 通行证，无法使用同步功能。"
 
 msgid "The source media was not found"
-msgstr "找不到源媒体"
+msgstr "未找到源媒体"
 
 msgid "The time (in seconds) between each video preview frame."
-msgstr "切换视频预览帧的间隔（单位：秒）"
+msgstr "每帧视频预览之间的时间间隔（秒）。"
 
 msgid "The time at which the background maintenance tasks stop running."
 msgstr "后台维护任务停止运行的时间。"
@@ -2758,7 +2758,7 @@ msgid "There is a duplicate recording already active"
 msgstr "已有相同的录制正在进行"
 
 msgid "There was a transcoder error"
-msgstr "转码器发生错误"
+msgstr "转码器出错"
 
 msgid "There was not enough free disk space to start the download"
 msgstr "磁盘可用空间不足，无法开始下载"
@@ -2791,7 +2791,7 @@ msgid "This app does not allow item to be converted for playback. Check your set
 msgstr "此应用不允许转换该项目进行播放，请检查设置后重试。"
 
 msgid "This app does not allow this item to be direct played. Check your settings and try again."
-msgstr "此应用程序不允许直接播放此项目。请检查您的设置，然后重试。"
+msgstr "此应用不允许直接播放此项目，请检查设置后重试。"
 
 msgid "This device already exists"
 msgstr "该设备已存在"
@@ -2938,7 +2938,7 @@ msgid "Unable to add device to DVR"
 msgstr "无法将设备添加到数字录像机"
 
 msgid "Unable to find playlist for sync item"
-msgstr "无法找到该同步项目的播放列表"
+msgstr "无法为同步项目找到播放列表"
 
 msgid "Unable to get channel listing from device"
 msgstr "无法从设备获取频道列表"
@@ -3138,7 +3138,7 @@ msgid "Yes"
 msgstr "是"
 
 msgid "You cannot create or edit playlists on this server."
-msgstr "不能在此服务器上创建或编辑播放列表。"
+msgstr "无法在此服务器上创建或编辑播放列表。"
 
 msgid "You have too many active streams."
 msgstr "当前进行的串流过多。"
@@ -3339,7 +3339,7 @@ msgid "Episode Unwatched"
 msgstr "未观看的剧集"
 
 msgid "Track Genre"
-msgstr "曲目类型"
+msgstr "曲目流派"
 
 msgid "Last Watched"
 msgstr "最后观看"
@@ -3579,7 +3579,7 @@ msgid "Remote playback requires a Remote Watch Pass or Plex Pass. Visit plex.tv/
 msgstr "远程播放需要远程观看通行证或 Plex 通行证，请前往 plex.tv/plans 购买。"
 
 msgid "Show Edition"
-msgstr "显示版本"
+msgstr "节目版本"
 
 msgid "Show legacy agents during library setup"
 msgstr "在资料库设置中显示旧版代理"
