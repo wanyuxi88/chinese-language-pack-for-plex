@@ -16,7 +16,7 @@ msgid "'agent' is missing or invalid"
 msgstr "“代理”缺失或无效"
 
 msgid "'language' is invalid"
-msgstr "‘语言’ 无效"
+msgstr "“语言”无效"
 
 msgid "1"
 msgstr "1"
@@ -210,7 +210,7 @@ msgid "Album Decade"
 msgstr "专辑年代"
 
 msgid "Album Format"
-msgstr "专辑形式"
+msgstr "专辑格式"
 
 msgid "Album Genre"
 msgstr "专辑类型"
@@ -258,7 +258,7 @@ msgid "All Channels"
 msgstr "所有频道"
 
 msgid "All Episodes"
-msgstr "全集"
+msgstr "所有剧集"
 
 msgid "All Movies"
 msgstr "全部电影"
@@ -276,7 +276,7 @@ msgid "All Shows"
 msgstr "所有剧集"
 
 msgid "All episodes"
-msgstr "全集"
+msgstr "所有剧集"
 
 msgid "All movies"
 msgstr "所有电影"
@@ -437,7 +437,7 @@ msgid "Artist Collection"
 msgstr "艺人合集"
 
 msgid "Artist Country"
-msgstr "艺人国籍"
+msgstr "艺人国家/地区"
 
 msgid "Artist Genre"
 msgstr "艺人类型"
@@ -653,7 +653,7 @@ msgid "Checking files"
 msgstr "正在检查文件"
 
 msgid "Choose Cinema Trailers from"
-msgstr "选择电影预告片的获取范围"
+msgstr "选择电影预告片来源"
 
 msgid "Choose how quickly episodes are removed after they no longer meet download criteria."
 msgstr "设置剧集不再符合下载条件后多久将其删除。"
@@ -674,10 +674,10 @@ msgid "Choose whether to restrict recording to a specific channel."
 msgstr "选择是否只录制指定的频道。"
 
 msgid "Cleaning Bundles"
-msgstr "正在清理数据包"
+msgstr "正在清理媒体包"
 
 msgid "Cleaning bundles"
-msgstr "正在清理数据包"
+msgstr "正在清理媒体包"
 
 msgid "Client stopped playback."
 msgstr "客户端已停止播放。"
@@ -858,7 +858,7 @@ msgid "Date Rated"
 msgstr "评分日期"
 
 msgid "Date Shared"
-msgstr "共享日期"
+msgstr "分享日期"
 
 msgid "Date Show Added"
 msgstr "节目添加日期"
@@ -931,7 +931,7 @@ msgid "Demos"
 msgstr "小样"
 
 msgid "Descriptive"
-msgstr "描述"
+msgstr "描述性"
 
 msgid "Detect and delete commercials"
 msgstr "检测并删除广告"
@@ -987,7 +987,7 @@ msgid "Disable video stream transcoding"
 msgstr "禁用视频串流转码"
 
 msgid "Disabled"
-msgstr "禁用"
+msgstr "已禁用"
 
 msgid "Disables legacy weak ciphers, increases DH group size, and switches to ECDSA certificates when renewing. May prevent older clients from connecting."
 msgstr "禁用传统的弱加密算法，增大 DH 组长度，并在续期时改用 ECDSA 证书。可能导致旧版客户端无法连接。"
@@ -1129,7 +1129,7 @@ msgid "Episode In Progress"
 msgstr "观看中的剧集"
 
 msgid "Episode Plays"
-msgstr "剧集播放"
+msgstr "剧集播放次数"
 
 msgid "Episode Rating"
 msgstr "剧集评分"
@@ -1192,7 +1192,7 @@ msgid "Extras"
 msgstr "额外内容"
 
 msgid "Failed to create generator for sync"
-msgstr "无法创建用于同步的生成器"
+msgstr "无法为同步创建生成器"
 
 msgid "Failed to parse data"
 msgstr "解析数据失败"
@@ -1201,7 +1201,7 @@ msgid "Failed to retrieve channels"
 msgstr "获取频道失败"
 
 msgid "Failed to retrieve service credentials"
-msgstr "检索服务凭证失败"
+msgstr "获取服务凭据失败"
 
 msgid "Fast"
 msgstr "快"
@@ -1210,7 +1210,7 @@ msgid "Faster"
 msgstr "快"
 
 msgid "Favorites"
-msgstr "最爱"
+msgstr "收藏"
 
 msgid "Feb"
 msgstr "二月"
@@ -1264,7 +1264,7 @@ msgid "Forced"
 msgstr "强制"
 
 msgid "Format"
-msgstr "形式"
+msgstr "格式"
 
 msgid "Friendly name"
 msgstr "友好名称"
@@ -1330,7 +1330,7 @@ msgid "Grabbing"
 msgstr "抓取"
 
 msgid "Group albums by type"
-msgstr "按专辑形式分组"
+msgstr "按专辑类型分组"
 
 msgid "Group into LPs, EPs & Singles, Compilations, Live Albums, Demos and Remixes."
 msgstr "分为 LP、EP 和单曲、精选辑、现场专辑、Demo 和混音。"
@@ -1339,7 +1339,7 @@ msgid "Guide"
 msgstr "节目指南"
 
 msgid "HD only"
-msgstr "仅 HD"
+msgstr "仅限高清"
 
 msgid "HDR"
 msgstr "HDR"
@@ -1369,7 +1369,7 @@ msgid "Hide"
 msgstr "隐藏"
 
 msgid "Hide for single-season series"
-msgstr "为只有一季的电视节目隐藏"
+msgstr "单季节目隐藏"
 
 msgid "Hide items in this collection"
 msgstr "隐藏此合集中的项目"
@@ -1384,7 +1384,7 @@ msgid "Highest quality"
 msgstr "最高质量"
 
 msgid "Home"
-msgstr "首页"
+msgstr "主页"
 
 msgid "Home Videos"
 msgstr "家庭视频"
@@ -1584,7 +1584,7 @@ msgid "Load popular track data, which powers radio stations and the popular trac
 msgstr "加载热门曲目数据，为电台和热门曲目版块提供支持。"
 
 msgid "Local Files Only"
-msgstr "本地文件"
+msgstr "仅本地文件"
 
 msgid "Localized subtitles"
 msgstr "本地化字幕"
@@ -2213,7 +2213,7 @@ msgid "Replace lower resolution items"
 msgstr "替换较低分辨率的项目"
 
 msgid "Required"
-msgstr "需要"
+msgstr "必需"
 
 msgid "Resolution"
 msgstr "分辨率"
@@ -3315,7 +3315,7 @@ msgid "Manually selected"
 msgstr "手动选择"
 
 msgid "Shown with foreign audio"
-msgstr "外语音频时显示"
+msgstr "外语配音时显示"
 
 msgid "Always enabled"
 msgstr "始终启用"
@@ -3429,7 +3429,7 @@ msgid "A comma-separated list of URLs (http or https) which are published up to 
 msgstr "用于服务器发现的 URL 列表（逗号分隔，支持 http 或 https），这些地址会注册到 plex.tv。IPv6 地址必须指定端口。"
 
 msgid "Downloads temporary directory"
-msgstr "下载缓存目录"
+msgstr "下载临时目录"
 
 msgid "Maximum simultaneous background video transcode"
 msgstr "后台视频转码最大并发数"
@@ -3519,7 +3519,7 @@ msgid "Enable HEVC video Encoding"
 msgstr "启用 HEVC 视频编码"
 
 msgid "Enable Loudness Analysis"
-msgstr "启用音量分析"
+msgstr "启用响度分析"
 
 msgid "File is missing"
 msgstr "文件缺失"
@@ -3528,7 +3528,7 @@ msgid "File is unplayable. DoVi (Profile 5) color space is not supported."
 msgstr "文件无法播放。不支持 Dolby Vision（Profile 5）色彩空间。"
 
 msgid "How to sort the albums for this artist."
-msgstr "如何排序此艺人的专辑。"
+msgstr "此艺人专辑的排序方式。"
 
 msgid "If this is enabled legacy agents will be available when setting up new libraries. Requires browser refresh after changing."
 msgstr "启用后，新建资料库时可以选择旧版代理。更改后需要刷新浏览器。"
