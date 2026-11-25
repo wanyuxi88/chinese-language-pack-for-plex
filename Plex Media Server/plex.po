@@ -626,7 +626,7 @@ msgid "Cannot record airing in the past"
 msgstr "无法录制已经过去的播出时段"
 
 msgid "Cannot remove only lineup from DVR."
-msgstr "无法只从数字录像机中删除节目单。"
+msgstr "无法只从数字录像机中移除频道表。"
 
 msgid "Categories"
 msgstr "分类"
@@ -668,7 +668,7 @@ msgid "Choose whether to display seasons."
 msgstr "选择是否显示季"
 
 msgid "Choose whether to restrict recording to a specific airing time."
-msgstr "选择是否将录制限制在特定的播放时间。"
+msgstr "选择是否将录制限定在特定播出时间。"
 
 msgid "Choose whether to restrict recording to a specific channel."
 msgstr "选择是否将录制限制到特定频道。"
@@ -720,7 +720,7 @@ msgid "Compilations"
 msgstr "精选辑"
 
 msgid "Computing best lineup"
-msgstr "计算最佳节目单"
+msgstr "正在计算最佳频道表"
 
 msgid "Concerts"
 msgstr "演唱会"
@@ -825,7 +825,7 @@ msgid "DVR Schedule"
 msgstr "数字录像机时间表"
 
 msgid "DVR is not using this lineup."
-msgstr "数字录像机并未使用此节目单。"
+msgstr "数字录像机未使用此频道表。"
 
 msgid "Database"
 msgstr "数据库"
@@ -1023,7 +1023,7 @@ msgid "Download was not high enough quality"
 msgstr "下载内容的画质不够高"
 
 msgid "Downloaded {1} airings"
-msgstr "已下载 {1} 播放内容"
+msgstr "已下载 {1} 个播出内容"
 
 msgid "Downloading"
 msgstr "正在下载"
@@ -1168,7 +1168,7 @@ msgid "Episodes added in the past 7 days"
 msgstr "最近 7 天添加的剧集"
 
 msgid "Error communicating with provider"
-msgstr "与内容提供来源通讯错误"
+msgstr "与提供商通信出错"
 
 msgid "Error creating DVR"
 msgstr "创建数字录像机时出错"
@@ -1198,7 +1198,7 @@ msgid "Failed to parse data"
 msgstr "解析数据失败"
 
 msgid "Failed to retrieve channels"
-msgstr "检索频道失败"
+msgstr "获取频道失败"
 
 msgid "Failed to retrieve service credentials"
 msgstr "检索服务凭证失败"
@@ -1545,7 +1545,7 @@ msgid "Limit remote stream bitrate"
 msgstr "限制远程串流码率"
 
 msgid "Limit to airing time"
-msgstr "限制播放时间"
+msgstr "限定播出时间"
 
 msgid "Limit to channel"
 msgstr "限制频道"
@@ -1554,10 +1554,10 @@ msgid "Limits the number of shows which will appear Continue Watching. Setting i
 msgstr "限制“继续观看”中显示的剧集数量，设得过高可能影响性能。"
 
 msgid "Lineup is from a different provider."
-msgstr "节目单来自另一个内容供应商。"
+msgstr "该频道表来自其他提供商。"
 
 msgid "Lineups are from different providers"
-msgstr "节目单来自其他多个内容供应商"
+msgstr "频道表来自不同的提供商"
 
 msgid "Linux systems limit the maximum number of watched directories; this may cause problems with large music libraries."
 msgstr "Linux 系统对可监视的目录数量有上限，音乐资料库较大时可能出问题。"
@@ -1747,7 +1747,7 @@ msgid "Never"
 msgstr "从不"
 
 msgid "New Airings Only"
-msgstr "仅限新播出"
+msgstr "仅限新播出的节目"
 
 msgid "New Releases on TIDAL"
 msgstr "TIDAL 最新发布"
@@ -1840,7 +1840,7 @@ msgid "Number of log files to generate before cycling"
 msgstr "循环覆盖前保留的日志文件数量"
 
 msgid "Number of seconds between DLNA media renderer discovery requests."
-msgstr "DLNA 媒体呈现器发现请求之间的秒数。"
+msgstr "DLNA 媒体渲染器两次发现请求之间的间隔（秒）。"
 
 msgid "Number of seconds to wait before a plugin times out"
 msgstr "插件超时前等待的秒数"
@@ -2312,7 +2312,7 @@ msgid "Server owners may wish to restrict who can see location names for items w
 msgstr "服务器所有者可以限制哪些用户能看到含地理位置元数据的项目位置名称。默认只有服务器所有者可见。"
 
 msgid "Server update Channel"
-msgstr "服务器更新频道"
+msgstr "服务器更新通道"
 
 msgid "Server version updates"
 msgstr "服务器版本更新"
@@ -2569,10 +2569,10 @@ msgid "The action cannot be performed on the item in its current state"
 msgstr "在项目的当前状态下无法对其执行此操作"
 
 msgid "The airing occurred in the past and cannot be recorded"
-msgstr "不能录制已经播放过的内容"
+msgstr "该节目已播出，无法录制"
 
 msgid "The airing was already in progress"
-msgstr "播放进行中"
+msgstr "该节目已在播出中"
 
 msgid "The butler analyzed {1} items."
 msgstr "管家已分析 {1} 个项目。"
@@ -2752,7 +2752,7 @@ msgid "TheTVDB (DVD)"
 msgstr "TheTVDB (DVD)"
 
 msgid "There is a duplicate channel mapping"
-msgstr "发现重复的频道映射"
+msgstr "存在重复的频道映射"
 
 msgid "There is a duplicate recording already active"
 msgstr "发现重复的激活记录"
@@ -2926,7 +2926,7 @@ msgid "Tried {1}"
 msgstr "尝试 {1}"
 
 msgid "Tuner in use by another process"
-msgstr "另一个进程正在使用调谐器"
+msgstr "调谐器正被其他进程占用"
 
 msgid "Type"
 msgstr "类别"
@@ -2944,7 +2944,7 @@ msgid "Unable to get channel listing from device"
 msgstr "无法从设备获取频道列表"
 
 msgid "Unable to get lineups."
-msgstr "无法加载节目单。"
+msgstr "无法获取频道表。"
 
 msgid "Unable to remove device from DVR"
 msgstr "无法从数字录像机移除设备"
@@ -3447,7 +3447,7 @@ msgid "IPv4 and IPv6"
 msgstr "同时使用 IPv4 和 IPv6"
 
 msgid "A provider with the same identifier already exists."
-msgstr "已存在使用相同标识符的提供者。"
+msgstr "已存在标识符相同的提供者。"
 
 msgid "Always Available"
 msgstr "始终可用"
@@ -3492,7 +3492,7 @@ msgid "Bad decision parameters"
 msgstr "决策参数无效"
 
 msgid "Cannot parse the metadata types supported by the provider."
-msgstr "无法解析提供者支持的元数据类型。"
+msgstr "无法解析该提供者支持的元数据类型。"
 
 msgid "Common Sense Media Age Rating"
 msgstr "Common Sense Media 年龄分级"
@@ -3606,7 +3606,7 @@ msgid "The provided URL is not valid."
 msgstr "提供的地址无效。"
 
 msgid "The provider URL is not reachable."
-msgstr "无法访问提供者地址。"
+msgstr "无法访问提供者 URL。"
 
 msgid "The provider identifier cannot be changed."
 msgstr "提供者标识符无法更改。"
@@ -3666,7 +3666,7 @@ msgid "[Experimental] Quality scale of 99 (High) - 0 (Low) where the higher qual
 msgstr "[实验性] 质量等级从 99（高）到 0（低），质量越高，文件体积也越大。"
 
 msgid "agent identifier does not match primary identifier of supplied metadata agent provider group"
-msgstr "代理标识符与所提供的元数据代理提供者组的主要标识符不匹配"
+msgstr "代理标识符与所提供的元数据代理提供者组的主要标识符不一致"
 
 msgid "unable to find built-in agent group for provided 'agent'"
 msgstr "无法为指定的 “agent” 找到内置代理组"
