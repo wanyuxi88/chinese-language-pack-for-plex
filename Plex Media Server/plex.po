@@ -270,7 +270,7 @@ msgid "All Podcasts"
 msgstr "所有播客"
 
 msgid "All Shared"
-msgstr "所有共享"
+msgstr "所有分享"
 
 msgid "All Shows"
 msgstr "所有剧集"
@@ -511,7 +511,7 @@ msgid "Automatic Tags"
 msgstr "自动标签"
 
 msgid "Automatically create collections when there are at least the selected number of items for an available collection. Changing this value will have no effect on any existing collections."
-msgstr "当可归入某合集的项目达到设定数量时，自动创建合集。更改此值不会影响已存在的合集。"
+msgstr "当可归入某合集的项目数达到所选数量时，自动创建合集。更改此值不会影响已存在的合集。"
 
 msgid "Automatically during scheduled maintenance"
 msgstr "在计划维护期间自动执行"
@@ -2336,7 +2336,7 @@ msgid "Set whether items in your library may be replaced by higher resolution re
 msgstr "设置资料库中的项目是否可被更高清晰度的录制内容替换。这会替换资料库中所有匹配的项目，而不只是此前的数字录像机录制内容。"
 
 msgid "Shared"
-msgstr "已共享"
+msgstr "已分享"
 
 msgid "Show"
 msgstr "电视节目"
@@ -2387,7 +2387,7 @@ msgid "Show suggestions and additional albums from TIDAL, and include TIDAL trac
 msgstr "显示来自 TIDAL 的推荐和其他专辑，并在艺人电台中包含来自 TIDAL 的曲目。"
 
 msgid "Show suggestions and additional albums from libraries shared with you, and include shared tracks in Artist Radio."
-msgstr "显示与您共享的资料库中的推荐和其他专辑，并在艺人电台中包含共享曲目。"
+msgstr "显示与您分享的资料库中的推荐和其他专辑，并在艺人电台中包含分享的曲目。"
 
 msgid "Show this collection and its items"
 msgstr "显示此合集和合集中的项目"
@@ -3040,7 +3040,7 @@ msgid "User currently viewing the content"
 msgstr "当前正在观看此内容的用户"
 
 msgid "Value is in minutes. Terminate any sessions which have been paused for a longer time than specified amount of time.  Audio-only sessions and live sessions are excluded"
-msgstr "单位为分钟。暂停时间超过设定时长的会话将被终止。纯音频会话与直播会话除外。"
+msgstr "单位为分钟。暂停时间超过所设时长的会话将被终止，纯音频会话与直播会话除外。"
 
 msgid "Verbose logging is only useful to debug specific issues and should only be enabled if requested by support staff."
 msgstr "详细日志只对排查特定问题有用，仅在支持人员要求时开启。"
@@ -3360,7 +3360,7 @@ msgid "After a month"
 msgstr "一个月后"
 
 msgid "Decide whether to use end credits markers to determine the 'watched' state of video items. When markers are not available the selected threshold percentage will be used."
-msgstr "设置是否用片尾标记来判断视频的“已观看”状态。没有标记时，会使用设定的阈值百分比。"
+msgstr "设置是否用片尾标记来判断视频的“已观看”状态。没有标记时，将使用所选阈值百分比。"
 
 msgid "Enable voice activity detection"
 msgstr "启用语音活动检测"
