@@ -1,0 +1,38 @@
+name: verify
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    name: 校验语言文件
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.9", "3.12"]
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: 脚本可编译（不依赖第三方库）
+        run: python -m compileall -q tools
+
+      - name: 结构校验（占位符 / 空译文 / 首尾空白 / po-mo 同步 / 术语 / 跨端）
+        run: python tools/check.py -v
+
+      - name: 术语巡检
+        run: python tools/gloss.py
+
+      - name: README 进度表与 tools/progress.json 一致
+        run: python tools/progress.py --check

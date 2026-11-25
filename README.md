@@ -10,18 +10,48 @@ Plex 的本地化工作并不是由专业团队完成的，而是通过翻译平
 
 上图中蓝色的部分代表官方翻译的部分，绿色的部分代表我翻译的部分。其中对 Plex Media Server 的翻译将应用到全平台的 Plex、Plex Web、Plex HTPC、Plexamp 和 Plex Dash 等应用程序上，对 Web Clients 的翻译将应用到桌面端的 Plex 应用程序以及通过 IP 或自定义域名访问的 Plex Web（网页端）上。（翻译将持续更新）
 
+当前进度（由 `tools/progress.py` 生成，随每次提交更新）：
 
-## 术语表与一致性检查
+<!-- progress:begin -->
+| 语言文件 | 条目 | 已改写 | 沿用官方 | 完成度 |
+|---|---:|---:|---:|---:|
+| `Web Clients/zh.json` | 2913 | 1952 | 961 | **67.0%** |
+| `Plex Media Server/plex.po` | 1216 | 682 | 534 | **56.1%** |
+| 合计 | 4129 | 2634 | 1495 | **63.8%** |
 
-上面提到的「一词多译」问题（Artist 有「艺人/艺术家/作者」、Collection 有「合集/收藏集/选集」等），现在由统一术语表约束：
+> 统计口径：与新版本官方译文逐条比对，「已改写」= 与官方不同的条目。由 `tools/progress.py` 生成（基于 1.43.5.11079-b3b13e506），请勿手改。
+<!-- progress:end -->
 
-- [**GLOSSARY.md**](GLOSSARY.md)：八大类术语（内容对象、播放与转码、直播录制、音乐、账户社交、服务器维护、动作动词、状态词），附格式规范、易混词对照和复审流程
-- [`tools/glossary.json`](tools/glossary.json)：机器可读的术语、禁用译法、例外白名单
-- [`tools/gloss.py`](tools/gloss.py)：零依赖巡检脚本，扫描两个语言文件，退出码 0/1 可直接用作提交前检查
+
+## 术语表与校验工具
+
+上面提到的「一词多译」问题（Artist 有「艺人/艺术家/作者」、Collection 有「合集/收藏集/选集」等），现在由统一术语表约束。仓库里所有工具都只用 Python 标准库，无需安装依赖：
+
+| 文件 | 作用 |
+|---|---|
+| [**GLOSSARY.md**](GLOSSARY.md) | 八大类术语（内容对象、播放与转码、直播录制、音乐、账户社交、服务器维护、动作动词、状态词），附格式规范、易混词对照和复审流程 |
+| [`tools/glossary.json`](tools/glossary.json) | 机器可读的术语、禁用译法、例外白名单 |
+| [`tools/consistency.json`](tools/consistency.json) | 跨端差异的豁免清单（同一英文键在 Web 与服务端允许不同译的语境词） |
+| [`tools/gloss.py`](tools/gloss.py) | 术语巡检：禁用译法、半角标点、「你/您」、「此/该」 |
+| [`tools/check.py`](tools/check.py) | 结构校验：占位符、空译文、首尾空白、重复键、po 与 mo 是否同步 |
+| [`tools/upstream_diff.py`](tools/upstream_diff.py) | 升级比对：新版 Plex 出来后列出新增/消失条目，并给翻译记忆候选 |
+| [`tools/progress.py`](tools/progress.py) | 生成本文开头的进度表 |
+| [`tools/plexio.py`](tools/plexio.py) | 上面几个脚本共用的 JSON / po / mo 读写 |
 
 ```bash
-python tools/gloss.py        # 汇总
-python tools/gloss.py -v     # 逐条明细；当前 0 命中
+python tools/check.py            # 提交前跑这个，退出码 0 才算过
+python tools/check.py -v         # 连警告明细（新出现的跨端差异会在这里）
+python tools/gloss.py            # 术语巡检；当前 0 命中
+python tools/progress.py --write # 更新进度表
+```
+
+`.github/workflows/verify.yml` 在每次 push 和 PR 时自动跑 `check.py` 与 `gloss.py`，占位符丢失、mo 忘记编译、术语跑偏都会直接失败，不会合进主分支。
+
+升级到新版 Plex 后：
+
+```bash
+python tools/upstream_diff.py --upstream /path/to/extracted --tm 3
+python tools/progress.py --upstream /path/to/extracted --write
 ```
 
 ## 效果展示

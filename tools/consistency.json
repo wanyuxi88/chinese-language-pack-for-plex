@@ -1,0 +1,33 @@
+{
+ "_comment": "登记「同一个英文键、两侧译法不同」的合理情况。tools/check.py 会把未登记的跨端差异报为警告，统一掉之后请从这里删除对应条目。",
+ "cross_file": [
+  {
+   "key": "An error occurred",
+   "why": "服务端当整句用（带句号），Web 端是提示条（不带）"
+  },
+  {
+   "key": "An unexpected error occurred",
+   "why": "同上，句末标点差异"
+  },
+  {
+   "key": "Label",
+   "why": "语境词：音乐元数据「唱片公司」 vs 筛选/标记「标签」"
+  },
+  {
+   "key": "Labels",
+   "why": "语境词：同上"
+  },
+  {
+   "key": "Network",
+   "why": "语境词：网络连接 vs 电视「播出平台」"
+  },
+  {
+   "key": "is false",
+   "why": "服务端筛选运算符列（否），Web 端为属性值（非）；两侧控件不同，待界面实测后再定"
+  },
+  {
+   "key": "is not",
+   "why": "同上（不是 / 非）"
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+{
+ "upstream": "1.43.5.11079-b3b13e506",
+ "updated": "2026-11-25",
+ "web": {
+  "total": 2913,
+  "diverged": 1952
+ },
+ "srv": {
+  "total": 1216,
+  "diverged": 682
+ }
+}
