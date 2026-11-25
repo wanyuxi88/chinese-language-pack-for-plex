@@ -3,8 +3,9 @@
 本表是 `Web Clients/zh.json` 与 `Plex Media Server/plex.po` 两个语言文件的**统一译法基准**。所有复审、修订、新增条目都以本表为准；本表与既有译文冲突时，以本表为准，并把语言文件改到与本表一致。
 
 - 适用版本：Plex Media Server **1.43.5.11079-b3b13e506**
-- 机器可读版：`work/glossary.json`（巡检脚本 `work/gloss.py` 据此扫描）
-- 维护方式：新增术语 → 先加进 `glossary.json` → 跑巡检 → 按报告整改译文
+- 机器可读版：`tools/glossary.json`（巡检脚本 `tools/gloss.py` 据此扫描）
+- 维护方式：新增术语 → 先加进 `tools/glossary.json` → 跑巡检 → 按报告整改译文
+- **任何一批翻译开工前先跑一次巡检，收尾再跑一次；0 命中才算收工**
 
 ## 使用规则
 
@@ -190,22 +191,23 @@
 ## 十一、巡检与维护
 
 ```bash
-python work/gloss.py        # 汇总：按术语分组，列出禁用译法命中数
-python work/gloss.py -v     # 明细：逐条列出命中的键与译文
-python work/gloss.py --json # 机器可读，便于接入脚本
+python tools/gloss.py         # 汇总：按术语分组，列出禁用译法命中数
+python tools/gloss.py -v      # 明细：逐条列出命中的键与译文
+python tools/gloss.py --json  # 机器可读，便于接入脚本
+# 退出码：0 = 无命中，1 = 有命中，可直接用于提交前检查
 ```
 
 巡检覆盖两类问题：
 
-1. **禁用译法**：`glossary.json` 里 `ban` 字段列出的变体（已做「标准译法同时出现则不报」的豁免，避免「数字录像机」被「录像机」误伤）。
+1. **禁用译法**：`tools/glossary.json` 里 `ban` 字段列出的变体（已做「标准译法同时出现则不报」的豁免，避免「数字录像机」被「录像机」误伤）。
 2. **格式规范**：半角引号、`...`、中文语境的半角标点、「你」。
 
-对确认属于正常用法的命中（例如向论坛「反馈」问题），在 `glossary.json` 的 `exceptions` 中登记键名片段与理由，巡检会跳过，**避免同一个误报每轮重复出现**。
+对确认属于正常用法的命中（例如向论坛「反馈」问题），在 `tools/glossary.json` 的 `exceptions` 中登记键名片段与理由，巡检会跳过，**避免同一个误报每轮重复出现**。
 
 ### 每轮复审的固定流程
 
-1. 选模块 → 通读该模块剩余条目
-2. 新术语先补进 `glossary.json`，再跑 `python work/gloss.py` 拿到命中清单
-3. 写修订表（`work/tx/mk_roundN.py`，内置键名存在性校验）→ `python work/build.py`
-4. 校验：po/mo 逐条一致、占位符 0 差异、`gloss.py` 0 命中
-5. 提交推送 → 部署飞牛 → 更新《汉化更新报告》《变更明细》
+1. **先跑 `python tools/gloss.py`**，拿到当前基线命中清单
+2. 选模块 → 通读该模块剩余条目；遇到新概念先补进 `tools/glossary.json`
+3. 写修订表（工作区 `work/tx/mk_roundN.py`，内置键名存在性校验）→ 构建
+4. 校验：po/mo 逐条一致、占位符 0 差异、**`tools/gloss.py` 回到 0 命中**
+5. 提交推送 → 部署 → 更新《汉化更新报告》《变更明细》

@@ -1,0 +1,486 @@
+{
+ "_note": "Plex 简体中文语言包统一术语表（机器可读）。zh 为标准译法，ban 为禁用/应改写的变体，ctx 说明适用语境。gloss.py 据此巡检两个语言文件。",
+ "version": "1.0",
+ "updated": "2026-11-25",
+ "terms": [
+  {
+   "en": "Library",
+   "zh": "资料库",
+   "ban": [
+    "媒体库"
+   ],
+   "ctx": "Plex 的资料库概念，全库统一为「资料库」"
+  },
+  {
+   "en": "Movie(s)",
+   "zh": "电影",
+   "ban": [
+    "影片"
+   ],
+   "ctx": ""
+  },
+  {
+   "en": "TV Show / Shows",
+   "zh": "电视节目",
+   "ban": [
+    "影集",
+    "电视剧"
+   ],
+   "ctx": "Show 作名词时一律「电视节目」"
+  },
+  {
+   "en": "Series",
+   "zh": "剧集",
+   "ban": [],
+   "ctx": "剧集排序方式、Series default 等"
+  },
+  {
+   "en": "Season",
+   "zh": "季",
+   "ban": [
+    "季度"
+   ],
+   "ctx": "第 N 季；统计用「{n} 季」"
+  },
+  {
+   "en": "Episode",
+   "zh": "剧集 / 第 N 集",
+   "ban": [],
+   "ctx": "条目类型用「剧集」，编号用「第 N 集」"
+  },
+  {
+   "en": "Collection",
+   "zh": "合集",
+   "ban": [
+    "收藏集"
+   ],
+   "ctx": ""
+  },
+  {
+   "en": "Playlist",
+   "zh": "播放列表",
+   "ban": [
+    "播放清单"
+   ],
+   "ctx": ""
+  },
+  {
+   "en": "Watchlist",
+   "zh": "关注列表",
+   "ban": [
+    "待看列表",
+    "观看列表"
+   ],
+   "ctx": ""
+  },
+  {
+   "en": "Home screen",
+   "zh": "主页",
+   "ban": [
+    "首页"
+   ],
+   "ctx": ""
+  },
+  {
+   "en": "Sidebar",
+   "zh": "侧边栏",
+   "ban": [
+    "侧边列"
+   ],
+   "ctx": ""
+  },
+  {
+   "en": "Player",
+   "zh": "播放器",
+   "ban": [],
+   "ctx": ""
+  },
+  {
+   "en": "Streaming",
+   "zh": "串流",
+   "ban": [],
+   "ctx": "播放行为用「串流」；Streaming Services 特指流媒体服务，保留「流媒体服务」"
+  },
+  {
+   "en": "Transcode",
+   "zh": "转码",
+   "ban": [
+    "代码转换"
+   ],
+   "ctx": ""
+  },
+  {
+   "en": "Tuner",
+   "zh": "调谐器",
+   "ban": [
+    "调频器",
+    "电视卡"
+   ],
+   "ctx": ""
+  },
+  {
+   "en": "DVR",
+   "zh": "数字录像机",
+   "ban": [
+    "录像机"
+   ],
+   "ctx": "首次出现可写 DVR，正文统一「数字录像机」"
+  },
+  {
+   "en": "Guide",
+   "zh": "节目指南",
+   "ban": [
+    "节目单",
+    "电视指南"
+   ],
+   "ctx": "EPG 节目指南；lineup 是「频道表」，两者不可混"
+  },
+  {
+   "en": "Lineup",
+   "zh": "频道表",
+   "ban": [],
+   "ctx": "lineup = 频道表；channel listing = 频道列表（可用）"
+  },
+  {
+   "en": "Metadata",
+   "zh": "元数据",
+   "ban": [
+    "中介数据"
+   ],
+   "ctx": ""
+  },
+  {
+   "en": "Provider",
+   "zh": "提供方",
+   "ban": [
+    "提供者",
+    "供应商"
+   ],
+   "ctx": ""
+  },
+  {
+   "en": "Butler / background tasks",
+   "zh": "后台任务",
+   "ban": [
+    "管家",
+    "仆从"
+   ],
+   "ctx": ""
+  },
+  {
+   "en": "Claim / Claimed",
+   "zh": "认领 / 已认领",
+   "ban": [
+    "索取"
+   ],
+   "ctx": "服务器认领"
+  },
+  {
+   "en": "Reaction",
+   "zh": "表态",
+   "ban": [
+    "反馈"
+   ],
+   "ctx": "社交动态的表态"
+  },
+  {
+   "en": "Report (violation)",
+   "zh": "举报",
+   "ban": [],
+   "ctx": "仅违规举报语境；普通「报告」不受限"
+  },
+  {
+   "en": "Ratings & Reviews",
+   "zh": "评分与影评",
+   "ban": [
+    "评级与评论"
+   ],
+   "ctx": ""
+  },
+  {
+   "en": "On Deck",
+   "zh": "接下来观看",
+   "ban": [
+    "最近关注",
+    "最近关注内容"
+   ],
+   "ctx": ""
+  },
+  {
+   "en": "Up Next",
+   "zh": "接下来播放",
+   "ban": [
+    "下一个播放"
+   ],
+   "ctx": ""
+  },
+  {
+   "en": "Quality (video)",
+   "zh": "画质",
+   "ban": [],
+   "ctx": "带分辨率/Mbps 的画质档位一律「画质」"
+  },
+  {
+   "en": "Quality (audio)",
+   "zh": "音质",
+   "ban": [],
+   "ctx": "带 Kbps 的音质档位一律「音质」"
+  },
+  {
+   "en": "Quality (generic)",
+   "zh": "质量",
+   "ban": [],
+   "ctx": "无法判断音视频时保留「质量」"
+  },
+  {
+   "en": "Remove",
+   "zh": "移除",
+   "ban": [],
+   "ctx": "从列表/设备/关系中拿掉"
+  },
+  {
+   "en": "Delete",
+   "zh": "删除",
+   "ban": [],
+   "ctx": "真正删除文件或条目"
+  },
+  {
+   "en": "Disabled / Enabled",
+   "zh": "已禁用 / 已启用",
+   "ban": [],
+   "ctx": "状态标签"
+  },
+  {
+   "en": "Active",
+   "zh": "活跃",
+   "ban": [],
+   "ctx": "会话/设备状态"
+  },
+  {
+   "en": "Cast (people)",
+   "zh": "演员阵容",
+   "ban": [],
+   "ctx": "Cast 作名词指演员时用「演员阵容」；投屏动作仍用「投屏」"
+  },
+  {
+   "en": "Featuring",
+   "zh": "出演",
+   "ban": [
+    "正片"
+   ],
+   "ctx": ""
+  },
+  {
+   "en": "Mute",
+   "zh": "静音",
+   "ban": [
+    "静默"
+   ],
+   "ctx": ""
+  },
+  {
+   "en": "HDR tone mapping",
+   "zh": "HDR 色调映射",
+   "ban": [
+    "色调对应",
+    "色调贴图"
+   ],
+   "ctx": ""
+  },
+  {
+   "en": "Loudness",
+   "zh": "响度",
+   "ban": [],
+   "ctx": "响度分析/响度归一化"
+  },
+  {
+   "en": "Clipping",
+   "zh": "削波",
+   "ban": [
+    "削顶"
+   ],
+   "ctx": "音频失真"
+  },
+  {
+   "en": "Photo Album",
+   "zh": "相册",
+   "ban": [],
+   "ctx": "音乐 Album 是「专辑」，照片 Album 是「相册」"
+  },
+  {
+   "en": "Compilation",
+   "zh": "精选辑",
+   "ban": [
+    "合辑"
+   ],
+   "ctx": ""
+  },
+  {
+   "en": "Sonic analysis",
+   "zh": "声学分析",
+   "ban": [
+    "声波"
+   ],
+   "ctx": "Sonically Similar = 声学相似"
+  },
+  {
+   "en": "Genre (video)",
+   "zh": "类型",
+   "ban": [],
+   "ctx": "视频侧 Genres / By Genre 用「类型」"
+  },
+  {
+   "en": "Genre (music field)",
+   "zh": "流派",
+   "ban": [],
+   "ctx": "专辑流派/艺人流派/曲目流派；与 Type(类型) 区分"
+  },
+  {
+   "en": "Camera Make / Model",
+   "zh": "厂商 / 型号",
+   "ban": [
+    "制造商"
+   ],
+   "ctx": ""
+  },
+  {
+   "en": "Account",
+   "zh": "账号",
+   "ban": [
+    "帐户",
+    "账户"
+   ],
+   "ctx": ""
+  },
+  {
+   "en": "Sign In / Sign Up",
+   "zh": "登录 / 注册",
+   "ban": [
+    "登陆"
+   ],
+   "ctx": ""
+  },
+  {
+   "en": "Friend",
+   "zh": "好友",
+   "ban": [],
+   "ctx": "功能名用「好友」；文案中「朋友」可保留"
+  },
+  {
+   "en": "Managed Account",
+   "zh": "托管账号",
+   "ban": [
+    "受管账号"
+   ],
+   "ctx": ""
+  },
+  {
+   "en": "PIN",
+   "zh": "PIN 码",
+   "ban": [
+    "密码锁"
+   ],
+   "ctx": ""
+  },
+  {
+   "en": "Email",
+   "zh": "邮箱",
+   "ban": [
+    "电子邮件"
+   ],
+   "ctx": "字段与提示统一「邮箱」"
+  },
+  {
+   "en": "Markers",
+   "zh": "标记",
+   "ban": [],
+   "ctx": "片头/片尾/广告标记；标签是 Tag(标签)"
+  },
+  {
+   "en": "Ad(s)",
+   "zh": "广告",
+   "ban": [],
+   "ctx": ""
+  },
+  {
+   "en": "Chapter",
+   "zh": "章节 / 第 N 章",
+   "ban": [],
+   "ctx": ""
+  },
+  {
+   "en": "Edition",
+   "zh": "版本",
+   "ban": [
+    "版次"
+   ],
+   "ctx": ""
+  },
+  {
+   "en": "Sync",
+   "zh": "同步",
+   "ban": [
+    "同步化"
+   ],
+   "ctx": ""
+  },
+  {
+   "en": "Download",
+   "zh": "下载",
+   "ban": [],
+   "ctx": ""
+  },
+  {
+   "en": "Share",
+   "zh": "分享",
+   "ban": [],
+   "ctx": "共享给他人用「分享」；「共享」仅用于系统级共享目录"
+  }
+ ],
+ "style": [
+  {
+   "id": "QUOTE",
+   "rule": "中文引号用 “ ”，不用半角 \" 和 '"
+  },
+  {
+   "id": "PHSPACE",
+   "rule": "占位符两侧留空格：`{count} 个项目`，链接标记 {1}文本{2} 不留空格"
+  },
+  {
+   "id": "NUMSPACE",
+   "rule": "数字与汉字之间留空格：`20 Mbps`、`4 位 PIN 码`；「4月」「2024年」这类日期不空格"
+  },
+  {
+   "id": "ELLIPSIS",
+   "rule": "省略号用「…」，不用三个半角点"
+  },
+  {
+   "id": "PERIOD",
+   "rule": "英文原文以句号结尾的，中文补「。」"
+  },
+  {
+   "id": "AMP",
+   "rule": "& 译作「与」，不保留半角 &"
+  },
+  {
+   "id": "YOU",
+   "rule": "人称统一「您」（“你们”除外）"
+  },
+  {
+   "id": "PUNCT",
+   "rule": "中文语境不用半角 , ; : ! ?"
+  }
+ ],
+ "exceptions": [
+  {
+   "src": "web",
+   "key_contains": "plexforums",
+   "why": "此处 feedback 为动词用法，保留「反馈」"
+  },
+  {
+   "src": "any",
+   "key_contains": "Plex Forums",
+   "why": "向论坛反馈问题，保留「反馈」"
+  }
+ ]
+}
