@@ -109,9 +109,30 @@ C:\Program Files\Plex\Plex Media Server\Resources\locale\zh_CN\LC_MESSAGES/plex.
 /volume1/@appstore/PlexMediaServer/Resources/locale/zh_CN/LC_MESSAGES/plex.mo
 ```
 
+## Docker 映射部署（推荐，升级容器不丢）
+
+上面这种「进容器替换文件」的方式，每次升级镜像重建容器都会失效。如果你的 Plex 跑在
+Docker（含飞牛 fnOS、群晖、威联通）里，建议改用 `deploy/` 下的映射方案：
+
+```bash
+cd deploy && sh install.sh -c plex -d /vol1/1000/docker/plex/zh-pack
+```
+
+脚本会把语言包放到宿主机目录，探测容器初始化系统后生成 compose 覆盖文件，并提示需要
+添加的三条映射。原理是：`plex.mo` 路径固定，直接单文件映射；`zh.json` 位于
+`Plug-ins-<哈希>` 目录、升级后会变，因此配合一个启动钩子，在每次容器启动时自动把
+宿主机上的 `zh.json` 写进当前版本目录。
+
+- 宿主机目录持久化，删容器不丢
+- 启动钩子自动重应用，升级后不丢
+- 钩子失败不阻断 Plex 启动
+- 删除映射重建容器即可完全回滚官方文件
+
+详细说明见 [`deploy/README.md`](deploy/README.md)。
+
 ## 注意事项
 - 提供的文件地址仅供参考，因为安装设置差异，文件地址也许不会完全一致，请在类似的目录结构中查找文件。
-- 通过 Docker 安装的 Plex Media Server 请在容器内部目录中查找和替换文件（非宿主机目录）。或者将对应的文件或目录映射到宿主机上，直接在宿主机上进行替换。
+- 通过 Docker 安装的 Plex Media Server 请在容器内部目录中查找和替换文件（非宿主机目录）。或者将对应的文件或目录映射到宿主机上，直接在宿主机上进行替换（见上方「Docker 映射部署」）。
 - 建议在替换文件前先备份你原有的 `zh.json` 和 `plex.mo` 文件，以便你能够退回官方版本（如果有需要）。
 - 语言包会持续更新，你可以关注本项目，及时获取最新版本，根据需要，某些翻译可能会在后续版本中变更。
 - 更新 Plex 桌面客户端或 Plex Media Server 版本后会重置语言包，请在更新版本后重新替换语言包。
