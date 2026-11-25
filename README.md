@@ -11,6 +11,19 @@ Plex 的本地化工作并不是由专业团队完成的，而是通过翻译平
 上图中蓝色的部分代表官方翻译的部分，绿色的部分代表我翻译的部分。其中对 Plex Media Server 的翻译将应用到全平台的 Plex、Plex Web、Plex HTPC、Plexamp 和 Plex Dash 等应用程序上，对 Web Clients 的翻译将应用到桌面端的 Plex 应用程序以及通过 IP 或自定义域名访问的 Plex Web（网页端）上。（翻译将持续更新）
 
 
+## 术语表与一致性检查
+
+上面提到的「一词多译」问题（Artist 有「艺人/艺术家/作者」、Collection 有「合集/收藏集/选集」等），现在由统一术语表约束：
+
+- [**GLOSSARY.md**](GLOSSARY.md)：八大类术语（内容对象、播放与转码、直播录制、音乐、账户社交、服务器维护、动作动词、状态词），附格式规范、易混词对照和复审流程
+- [`tools/glossary.json`](tools/glossary.json)：机器可读的术语、禁用译法、例外白名单
+- [`tools/gloss.py`](tools/gloss.py)：零依赖巡检脚本，扫描两个语言文件，退出码 0/1 可直接用作提交前检查
+
+```bash
+python tools/gloss.py        # 汇总
+python tools/gloss.py -v     # 逐条明细；当前 0 命中
+```
+
 ## 效果展示
 以下为部分翻译内容对比，左侧为 Plex 官方版本，右侧为我的版本。下图使用的是 Plex for MacOS 客户端。
 
