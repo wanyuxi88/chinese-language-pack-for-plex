@@ -1038,10 +1038,10 @@ msgid "Downloads not allowed"
 msgstr "不允许下载"
 
 msgid "Duplicate"
-msgstr "副本"
+msgstr "重复项"
 
 msgid "Duplicates"
-msgstr "副本"
+msgstr "重复项"
 
 msgid "Duration"
 msgstr "时长"
@@ -2033,7 +2033,7 @@ msgid "Publish server on Plex Online"
 msgstr "在 Plex Online 上发布服务器"
 
 msgid "Publisher"
-msgstr "发行人"
+msgstr "发行方"
 
 msgid "Publishing a server makes it automatically available on your client devices without any configuration of your router."
 msgstr "发布服务器后，无需配置路由器，即可在客户端设备上直接使用。"
@@ -2114,7 +2114,7 @@ msgid "Recently Played Music"
 msgstr "最近播放的音乐"
 
 msgid "Recently Released"
-msgstr "最近发行"
+msgstr "最近发布"
 
 msgid "Recently Released Episodes"
 msgstr "最近发布的剧集"
@@ -2773,10 +2773,10 @@ msgid "This Episode"
 msgstr "这集"
 
 msgid "This Event"
-msgstr "这个活动"
+msgstr "此活动"
 
 msgid "This Month"
-msgstr "这个月"
+msgstr "本月"
 
 msgid "This Season"
 msgstr "本季"
@@ -3124,7 +3124,7 @@ msgstr "{1} 年的今天"
 
 msgctxt "Year"
 msgid "This Month in {1}"
-msgstr "{1} 年这个月"
+msgstr "{1} 年的这个月"
 
 msgctxt "Year"
 msgid "Top Albums from {1}"
