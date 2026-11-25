@@ -183,7 +183,7 @@ msgid "Airing order"
 msgstr "播出顺序"
 
 msgid "Airing was not high enough quality"
-msgstr "该节目的画质不达标"
+msgstr "此节目的画质不达标"
 
 msgid "Airing was not on the required channel"
 msgstr "节目未在指定的频道播出"
@@ -708,7 +708,7 @@ msgid "Color Transfer Characteristics"
 msgstr "色彩转移特性"
 
 msgid "Comma separated list of IP addresses or IP/netmask entries for networks that are allowed to access Plex Media Server without logging in. When the server is signed out and this value is set, only localhost and addresses on this list will be allowed."
-msgstr "无需登录即可访问 Plex 媒体服务器的网络 IP 地址或 IP/子网掩码列表，以逗号分隔。当服务器处于登出状态且设置了该值时，只有本机和此列表中的地址可以访问。"
+msgstr "无需登录即可访问 Plex 媒体服务器的网络 IP 地址或 IP/子网掩码列表，以逗号分隔。当服务器处于登出状态且设置了此值时，只有本机和此列表中的地址可以访问。"
 
 msgid "Comma separated list of IP addresses or IP/netmask entries for networks that will be considered to be on the local network when enforcing bandwidth restrictions. If set, all other IP addresses will be considered to be on the external network and will be subject to external network bandwidth restrictions. If left blank, only the server's subnet is considered to be on the local network."
 msgstr "以逗号分隔的 IP 或 IP/子网掩码列表，这些地址在带宽限制时视为本地网络。设置后，其他所有 IP 都视为外网，并受外网带宽限制。留空则仅服务器所在子网视为本地网络。"
@@ -1288,7 +1288,7 @@ msgid "Generate video preview thumbnails"
 msgstr "生成预览缩略图"
 
 msgid "Generate video preview thumbnails for items in this library when enabled in server settings."
-msgstr "在服务器设置中启用了该功能时，为此资料库中的项目生成预览缩略图。"
+msgstr "在服务器设置中启用了此功能时，为此资料库中的项目生成预览缩略图。"
 
 msgid "Generating loudness data"
 msgstr "正在生成音量数据"
@@ -1554,7 +1554,7 @@ msgid "Limits the number of shows which will appear Continue Watching. Setting i
 msgstr "限制“继续观看”中显示的剧集数量，设得过高可能影响性能。"
 
 msgid "Lineup is from a different provider."
-msgstr "该频道表来自其他提供方。"
+msgstr "此频道表来自其他提供方。"
 
 msgid "Lineups are from different providers"
 msgstr "频道表来自不同的提供方"
@@ -1909,7 +1909,7 @@ msgid "Path to a PKCS #12 file containing a certificate and private key to enabl
 msgstr "包含证书与私钥的 PKCS #12 文件路径，用于为自定义域名启用 TLS。"
 
 msgid "Path to a program which postprocesses the recording before adding to the library. The script must be in {1}"
-msgstr "在加入资料库前对录制内容进行后期处理的程序路径。该脚本必须位于 {1} 中"
+msgstr "在加入资料库前对录制内容进行后期处理的程序路径。此脚本必须位于 {1} 中"
 
 msgid "Perform extensive media analysis during maintenance"
 msgstr "维护期间执行深度媒体分析"
@@ -2321,10 +2321,10 @@ msgid "Set the maximum bitrate of a remote stream from this server."
 msgstr "设置此服务器远程串流的最大码率。"
 
 msgid "Set the maximum number of episodes to download for the show."
-msgstr "设置该节目最多可下载的剧集数。"
+msgstr "设置此节目最多可下载的剧集数。"
 
 msgid "Set the maximum number of unplayed episodes to keep for the show."
-msgstr "设置该节目最多保留多少集未播放的剧集。"
+msgstr "设置此节目最多保留多少集未播放的剧集。"
 
 msgid "Set the progress percentage for video playback at which point the video will be marked as played."
 msgstr "设置视频播放进度达到多少百分比时，将其标记为已观看。"
@@ -2563,16 +2563,16 @@ msgid "The Movie Database (Aired)"
 msgstr "The Movie Database (已播出)"
 
 msgid "The Relay allows connections to the server through a proxy relay when the server is not accessible otherwise.  Note: this proxy relay is bandwidth limited"
-msgstr "当服务器无法直接访问时，中继可通过代理转发建立连接。注意：该代理中继的带宽有限。"
+msgstr "当服务器无法直接访问时，中继可通过代理转发建立连接。注意：此代理中继的带宽有限。"
 
 msgid "The action cannot be performed on the item in its current state"
-msgstr "当前状态下无法对此项目执行该操作。"
+msgstr "此项目在当前状态下无法执行操作。"
 
 msgid "The airing occurred in the past and cannot be recorded"
-msgstr "该节目已播出，无法录制"
+msgstr "此节目已播出，无法录制"
 
 msgid "The airing was already in progress"
-msgstr "该节目已在播出中"
+msgstr "此节目已在播出中"
 
 msgid "The butler analyzed {1} items."
 msgstr "后台任务已分析 {1} 个项目。"
@@ -2656,22 +2656,22 @@ msgid "The destination library or location did not exist"
 msgstr "目标资料库或位置不存在"
 
 msgid "The device does not exist"
-msgstr "该设备不存在"
+msgstr "此设备不存在"
 
 msgid "The device does not tune the required channel"
-msgstr "该设备无法调谐所需频道"
+msgstr "此设备无法调谐所需频道"
 
 msgid "The device has no associated grabber"
-msgstr "该设备没有关联的抓取器"
+msgstr "此设备未关联抓取器"
 
 msgid "The device is busy"
-msgstr "该设备正忙"
+msgstr "此设备正忙"
 
 msgid "The device is in use with an existing DVR"
-msgstr "该设备已被现有的数字录像机占用"
+msgstr "此设备已被现有的数字录像机占用"
 
 msgid "The device is not in use by this DVR"
-msgstr "此数字录像机未使用该设备"
+msgstr "此数字录像机未占用此设备"
 
 msgid "The directory in which database backups are stored."
 msgstr "存储数据库备份的目录。"
@@ -2701,7 +2701,7 @@ msgid "The quality of the transcoding used for live TV or recording. Selecting o
 msgstr "直播电视或录制所使用的转码画质。选择原始格式可能产生非常大的文件。"
 
 msgid "The recording conflicts with other recordings"
-msgstr "该录制与其他录制计划存在冲突"
+msgstr "此录制与其他录制计划存在冲突"
 
 msgid "The recording duration was 0 minutes"
 msgstr "录制时长为 0 分钟"
@@ -2722,7 +2722,7 @@ msgid "The server is not connected to plex.tv"
 msgstr "服务器未连接到 plex.tv"
 
 msgid "The server's account does not have a Plex Pass and cannot use the Sync feature"
-msgstr "该服务器的账号未订阅 Plex 通行证，无法使用同步功能。"
+msgstr "此服务器的账号未订阅 Plex 通行证，无法使用同步功能。"
 
 msgid "The source media was not found"
 msgstr "未找到源媒体"
@@ -2737,7 +2737,7 @@ msgid "The time at which the server starts running background maintenance tasks.
 msgstr "服务器开始运行后台维护任务的时间。"
 
 msgid "The user does not have permission to sync"
-msgstr "该用户没有同步权限"
+msgstr "此用户没有同步权限"
 
 msgid "The x264 preset value used for background transcoding (Sync and Media Optimizer). Slower values will result in better video quality and smaller file sizes, but will take significantly longer to complete processing."
 msgstr "用于后台转码（同步与媒体优化器）的 x264 预设。预设越慢，画质越好、文件越小，但处理时间会明显增加。"
@@ -2785,16 +2785,16 @@ msgid "This allows the server to stream media to DLNA (Digital Living Network Al
 msgstr "允许服务器向 DLNA（数字生活网络联盟）设备串流媒体。"
 
 msgid "This app cannot play this item. The reason is: {1}."
-msgstr "此应用无法播放该项目，原因：{1}。"
+msgstr "此应用无法播放此项目，原因：{1}。"
 
 msgid "This app does not allow item to be converted for playback. Check your settings and try again."
-msgstr "此应用不允许转换该项目进行播放，请检查设置后重试。"
+msgstr "此应用不允许转换此项目进行播放，请检查设置后重试。"
 
 msgid "This app does not allow this item to be direct played. Check your settings and try again."
 msgstr "此应用不允许直接播放此项目，请检查设置后重试。"
 
 msgid "This device already exists"
-msgstr "该设备已存在"
+msgstr "此设备已存在"
 
 msgid "This enables the media server to discover other servers and players on the local network."
 msgstr "让媒体服务器能够发现本地网络上的其他服务器与播放器。"
@@ -3408,7 +3408,7 @@ msgid "Allow matching to explicit content"
 msgstr "允许匹配限制级内容"
 
 msgid "Allow matching to adult/pornographic titles and returning adult titles in fix match results. This may hide the title from some features like your Watchlist."
-msgstr "允许匹配成人内容，并在“修正匹配”结果中返回成人标题。这可能会让该标题在“关注列表”等功能中被隐藏。"
+msgstr "允许匹配成人内容，并在“修正匹配”结果中返回成人标题。这可能会让此标题在“关注列表”等功能中被隐藏。"
 
 msgid "How to sort the episodes for shows."
 msgstr "如何排序节目的剧集。"
@@ -3492,7 +3492,7 @@ msgid "Bad decision parameters"
 msgstr "决策参数无效"
 
 msgid "Cannot parse the metadata types supported by the provider."
-msgstr "无法解析该提供方支持的元数据类型。"
+msgstr "无法解析此提供方支持的元数据类型。"
 
 msgid "Common Sense Media Age Rating"
 msgstr "Common Sense Media 年龄分级"
@@ -3594,10 +3594,10 @@ msgid "The butler cleaned {1} directories."
 msgstr "后台任务已清理 {1} 个目录。"
 
 msgid "The metadata agent provider group is being used by a library section and cannot be deleted."
-msgstr "该元数据代理提供方组正被某个资料库分类使用，无法删除。"
+msgstr "此元数据代理提供方组正被某个资料库分类使用，无法删除。"
 
 msgid "The metadata agent provider group is being used by metadata items and cannot be deleted."
-msgstr "该元数据代理提供方组正被元数据项目使用，无法删除。"
+msgstr "此元数据代理提供方组正被元数据项目使用，无法删除。"
 
 msgid "The primary provider must be of type 'Primary'."
 msgstr "主要提供方的类型必须为“主要”。"
@@ -3618,13 +3618,13 @@ msgid "The provider identifier is reserved and cannot be used or modified."
 msgstr "提供方标识符为保留值，无法使用或修改。"
 
 msgid "The provider is in use and cannot be deleted."
-msgstr "该提供方正在使用中，无法删除。"
+msgstr "此提供方正在使用中，无法删除。"
 
 msgid "The provider supports unsupported metadata types."
-msgstr "该提供方支持了本系统不支持的元数据类型。"
+msgstr "此提供方支持了本系统不支持的元数据类型。"
 
 msgid "The secondary provider's metadata types are not compatible with the primary provider in the group."
-msgstr "辅助提供方的元数据类型与该组中的主要提供方不兼容。"
+msgstr "辅助提供方的元数据类型与此组中的主要提供方不兼容。"
 
 msgid "The server has reached its configured limit for maximum simultaneous video transcodes."
 msgstr "服务器已达到所配置的视频转码最大并发数限制。"

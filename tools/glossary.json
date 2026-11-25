@@ -495,6 +495,10 @@
   {
    "id": "MONTH",
    "rule": "%b 短格式位（Jan–Dec）用「1月–12月」，全称（January）才用「一月」；星期同理：Mon→周一、Monday→星期一"
+  },
+  {
+   "id": "PRON",
+   "rule": "指示代词 this 统一「此」，不用「该」（「应该 / 不该 / 该……了」等动词用法不受此限）"
   }
  ],
  "exceptions": [
@@ -537,6 +541,11 @@
    "src": "web",
    "key_contains": "No library access",
    "why": "权限状态标签「无资料库访问权限」，非空状态"
+  },
+  {
+   "src": "web",
+   "key_contains": "Time to get watching",
+   "why": "此处「该」是「该……了」的动词用法（到时间了），不是指示代词"
   }
  ]
 }

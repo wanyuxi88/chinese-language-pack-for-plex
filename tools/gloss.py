@@ -119,6 +119,10 @@ def scan(gloss=None):
             if '你' in v.replace('你们', ''):
                 hits.append({'src': fname, 'key': k, 'term': 'YOU', 'want': '您',
                              'bad': '你', 'val': v})
+            # 指示代词 this 统一「此」，不用「该」（「应该 / 不该 / 活该」等动词用法不在此列）
+            if re.search(r'(?<![应不活])该', v):
+                hits.append({'src': fname, 'key': k, 'term': 'PRON', 'want': '此',
+                             'bad': '该', 'val': v})
     # 格式类命中同样适用例外白名单
     return [h for h in hits if not _exc(h)]
 
