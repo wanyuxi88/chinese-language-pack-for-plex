@@ -112,10 +112,15 @@ def scan(gloss=None):
             if re.search(r'[\u4e00-\u9fff]\s*,\s*|[\u4e00-\u9fff]\s*;\s*', v):
                 hits.append({'src': fname, 'key': k, 'term': 'PUNCT', 'want': '中文标点',
                              'bad': '半角标点', 'val': v})
+            # 空状态：短标签式的「没有…」「无…」应改「暂无…」
+            if len(v) <= 12 and re.match(r'^(没有|无)(?!法|效|论|需|所|限)', v):
+                hits.append({'src': fname, 'key': k, 'term': 'EMPTY', 'want': '暂无…',
+                             'bad': v[:4], 'val': v})
             if '你' in v.replace('你们', ''):
                 hits.append({'src': fname, 'key': k, 'term': 'YOU', 'want': '您',
                              'bad': '你', 'val': v})
-    return hits
+    # 格式类命中同样适用例外白名单
+    return [h for h in hits if not _exc(h)]
 
 
 def main(argv):

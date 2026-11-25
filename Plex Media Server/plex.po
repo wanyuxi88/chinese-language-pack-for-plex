@@ -1123,7 +1123,7 @@ msgid "Episode Air Date"
 msgstr "剧集播出日期"
 
 msgid "Episode Duplicate"
-msgstr "剧集副本"
+msgstr "重复剧集"
 
 msgid "Episode In Progress"
 msgstr "观看中的剧集"
@@ -1258,7 +1258,7 @@ msgid "For all items"
 msgstr "应用于全部项目"
 
 msgid "For recorded items"
-msgstr "应用于录制项目"
+msgstr "适用于录制内容"
 
 msgid "Forced"
 msgstr "强制"
@@ -2701,7 +2701,7 @@ msgid "The quality of the transcoding used for live TV or recording. Selecting o
 msgstr "直播电视或录制所使用的转码画质。选择原始格式可能产生非常大的文件。"
 
 msgid "The recording conflicts with other recordings"
-msgstr "录制与其他录制冲突"
+msgstr "该录制与其他录制计划存在冲突"
 
 msgid "The recording duration was 0 minutes"
 msgstr "录制时长为 0 分钟"
@@ -2764,7 +2764,7 @@ msgid "There was not enough free disk space to start the download"
 msgstr "磁盘可用空间不足，无法开始下载"
 
 msgid "There was not enough free disk space to start the recording"
-msgstr "没有足够的可用磁盘空间来开始录制"
+msgstr "可用磁盘空间不足，无法开始录制。"
 
 msgid "This Day"
 msgstr "这天"
@@ -3028,7 +3028,7 @@ msgid "Use season titles"
 msgstr "使用季标题"
 
 msgid "Use season titles when available."
-msgstr "如果可用，请使用季标题。"
+msgstr "有季标题时优先使用。"
 
 msgid "Use the original title for this item regardless of the library language."
 msgstr "无论资料库使用哪种语言，始终为此项目使用原始标题。"
@@ -3255,7 +3255,7 @@ msgid "never"
 msgstr "禁用"
 
 msgid "only online (no local detection)"
-msgstr "仅使用在线标记（停用本地检测）"
+msgstr "仅使用在线标记（禁用本地检测）"
 
 msgid "subtitle"
 msgstr "字幕"
@@ -3312,7 +3312,7 @@ msgid "Auto-select subtitle mode"
 msgstr "自动选择字幕模式"
 
 msgid "Manually selected"
-msgstr "手动选择"
+msgstr "已手动选择"
 
 msgid "Shown with foreign audio"
 msgstr "外语配音时显示"

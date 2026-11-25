@@ -247,8 +247,11 @@
   {
    "en": "Disabled / Enabled",
    "zh": "已禁用 / 已启用",
-   "ban": [],
-   "ctx": "状态标签"
+   "ban": [
+    "停用",
+    "停用中"
+   ],
+   "ctx": "状态标签；动词 Disable 一律「禁用」，不用「停用」（停用易与暂停混淆）"
   },
   {
    "en": "Active",
@@ -435,6 +438,21 @@
    "zh": "分享",
    "ban": [],
    "ctx": "共享给他人用「分享」；「共享」仅用于系统级共享目录"
+  },
+  {
+   "en": "Immediately",
+   "zh": "立即",
+   "ban": [
+    "立刻",
+    "马上"
+   ],
+   "ctx": "动作时效，全库统一「立即」"
+  },
+  {
+   "en": "Empty state (No … / None)",
+   "zh": "暂无…",
+   "ban": [],
+   "ctx": "空状态与空列表统一「暂无」，不用「没有…」「无…」；整句叙述除外"
   }
  ],
  "style": [
@@ -469,6 +487,10 @@
   {
    "id": "PUNCT",
    "rule": "中文语境不用半角 , ; : ! ?"
+  },
+  {
+   "id": "EMPTY",
+   "rule": "空状态统一「暂无」：No results→暂无结果、No options→暂无选项；整句叙述中的「没有」不受此限"
   }
  ],
  "exceptions": [
@@ -481,6 +503,36 @@
    "src": "any",
    "key_contains": "Plex Forums",
    "why": "向论坛反馈问题，保留「反馈」"
+  },
+  {
+   "src": "web",
+   "key_contains": "No one",
+   "why": "No one 是筛选项取值，译「无」正确"
+  },
+  {
+   "src": "any",
+   "key_contains": "None",
+   "why": "None 为选项取值，译「无」正确"
+  },
+  {
+   "src": "web",
+   "key_contains": "Friends without Library Access",
+   "why": "without 表「没有」，非空状态"
+  },
+  {
+   "src": "web",
+   "key_contains": "No Access",
+   "why": "状态标签「无访问权限」，非空状态"
+  },
+  {
+   "src": "srv",
+   "key_contains": "No recorder was available",
+   "why": "叙述句「没有可用的录制设备」，非空状态标签"
+  },
+  {
+   "src": "web",
+   "key_contains": "No library access",
+   "why": "权限状态标签「无资料库访问权限」，非空状态"
   }
  ]
 }
