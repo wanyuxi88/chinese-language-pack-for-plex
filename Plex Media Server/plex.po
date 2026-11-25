@@ -162,7 +162,7 @@ msgid "Adding to Library"
 msgstr "正在添加到资料库"
 
 msgid "Adding {1}"
-msgstr "添加{1}"
+msgstr "添加 {1}"
 
 msgid "Admin Terminated Playback."
 msgstr "管理员已终止播放。"
@@ -294,7 +294,7 @@ msgid "Allow Plex Media Server tokens in logs"
 msgstr "允许在日志中记录 Plex 媒体服务器令牌"
 
 msgid "Allow media deletion"
-msgstr "允许删除媒体文件"
+msgstr "允许删除媒体"
 
 msgid "Allow partial airings"
 msgstr "允许录制不完整的播出"
@@ -578,7 +578,7 @@ msgid "By Edition"
 msgstr "按版本"
 
 msgid "By First Letter"
-msgstr "按首字符"
+msgstr "按首字母"
 
 msgid "By Folder"
 msgstr "按文件夹"
@@ -705,7 +705,7 @@ msgid "Collections"
 msgstr "合集"
 
 msgid "Color Transfer Characteristics"
-msgstr "色彩转移特性"
+msgstr "色彩传输特性"
 
 msgid "Comma separated list of IP addresses or IP/netmask entries for networks that are allowed to access Plex Media Server without logging in. When the server is signed out and this value is set, only localhost and addresses on this list will be allowed."
 msgstr "无需登录即可访问 Plex 媒体服务器的网络 IP 地址或 IP/子网掩码列表，以逗号分隔。当服务器处于登出状态且设置了此值时，只有本机和此列表中的地址可以访问。"
@@ -771,7 +771,7 @@ msgid "Could not tune channel. Please check your tuner or antenna."
 msgstr "无法调谐频道。请检查您的调谐器或天线。"
 
 msgid "Country"
-msgstr "国家"
+msgstr "国家/地区"
 
 msgid "Create a backup copy of the server's database in the configured backup directory"
 msgstr "在指定的备份目录中创建服务器数据库的备份副本"
@@ -907,7 +907,7 @@ msgid "Default container"
 msgstr "默认容器"
 
 msgid "Define a path where to write diagnostic files to (must be writeable by the Plex user)"
-msgstr "设置诊断文件的存储位置（Plex 用户需要拥有写入权限）。"
+msgstr "指定诊断文件的写入路径（Plex 用户需有写入权限）"
 
 msgid "Delete downloaded episodes"
 msgstr "删除已下载的剧集"
@@ -1066,10 +1066,10 @@ msgid "Empty trash automatically after every scan"
 msgstr "每次扫描后自动清空回收站"
 
 msgid "Enable Cinema Trailers"
-msgstr "启用电影预告片"
+msgstr "启用影院预告片"
 
 msgid "Enable HDR tone mapping"
-msgstr "启用高动态范围色调映射"
+msgstr "启用 HDR 色调映射"
 
 msgid "Enable Plex Media Server debug logging"
 msgstr "启用 Plex 媒体服务器调试日志"
@@ -1177,7 +1177,7 @@ msgid "Exclude from home screen"
 msgstr "从主页中排除"
 
 msgid "Exclude from home screen and global search"
-msgstr "从全局搜索和主页中排除"
+msgstr "从主页和全局搜索中排除"
 
 msgid "Exposure"
 msgstr "曝光"
@@ -1207,7 +1207,7 @@ msgid "Fast"
 msgstr "快"
 
 msgid "Faster"
-msgstr "快"
+msgstr "较快"
 
 msgid "Favorites"
 msgstr "收藏"
@@ -1753,7 +1753,7 @@ msgid "New Releases on TIDAL"
 msgstr "TIDAL 最新发布"
 
 msgid "New Shows On Tonight"
-msgstr "今晚播出的电视节目"
+msgstr "今晚播出的新节目"
 
 msgid "New and Repeat Airings"
 msgstr "新节目与重播"
@@ -2006,7 +2006,7 @@ msgid "Prefer local metadata"
 msgstr "首选本地元数据"
 
 msgid "Preferred"
-msgstr "优先"
+msgstr "首选"
 
 msgid "Preferred network interface"
 msgstr "首选网络接口"
@@ -2273,7 +2273,7 @@ msgid "Search for Episodes"
 msgstr "搜索剧集"
 
 msgid "Search for Shows"
-msgstr "搜索节目"
+msgstr "搜索电视节目"
 
 msgid "Search for Tracks"
 msgstr "搜索曲目"
@@ -2300,7 +2300,7 @@ msgid "Select a primary source for ratings."
 msgstr "选择评分的主要来源。"
 
 msgid "Send crash reports to Plex"
-msgstr "发送崩溃报告至 Plex"
+msgstr "向 Plex 发送崩溃报告"
 
 msgid "Sep"
 msgstr "9月"
@@ -2381,7 +2381,7 @@ msgid "Show related tracks and albums from TIDAL."
 msgstr "显示来自 TIDAL 的相关曲目和专辑。"
 
 msgid "Show similar free to watch movies and related tracks and albums from TIDAL."
-msgstr "显示相似的免费电影以及来自 TIDAL 的相关曲目和专辑。"
+msgstr "显示免费观看中的相似电影，以及来自 TIDAL 的相关曲目和专辑。"
 
 msgid "Show suggestions and additional albums from TIDAL, and include TIDAL tracks in Artist Radio."
 msgstr "显示来自 TIDAL 的推荐和其他专辑，并在艺人电台中包含来自 TIDAL 的曲目。"
@@ -2390,7 +2390,7 @@ msgid "Show suggestions and additional albums from libraries shared with you, an
 msgstr "显示与您分享的资料库中的推荐和其他专辑，并在艺人电台中包含分享的曲目。"
 
 msgid "Show this collection and its items"
-msgstr "显示此合集和合集中的项目"
+msgstr "显示此合集及其中的项目"
 
 msgid "Shows"
 msgstr "电视节目"
@@ -2474,7 +2474,7 @@ msgid "Sports on Now"
 msgstr "正在播出的体育节目"
 
 msgid "Start Listening"
-msgstr "开始聆听"
+msgstr "开始收听"
 
 msgid "Start Watching"
 msgstr "开始观看"
@@ -2551,7 +2551,7 @@ msgid "Team"
 msgstr "团队"
 
 msgid "Terminate Sessions Paused for Longer Than"
-msgstr "超时多久后终止会话"
+msgstr "暂停超过此时长后终止会话"
 
 msgid "The EPG provider does not exist."
 msgstr "电子节目指南提供方不存在。"
@@ -2560,7 +2560,7 @@ msgid "The GPU or other hardware device that will be used for transcoding"
 msgstr "用于转码的 GPU 或其他硬件设备"
 
 msgid "The Movie Database (Aired)"
-msgstr "The Movie Database (已播出)"
+msgstr "The Movie Database（已播出）"
 
 msgid "The Relay allows connections to the server through a proxy relay when the server is not accessible otherwise.  Note: this proxy relay is bandwidth limited"
 msgstr "当服务器无法直接访问时，中继可通过代理转发建立连接。注意：此代理中继的带宽有限。"
@@ -2746,10 +2746,10 @@ msgid "TheTVDB (Absolute)"
 msgstr "TheTVDB（绝对顺序）"
 
 msgid "TheTVDB (Aired)"
-msgstr "TheTVDB (已播出)"
+msgstr "TheTVDB（已播出）"
 
 msgid "TheTVDB (DVD)"
-msgstr "TheTVDB (DVD)"
+msgstr "TheTVDB（DVD）"
 
 msgid "There is a duplicate channel mapping"
 msgstr "存在重复的频道映射"
@@ -2881,7 +2881,7 @@ msgid "Tracks from {1}"
 msgstr "来自 {1} 的曲目"
 
 msgid "Trailers for Upcoming Blu-ray Releases"
-msgstr "即将发布的蓝光预告片"
+msgstr "即将发行的蓝光预告片"
 
 msgid "Trailers for Upcoming Theatrical Releases"
 msgstr "即将上映的电影预告片"
@@ -3150,7 +3150,7 @@ msgid "[Experimental] This can save disk space and improve compatibility. Conver
 msgstr "[实验性] 这可以节省磁盘空间并提高兼容性。转换需要高性能 CPU。"
 
 msgid "[Unknown Season]"
-msgstr "[未知季]"
+msgstr "【未知季】"
 
 msgid "a direct connection to the server is not available"
 msgstr "无法直接连接服务器"
@@ -3174,7 +3174,7 @@ msgid "begins with"
 msgstr "开头是"
 
 msgid "both, try online first"
-msgstr "同时使用，优先使用在线标记"
+msgstr "两者兼顾，优先在线"
 
 msgid "contains"
 msgstr "包含"
@@ -3186,13 +3186,13 @@ msgid "decoder"
 msgstr "解码器"
 
 msgid "disabled"
-msgstr "禁用"
+msgstr "已禁用"
 
 msgid "does not contain"
 msgstr "不包含"
 
 msgid "enabled"
-msgstr "启用"
+msgstr "已启用"
 
 msgid "encoder"
 msgstr "编码器"
@@ -3285,7 +3285,7 @@ msgid "How to display collections on the Library tab."
 msgstr "如何在资料库页面显示合集。"
 
 msgid "Hide collections but show their items"
-msgstr "隐藏合集但显示合集中的项目"
+msgstr "隐藏合集，但显示其中的项目"
 
 msgid "How the items in the collection are displayed on the Library tab."
 msgstr "合集项目在资料库标签页中的显示方式。"
