@@ -1032,7 +1032,7 @@ msgid "Downloading Subtitle"
 msgstr "正在下载字幕"
 
 msgid "Downloading new data"
-msgstr "下载新的数据"
+msgstr "正在下载新数据"
 
 msgid "Downloads not allowed"
 msgstr "不允许下载"
@@ -1486,14 +1486,14 @@ msgid "LAN Networks"
 msgstr "局域网"
 
 msgid "Label"
-msgstr "标签"
+msgstr "唱片公司"
 
 msgctxt "Label"
 msgid "More from {1}"
 msgstr "更多来自 {1} 的专辑"
 
 msgid "Labels"
-msgstr "标签"
+msgstr "唱片公司"
 
 msgid "Language to use for item metadata such as synopsis and title."
 msgstr "项目元数据（如简介和标题）所使用的语言。"
@@ -1508,7 +1508,7 @@ msgid "Latest episode"
 msgstr "最新一集"
 
 msgid "Launch jobs in debug mode"
-msgstr "在调试模式下启动工作"
+msgstr "在调试模式下启动任务"
 
 msgid "Launch plugins in debug mode"
 msgstr "在调试模式下启动插件"
@@ -1678,7 +1678,7 @@ msgid "Mood Radio"
 msgstr "氛围电台"
 
 msgid "More by (Artist)"
-msgstr "更多（艺人）的专辑"
+msgstr "更多来自（艺人）的专辑"
 
 msgid "More from (Label)"
 msgstr "更多来自（唱片公司）的专辑"
@@ -1693,7 +1693,7 @@ msgid "Most Played"
 msgstr "播放最多"
 
 msgid "Most Played in (Month)"
-msgstr "在（月份）播放最多"
+msgstr "（月份）最常播放"
 
 msgid "Most Popular Tracks"
 msgstr "最热曲目"
@@ -1717,10 +1717,10 @@ msgid "Movies on Now"
 msgstr "正在播出的电影"
 
 msgid "Moving files"
-msgstr "移动文件"
+msgstr "正在移动文件"
 
 msgid "Moving offline data"
-msgstr "移动离线数据"
+msgstr "正在移动离线数据"
 
 msgid "Music"
 msgstr "音乐"
@@ -1756,7 +1756,7 @@ msgid "New Shows On Tonight"
 msgstr "今晚播出的电视节目"
 
 msgid "New and Repeat Airings"
-msgstr "新播出与重播"
+msgstr "新节目与重播"
 
 msgid "New season premieres will always appear no matter how many weeks have passed since watching."
 msgstr "无论距上次观看已过去多少周，新一季首播始终会显示。"
@@ -2372,7 +2372,7 @@ msgid "Show Year"
 msgstr "剧集年份"
 
 msgid "Show collections and their items"
-msgstr "显示合集和合集中的项目"
+msgstr "显示合集及其中的项目"
 
 msgid "Show in dock"
 msgstr "在程序坞中显示"
@@ -2408,10 +2408,10 @@ msgid "Shutter Speed"
 msgstr "快门速度"
 
 msgid "Similar Artists"
-msgstr "相似的艺人"
+msgstr "相似艺人"
 
 msgid "Similar Movies in Free To Watch"
-msgstr "免费电影中的相似电影"
+msgstr "免费观看中的相似电影"
 
 msgid "Singles & EPs"
 msgstr "单曲与 EP"
@@ -3291,10 +3291,10 @@ msgid "How the items in the collection are displayed on the Library tab."
 msgstr "合集项目在资料库标签页中的显示方式。"
 
 msgid "Hide this collection but show its items"
-msgstr "隐藏此合集但显示合集中的项目"
+msgstr "隐藏此合集，但显示其中的项目"
 
 msgid "Deep Cuts Radio"
-msgstr "珍藏金曲电台"
+msgstr "冷门佳作电台"
 
 msgid "Episode Last Watched"
 msgstr "最后观看的剧集"
