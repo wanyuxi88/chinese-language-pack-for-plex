@@ -288,7 +288,7 @@ msgid "All {1} Events"
 msgstr "所有 {1} 活动"
 
 msgid "Allow Cinema Trailers to play before items in this library."
-msgstr "允许在播放此资料库中的影片前，先播放影院预告片。"
+msgstr "允许在播放此资料库中的视频前，先播放影院预告片。"
 
 msgid "Allow Plex Media Server tokens in logs"
 msgstr "允许在日志中记录 Plex 媒体服务器令牌"
@@ -949,7 +949,7 @@ msgid "Detects movie and episode end credits."
 msgstr "检测电影和剧集的片尾。"
 
 msgid "Detects show intros, exposing the 'Skip Intro' button in clients."
-msgstr "检测剧集片头，并在客户端中显示 “跳过片头” 按钮。"
+msgstr "检测剧集片头，并在客户端中显示“跳过片头”按钮。"
 
 msgid "Device"
 msgstr "设备"
@@ -1114,7 +1114,7 @@ msgid "Enhanced Guide"
 msgstr "增强版节目指南"
 
 msgid "Enter the full path to the pre-roll video file. If multiple paths separated by commas are entered, videos will be played sequentially. If multiple paths separated by semi-colons are used, a single pre-roll video will be chosen randomly from the list."
-msgstr "输入片头视频文件的完整路径。多个路径用逗号分隔时，视频会依次播放；用分号分隔时，会从中随机选择一个播放。"
+msgstr "输入映前视频文件的完整路径。多个路径用逗号分隔时会依次播放，用分号分隔时会随机选择一个播放。"
 
 msgid "Episode"
 msgstr "剧集"
@@ -1699,7 +1699,7 @@ msgid "Most Popular Tracks"
 msgstr "最热曲目"
 
 msgid "Movie pre-roll video"
-msgstr "电影片头视频"
+msgstr "电影映前视频"
 
 msgid "Movies"
 msgstr "电影"
@@ -3669,7 +3669,7 @@ msgid "agent identifier does not match primary identifier of supplied metadata a
 msgstr "代理标识符与给定元数据代理提供方组的主要标识符不一致"
 
 msgid "unable to find built-in agent group for provided 'agent'"
-msgstr "无法为指定的 “agent” 找到内置代理组"
+msgstr "无法为指定的“agent”找到内置代理组"
 
 msgid "unable to find entry for provided 'metadataAgentProviderGroupId'"
 msgstr "找不到与所提供“metadataAgentProviderGroupId”对应的条目"
@@ -3678,10 +3678,10 @@ msgid "unavailable"
 msgstr "不可用"
 
 msgid "\"{1}\" asked to stop your playback from this server. The device might be busy, restarting, or under maintenance. Try again in a few minutes."
-msgstr "“{1}” 要求停止您在此服务器上的播放。可能是设备正忙、正在重启或正在维护，请过几分钟再试。"
+msgstr "“{1}”要求停止您在此服务器上的播放。可能是设备正忙、正在重启或正在维护，请过几分钟再试。"
 
 msgid "\"{1}\" asked to stop your playback from this server: {2}"
-msgstr "“{1}” 要求停止您在此服务器上的播放：{2}"
+msgstr "“{1}”要求停止您在此服务器上的播放：{2}"
 
 msgid "When set to \"Required\", some unencrypted connections (originating from the Media Server computer) will still be allowed and apps that don't support secure connections will not be able to connect at all."
 msgstr "设为“必需”时，仍会允许部分未加密连接（来自运行媒体服务器的这台电脑），但不支持安全连接的应用将完全无法连接。"
