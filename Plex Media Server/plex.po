@@ -1168,7 +1168,7 @@ msgid "Episodes added in the past 7 days"
 msgstr "最近 7 天添加的剧集"
 
 msgid "Error communicating with provider"
-msgstr "与提供商通信出错"
+msgstr "与提供方通信时出错"
 
 msgid "Error creating DVR"
 msgstr "创建数字录像机时出错"
@@ -1447,7 +1447,7 @@ msgid "Initializing"
 msgstr "初始化"
 
 msgid "Invalid or missing file"
-msgstr "文件无效或丢失"
+msgstr "文件无效或缺失"
 
 msgid "Item Count"
 msgstr "项目数"
@@ -1554,10 +1554,10 @@ msgid "Limits the number of shows which will appear Continue Watching. Setting i
 msgstr "限制“继续观看”中显示的剧集数量，设得过高可能影响性能。"
 
 msgid "Lineup is from a different provider."
-msgstr "该频道表来自其他提供商。"
+msgstr "该频道表来自其他提供方。"
 
 msgid "Lineups are from different providers"
-msgstr "频道表来自不同的提供商"
+msgstr "频道表来自不同的提供方"
 
 msgid "Linux systems limit the maximum number of watched directories; this may cause problems with large music libraries."
 msgstr "Linux 系统对可监视的目录数量有上限，音乐资料库较大时可能出问题。"
@@ -2198,7 +2198,7 @@ msgid "Remixes"
 msgstr "混音"
 
 msgid "Remote failed to transcode media"
-msgstr "远程服务器转码媒体失败"
+msgstr "远程端转码媒体失败"
 
 msgid "Remote streams allowed per user"
 msgstr "每个用户允许的远程串流数"
@@ -2554,7 +2554,7 @@ msgid "Terminate Sessions Paused for Longer Than"
 msgstr "超时多久后终止会话"
 
 msgid "The EPG provider does not exist."
-msgstr "电子节目指南提供商不存在。"
+msgstr "电子节目指南提供方不存在。"
 
 msgid "The GPU or other hardware device that will be used for transcoding"
 msgstr "用于转码的 GPU 或其他硬件设备"
@@ -2566,7 +2566,7 @@ msgid "The Relay allows connections to the server through a proxy relay when the
 msgstr "当服务器无法直接访问时，中继可通过代理转发建立连接。注意：该代理中继的带宽有限。"
 
 msgid "The action cannot be performed on the item in its current state"
-msgstr "在项目的当前状态下无法对其执行此操作"
+msgstr "当前状态下无法对此项目执行该操作。"
 
 msgid "The airing occurred in the past and cannot be recorded"
 msgstr "该节目已播出，无法录制"
@@ -2722,7 +2722,7 @@ msgid "The server is not connected to plex.tv"
 msgstr "服务器未连接到 plex.tv"
 
 msgid "The server's account does not have a Plex Pass and cannot use the Sync feature"
-msgstr "该服务器上的账号没有订阅 Plex Pass 因此无法使用同步功能"
+msgstr "该服务器的账号未订阅 Plex 通行证，无法使用同步功能。"
 
 msgid "The source media was not found"
 msgstr "找不到源媒体"
@@ -2962,7 +2962,7 @@ msgid "Unknown media grabber"
 msgstr "未知的媒体抓取器"
 
 msgid "Unknown provider requested to make decision."
-msgstr "未知的提供者请求进行播放决策。"
+msgstr "未知的提供方请求做出决策。"
 
 msgid "Unknown source"
 msgstr "未知来源"
@@ -3447,7 +3447,7 @@ msgid "IPv4 and IPv6"
 msgstr "同时使用 IPv4 和 IPv6"
 
 msgid "A provider with the same identifier already exists."
-msgstr "已存在标识符相同的提供者。"
+msgstr "已存在标识符相同的提供方。"
 
 msgid "Always Available"
 msgstr "始终可用"
@@ -3465,7 +3465,7 @@ msgid "An unknown error occurred."
 msgstr "发生未知错误。"
 
 msgid "An unknown network error occurred while trying to reach the provider URL."
-msgstr "尝试访问提供商 URL 时发生未知网络错误。"
+msgstr "访问提供方 URL 时发生未知网络错误。"
 
 msgid "App cannot direct play this item. Boost Dialog and Normalize Loudness are enabled."
 msgstr "应用无法直接播放此项目：已启用对白增强和音量标准化。"
@@ -3474,7 +3474,7 @@ msgid "App cannot direct play this item. Boost Dialog is enabled."
 msgstr "应用无法直接播放此项目：已启用对白增强。"
 
 msgid "App cannot direct play this item. Normalize Loudness is enabled."
-msgstr "应用程序无法直接播放此项目。音量标准化已启用。"
+msgstr "应用程序无法直接播放此项目。响度标准化已启用。"
 
 msgid "App cannot direct play this item. Unknown audio Enhancement is enabled."
 msgstr "应用程序无法直接播放此项目。未知的音频增强功能已启用。"
@@ -3492,7 +3492,7 @@ msgid "Bad decision parameters"
 msgstr "决策参数无效"
 
 msgid "Cannot parse the metadata types supported by the provider."
-msgstr "无法解析该提供者支持的元数据类型。"
+msgstr "无法解析该提供方支持的元数据类型。"
 
 msgid "Common Sense Media Age Rating"
 msgstr "Common Sense Media 年龄分级"
@@ -3588,58 +3588,58 @@ msgid "Subtitle Codec"
 msgstr "字幕编解码器"
 
 msgid "The built-in metadata agent provider group cannot be modified or deleted."
-msgstr "内置的元数据代理提供者组无法修改或删除。"
+msgstr "内置的元数据代理提供方组无法修改或删除。"
 
 msgid "The butler cleaned {1} directories."
 msgstr "管家已清理 {1} 个目录。"
 
 msgid "The metadata agent provider group is being used by a library section and cannot be deleted."
-msgstr "该元数据代理提供者组正被某个资料库分类使用，无法删除。"
+msgstr "该元数据代理提供方组正被某个资料库分类使用，无法删除。"
 
 msgid "The metadata agent provider group is being used by metadata items and cannot be deleted."
-msgstr "该元数据代理提供者组正被元数据项目使用，无法删除。"
+msgstr "该元数据代理提供方组正被元数据项目使用，无法删除。"
 
 msgid "The primary provider must be of type 'Primary'."
-msgstr "主要提供者的类型必须为“主要”。"
+msgstr "主要提供方的类型必须为“主要”。"
 
 msgid "The provided URL is not valid."
 msgstr "提供的地址无效。"
 
 msgid "The provider URL is not reachable."
-msgstr "无法访问提供者 URL。"
+msgstr "无法访问提供方 URL。"
 
 msgid "The provider identifier cannot be changed."
-msgstr "提供者标识符无法更改。"
+msgstr "提供方标识符无法更改。"
 
 msgid "The provider identifier is not valid."
-msgstr "提供者标识符无效。"
+msgstr "提供方标识符无效。"
 
 msgid "The provider identifier is reserved and cannot be used or modified."
-msgstr "提供者标识符为保留值，无法使用或修改。"
+msgstr "提供方标识符为保留值，无法使用或修改。"
 
 msgid "The provider is in use and cannot be deleted."
-msgstr "该提供者正在使用中，无法删除。"
+msgstr "该提供方正在使用中，无法删除。"
 
 msgid "The provider supports unsupported metadata types."
-msgstr "提供者声明了不受支持的元数据类型。"
+msgstr "该提供方支持了本系统不支持的元数据类型。"
 
 msgid "The secondary provider's metadata types are not compatible with the primary provider in the group."
-msgstr "辅助提供者的元数据类型与该组中的主要提供者不兼容。"
+msgstr "辅助提供方的元数据类型与该组中的主要提供方不兼容。"
 
 msgid "The server has reached its configured limit for maximum simultaneous video transcodes."
 msgstr "服务器已达到所配置的视频转码最大并发数限制。"
 
 msgid "The specified metadata agent provider group item was not found."
-msgstr "未找到指定的元数据代理提供者组项目。"
+msgstr "未找到指定的元数据代理提供方组项目。"
 
 msgid "The specified metadata agent provider group was not found."
-msgstr "未找到指定的元数据代理提供者组。"
+msgstr "未找到指定的元数据代理提供方组。"
 
 msgid "The specified metadata agent title is reserved and cannot be used or modified."
 msgstr "指定的元数据代理名称为保留值，无法使用或修改。"
 
 msgid "The specified provider was not found."
-msgstr "未找到指定的提供者。"
+msgstr "未找到指定的提供方。"
 
 msgid "This item cannot be played at this time. The server has reached its configured limit for maximum simultaneous video transcodes."
 msgstr "此项目暂时无法播放。服务器已达到所配置的视频转码最大并发数限制。"
@@ -3666,13 +3666,13 @@ msgid "[Experimental] Quality scale of 99 (High) - 0 (Low) where the higher qual
 msgstr "[实验性] 质量等级从 99（高）到 0（低），质量越高，文件体积也越大。"
 
 msgid "agent identifier does not match primary identifier of supplied metadata agent provider group"
-msgstr "代理标识符与所提供的元数据代理提供者组的主要标识符不一致"
+msgstr "代理标识符与给定元数据代理提供方组的主要标识符不一致"
 
 msgid "unable to find built-in agent group for provided 'agent'"
 msgstr "无法为指定的 “agent” 找到内置代理组"
 
 msgid "unable to find entry for provided 'metadataAgentProviderGroupId'"
-msgstr "无法为所提供的 “metadataAgentProviderGroupId” 找到条目"
+msgstr "找不到与所提供“metadataAgentProviderGroupId”对应的条目"
 
 msgid "unavailable"
 msgstr "不可用"
