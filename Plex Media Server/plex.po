@@ -143,7 +143,7 @@ msgstr "演员"
 
 msgctxt "Actor"
 msgid "More with {1}"
-msgstr "更多与 {1} 相关的内容"
+msgstr "更多 {1} 出演的内容"
 
 msgctxt "Actor"
 msgid "Top Movies with {1}"
@@ -252,10 +252,10 @@ msgid "All"
 msgstr "全部"
 
 msgid "All Artists"
-msgstr "所有艺人"
+msgstr "全部艺人"
 
 msgid "All Channels"
-msgstr "所有频道"
+msgstr "全部频道"
 
 msgid "All Episodes"
 msgstr "所有剧集"
@@ -267,7 +267,7 @@ msgid "All Photos"
 msgstr "全部照片"
 
 msgid "All Podcasts"
-msgstr "所有播客"
+msgstr "全部播客"
 
 msgid "All Shared"
 msgstr "所有分享"
@@ -279,13 +279,13 @@ msgid "All episodes"
 msgstr "所有剧集"
 
 msgid "All movies"
-msgstr "所有电影"
+msgstr "全部电影"
 
 msgid "All {1}"
-msgstr "所有 {1}"
+msgstr "全部 {1}"
 
 msgid "All {1} Events"
-msgstr "所有 {1} 活动"
+msgstr "全部 {1} 活动"
 
 msgid "Allow Cinema Trailers to play before items in this library."
 msgstr "允许在播放此资料库中的视频前，先播放影院预告片。"
@@ -971,7 +971,7 @@ msgstr "导演"
 
 msgctxt "Director"
 msgid "More by {1}"
-msgstr "更多 {1} 的作品"
+msgstr "更多 {1} 导演的作品"
 
 msgctxt "Director"
 msgid "Top Movies by {1}"
@@ -1255,7 +1255,7 @@ msgid "Folders"
 msgstr "文件夹"
 
 msgid "For all items"
-msgstr "应用于所有项目"
+msgstr "应用于全部项目"
 
 msgid "For recorded items"
 msgstr "应用于录制项目"
@@ -1308,7 +1308,7 @@ msgstr "更多 {1} 中的内容"
 
 msgctxt "Genre"
 msgid "Top Movies in {1}"
-msgstr "{1}中的热门电影"
+msgstr "{1} 中的热门电影"
 
 msgctxt "Genre"
 msgid "{1} Radio"
@@ -1569,7 +1569,7 @@ msgid "Live Albums"
 msgstr "现场专辑"
 
 msgid "Live TV & DVR"
-msgstr "直播电视和数字录像机"
+msgstr "直播电视与数字录像机"
 
 msgid "Load album reviews and critic ratings from the cloud. Might make you reconsider your taste in music."
 msgstr "从云端加载乐评与媒体评分。说不定会让您重新审视自己的音乐品味。"
@@ -1605,7 +1605,7 @@ msgid "Low quality (360p)"
 msgstr "低质量（360p）"
 
 msgid "Make"
-msgstr "制造商"
+msgstr "厂商"
 
 msgid "Make my CPU hurt"
 msgstr "让我的 CPU 受点累"
@@ -1620,7 +1620,7 @@ msgid "Marker source"
 msgstr "标记来源"
 
 msgid "Maximum number of Continue Watching items which will appear."
-msgstr "继续观看中显示项目的数量"
+msgstr "继续观看中最多显示的项目数量。"
 
 msgid "Maximum number of simultaneous streams each user is allowed when not on the local network."
 msgstr "用户不在局域网时允许同时进行的串流数量上限。"
@@ -1669,7 +1669,7 @@ msgstr "型号"
 
 msgctxt "Month"
 msgid "Most Played in {1}"
-msgstr "{1} 中播放最多"
+msgstr "{1} 最常播放"
 
 msgid "Mood"
 msgstr "氛围"
@@ -1771,10 +1771,10 @@ msgid "News On Later"
 msgstr "稍后播出的新闻节目"
 
 msgid "News On Now"
-msgstr "正在播出的新闻"
+msgstr "正在播出的新闻节目"
 
 msgid "News on Now"
-msgstr "正在播出的新闻"
+msgstr "正在播出的新闻节目"
 
 msgid "No"
 msgstr "否"
@@ -2150,7 +2150,7 @@ msgid "Recording failed. Please check your tuner or antenna."
 msgstr "录制失败。请检查您的调谐器或天线。"
 
 msgid "Rediscover"
-msgstr "再次发现"
+msgstr "重新发现"
 
 msgid "Refresh library metadata periodically"
 msgstr "定期刷新资料库元数据"
@@ -2414,7 +2414,7 @@ msgid "Similar Movies in Free To Watch"
 msgstr "免费电影中的相似电影"
 
 msgid "Singles & EPs"
-msgstr "单曲 & EP"
+msgstr "单曲与 EP"
 
 msgid "Size of IPC buffer (in bytes) when streaming transcodes"
 msgstr "串流转码时 IPC 缓冲区大小（字节）"
@@ -2499,7 +2499,7 @@ msgstr "制片公司"
 
 msgctxt "Studio"
 msgid "More from {1}"
-msgstr "更多来自 {1} 的内容"
+msgstr "更多来自 {1} 的作品"
 
 msgid "Style"
 msgstr "风格"
@@ -2851,7 +2851,7 @@ msgid "Track Last Played"
 msgstr "最近播放的曲目"
 
 msgid "Track Last Rated"
-msgstr "最后评分的曲目"
+msgstr "曲目最后评分"
 
 msgid "Track Last Skipped"
 msgstr "最近跳过的曲目"
@@ -3124,7 +3124,7 @@ msgstr "{1} 年的今天"
 
 msgctxt "Year"
 msgid "This Month in {1}"
-msgstr "{1} 年的这个月"
+msgstr "{1} 年这个月"
 
 msgctxt "Year"
 msgid "Top Albums from {1}"
@@ -3132,7 +3132,7 @@ msgstr "{1} 年的热门专辑"
 
 msgctxt "Year"
 msgid "Videos from {1}"
-msgstr "来自 {1} 的视频"
+msgstr "{1} 年的视频"
 
 msgid "Yes"
 msgstr "是"
@@ -3159,7 +3159,7 @@ msgid "admin only"
 msgstr "仅限管理员"
 
 msgid "and"
-msgstr "和"
+msgstr "且"
 
 msgid "as a scheduled task"
 msgstr "按计划任务运行"
@@ -3171,7 +3171,7 @@ msgid "audio"
 msgstr "音频"
 
 msgid "begins with"
-msgstr "起始于"
+msgstr "开头是"
 
 msgid "both, try online first"
 msgstr "同时使用，优先使用在线标记"
@@ -3189,7 +3189,7 @@ msgid "disabled"
 msgstr "禁用"
 
 msgid "does not contain"
-msgstr "不含"
+msgstr "不包含"
 
 msgid "enabled"
 msgstr "启用"
@@ -3198,7 +3198,7 @@ msgid "encoder"
 msgstr "编码器"
 
 msgid "ends with"
-msgstr "结束于"
+msgstr "结尾是"
 
 msgid "every 12 hours"
 msgstr "每 12 小时"
@@ -3228,13 +3228,13 @@ msgid "is"
 msgstr "是"
 
 msgid "is after"
-msgstr "之后"
+msgstr "晚于"
 
 msgid "is before"
-msgstr "之前"
+msgstr "早于"
 
 msgid "is false"
-msgstr "非"
+msgstr "否"
 
 msgid "is greater than"
 msgstr "大于"
@@ -3243,7 +3243,7 @@ msgid "is less than"
 msgstr "小于"
 
 msgid "is not"
-msgstr "非"
+msgstr "不是"
 
 msgid "is true"
 msgstr "是"
@@ -3300,7 +3300,7 @@ msgid "Episode Last Watched"
 msgstr "最后观看的剧集"
 
 msgid "Series default"
-msgstr "同电视节目"
+msgstr "剧集默认"
 
 msgid "Preferred audio language"
 msgstr "首选音频语言"
