@@ -85,7 +85,7 @@ msgid "3 Mbps (720p)"
 msgstr "3 Mbps (720p)"
 
 msgid "3 latest episodes"
-msgstr "最新三集"
+msgstr "最新 3 集"
 
 msgid "30 Mbps (4k)"
 msgstr "30 Mbps (4k)"
@@ -106,7 +106,7 @@ msgid "5"
 msgstr "5"
 
 msgid "5 latest episodes"
-msgstr "最新五集"
+msgstr "最新 5 集"
 
 msgid "6"
 msgstr "6"
@@ -1858,10 +1858,10 @@ msgid "Oldest first"
 msgstr "最旧的优先"
 
 msgid "On Deck"
-msgstr "最近关注"
+msgstr "接下来观看"
 
 msgid "On Deck Content"
-msgstr "最近关注内容"
+msgstr "接下来观看内容"
 
 msgid "On This Day"
 msgstr "历史上的今天"
@@ -1973,7 +1973,7 @@ msgid "Plex Music"
 msgstr "Plex 音乐"
 
 msgid "Plex Music Only"
-msgstr "Plex Music"
+msgstr "仅 Plex Music"
 
 msgid "Plex Recommendations on TIDAL"
 msgstr "TIDAL 上的 Plex 推荐"
@@ -2444,7 +2444,7 @@ msgid "Sonically Similar Artists"
 msgstr "声学相似艺人"
 
 msgid "Sorry, there is no Plex Mix available for this track."
-msgstr "抱歉，当前单曲没有可用的 Plex Mix"
+msgstr "抱歉，此曲目没有可用的 Plex Mix。"
 
 msgid "Soundtracks"
 msgstr "原声带"
@@ -2983,10 +2983,10 @@ msgid "Unmatched"
 msgstr "未匹配"
 
 msgid "Up Next"
-msgstr "下一个"
+msgstr "接下来播放"
 
 msgid "Up Next from Free to Watch"
-msgstr "下一个免费观看的节目"
+msgstr "接下来播放：免费观看内容"
 
 msgid "Up Next in {1}"
 msgstr "接下来：{1}"
@@ -3073,7 +3073,7 @@ msgid "Web Manager URL"
 msgstr "Web 管理器 URL"
 
 msgid "Webhooks"
-msgstr "Webhooks"
+msgstr "Webhook"
 
 msgid "Weeks to consider for Continue Watching"
 msgstr "继续观看中持续显示项目的周数"
