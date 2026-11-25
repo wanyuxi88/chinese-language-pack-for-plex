@@ -13,7 +13,7 @@ msgid "'agent' is invalid for the selected library type"
 msgstr "「代理」不适用于所选的资料库类型"
 
 msgid "'agent' is missing or invalid"
-msgstr "‘代理’ 缺失或无效"
+msgstr "“代理”缺失或无效"
 
 msgid "'language' is invalid"
 msgstr "‘语言’ 无效"
@@ -297,7 +297,7 @@ msgid "Allow media deletion"
 msgstr "允许删除媒体文件"
 
 msgid "Allow partial airings"
-msgstr "允许部分播放"
+msgstr "允许录制不完整的播出"
 
 msgid "Allow red band trailers"
 msgstr "允许限制级预告片"
@@ -741,7 +741,7 @@ msgid "Continue Watching"
 msgstr "继续观看"
 
 msgid "Conversion encoder or decoder not found."
-msgstr "未找到编码或解码器。"
+msgstr "未找到转码所需的编码器或解码器。"
 
 msgid "Conversion failed. A required codec could not be found or failed to install."
 msgstr "转换失败。找不到或无法安装所需编码解码器。"
@@ -870,7 +870,7 @@ msgid "Date Viewed"
 msgstr "观看日期"
 
 msgid "Debug logging enables additional detail in the log files and is helpful in diagnosing problems."
-msgstr "调试日志可以在日志文件中提供更多细节，对诊断问题很有帮助。"
+msgstr "调试日志会在日志文件中记录更多细节，有助于诊断问题。"
 
 msgid "Dec"
 msgstr "十二月"
@@ -937,7 +937,7 @@ msgid "Detect and delete commercials"
 msgstr "检测并删除广告"
 
 msgid "Detect commercials"
-msgstr "检测商业广告"
+msgstr "检测广告"
 
 msgid "Detect commercials and mark for skip"
 msgstr "检测广告并标记为跳过"
@@ -949,7 +949,7 @@ msgid "Detects movie and episode end credits."
 msgstr "检测电影和剧集的片尾。"
 
 msgid "Detects show intros, exposing the 'Skip Intro' button in clients."
-msgstr "检测剧集的片头，并在客户端中显示 “跳过片头”。"
+msgstr "检测剧集片头，并在客户端中显示 “跳过片头” 按钮。"
 
 msgid "Device"
 msgstr "设备"
@@ -1105,10 +1105,10 @@ msgid "Enable video preview thumbnails"
 msgstr "启用视频预览缩略图"
 
 msgid "Encountered lack of permission on the remote while grabbing media"
-msgstr "抓取媒体时遇到远程权限不足"
+msgstr "获取媒体时远程端权限不足"
 
 msgid "Encountered network error while grabbing media"
-msgstr "抓取媒体资源时遇到网络错误"
+msgstr "获取媒体时遇到网络错误"
 
 msgid "Enhanced Guide"
 msgstr "增强版节目指南"
@@ -1405,7 +1405,7 @@ msgid "Icons offered by DLNA server when devices request server description."
 msgstr "设备请求服务器说明时，DLNA 服务器提供的图标。"
 
 msgid "If hardware acceleration is enabled, this controls whether it's used for encoding, in addition to decoding."
-msgstr "如果启用了硬件加速，该选项将决定它是否也用于编码，而不仅仅是解码。"
+msgstr "启用硬件加速后，此项控制它是否也用于编码，而非仅用于解码。"
 
 msgid "In Progress"
 msgstr "观看中"
@@ -1744,7 +1744,7 @@ msgid "Network"
 msgstr "播出平台"
 
 msgid "Never"
-msgstr "禁用"
+msgstr "从不"
 
 msgid "New Airings Only"
 msgstr "仅限新播出"
@@ -1906,7 +1906,7 @@ msgid "Output all enabled diagnostics to the diagnostics path."
 msgstr "将所有已启用的诊断信息输出到诊断路径。"
 
 msgid "Path to a PKCS #12 file containing a certificate and private key to enable TLS support on a custom domain."
-msgstr "自定义域支持 PKCS #12 文件路径，其中包含启用 TLS 的证书和私钥。"
+msgstr "包含证书与私钥的 PKCS #12 文件路径，用于为自定义域名启用 TLS。"
 
 msgid "Path to a program which postprocesses the recording before adding to the library. The script must be in {1}"
 msgstr "在加入资料库前对录制内容进行后期处理的程序路径。该脚本必须位于 {1} 中"
@@ -1921,7 +1921,7 @@ msgid "Photo"
 msgstr "照片"
 
 msgid "Photo Albums"
-msgstr "专辑"
+msgstr "相册"
 
 msgid "Photos"
 msgstr "照片"
@@ -2225,7 +2225,7 @@ msgid "Run a partial scan when changes are detected"
 msgstr "在检测到变更时执行局部扫描"
 
 msgid "Run background transcoding tasks at a lower priority than streaming transcodes"
-msgstr "后台转码任务优先级低于实时视频流转码任务"
+msgstr "后台转码任务的优先级低于串流转码任务"
 
 msgid "Run scanner tasks at a lower priority"
 msgstr "以较低优先级运行扫描器任务"
@@ -2520,10 +2520,10 @@ msgid "Support Away Mode when preventing system sleep"
 msgstr "防止系统休眠时支持离开模式"
 
 msgid "Syncing Play state from remote"
-msgstr "从远程同步播放状态"
+msgstr "正在从远程同步播放状态"
 
 msgid "Syncing Play state to remote"
-msgstr "将播放状态同步到远程"
+msgstr "正在将播放状态同步到远程"
 
 msgid "TIDAL Albums"
 msgstr "TIDAL 专辑"
@@ -2638,7 +2638,7 @@ msgid "The butler refreshed {1} shows."
 msgstr "管家已刷新 {1} 个剧集。"
 
 msgid "The butler wasn't able to back up your database."
-msgstr "管家无法备份数据库。"
+msgstr "管家未能备份您的数据库。"
 
 msgid "The cleanup cleaned {1} media bundles."
 msgstr "清理程序已清理 {1} 个媒体包。"
@@ -2674,7 +2674,7 @@ msgid "The device is not in use by this DVR"
 msgstr "该设备并未被这台数字录像机使用"
 
 msgid "The directory in which database backups are stored."
-msgstr "储存数据库备份的目录。"
+msgstr "存储数据库备份的目录。"
 
 msgid "The download was aborted"
 msgstr "下载已中止"
@@ -3162,10 +3162,10 @@ msgid "and"
 msgstr "和"
 
 msgid "as a scheduled task"
-msgstr "作为计划任务运行"
+msgstr "按计划任务运行"
 
 msgid "as a scheduled task and when media is added"
-msgstr "作为计划任务运行，也在媒体被添加时运行"
+msgstr "按计划任务运行，并在媒体新增时运行"
 
 msgid "audio"
 msgstr "音频"
@@ -3276,10 +3276,10 @@ msgid "{1} Star"
 msgstr "{1} 颗星"
 
 msgid "Detect credits and allow credits skipping for items in this library when enabled in server settings."
-msgstr "在服务器设置中启用了该功能时，为此资料库中的项目检测片尾并允许跳过片尾。"
+msgstr "在服务器设置中启用后，会为此资料库中的项目检测片尾并允许跳过片尾。"
 
 msgid "Detect intros and allow intro skipping for items in this library when enabled in server settings."
-msgstr "在服务器设置中启用了该功能时，为此资料库中的项目检测片头并允许跳过片头。"
+msgstr "在服务器设置中启用后，会为此资料库中的项目检测片头并允许跳过片头。"
 
 msgid "How to display collections on the Library tab."
 msgstr "如何在资料库页面显示合集。"
@@ -3504,7 +3504,7 @@ msgid "DOVI"
 msgstr "DoVi"
 
 msgid "Detect loudness properties of all audio streams."
-msgstr "检测所有音频流的音量属性。"
+msgstr "检测所有音频串流的响度属性。"
 
 msgid "Directory to use when storing transcoded downloads until the client downloads them. This should ideally be a location on a local physical drive. It is not recommended to set this to a network location or RAM disk."
 msgstr "用于存放已转码的下载文件、等待客户端下载的目录。理想情况下应位于本地物理硬盘，不建议设置为网络位置或内存盘。"
@@ -3537,7 +3537,7 @@ msgid "Limit the number of simultaneous video transcode streams your server can 
 msgstr "限制服务器 CPU 可同时处理的视频转码串流数量"
 
 msgid "Limit the number of simultaneous video transcode streams your server can utilize on your selected GPU"
-msgstr "限制服务器在所选 GPU 上同时进行的视频转码数量"
+msgstr "限制服务器在所选 GPU 上可同时处理的视频转码串流数量"
 
 msgid "Maximum simultaneous CPU transcodes"
 msgstr "CPU 最大并发转码数"
@@ -3576,7 +3576,7 @@ msgid "No queue found"
 msgstr "未找到队列"
 
 msgid "Remote playback requires a Remote Watch Pass or Plex Pass. Visit plex.tv/plans to purchase one."
-msgstr "远程播放需要远程观看通行证或 Plex 通行证，请访问 plex.tv/plans 购买。"
+msgstr "远程播放需要远程观看通行证或 Plex 通行证，请前往 plex.tv/plans 购买。"
 
 msgid "Show Edition"
 msgstr "显示版本"
@@ -3636,7 +3636,7 @@ msgid "The specified metadata agent provider group was not found."
 msgstr "未找到指定的元数据代理提供者组。"
 
 msgid "The specified metadata agent title is reserved and cannot be used or modified."
-msgstr "指定的元数据代理名称是保留值，无法使用或修改。"
+msgstr "指定的元数据代理名称为保留值，无法使用或修改。"
 
 msgid "The specified provider was not found."
 msgstr "未找到指定的提供者。"
@@ -3660,7 +3660,7 @@ msgid "Video Codec"
 msgstr "视频编解码器"
 
 msgid "[Experimental] If enabled use hardware encoders instead of software encoders."
-msgstr "[实验]启用后将使用硬件编码器代替软件编码器。"
+msgstr "[实验性] 启用后使用硬件编码器替代软件编码器。"
 
 msgid "[Experimental] Quality scale of 99 (High) - 0 (Low) where the higher quality also results in a higher filesize."
 msgstr "[实验]质量等级从 99（高）到 0（低），质量越高，文件体积也越大。"
@@ -3669,7 +3669,7 @@ msgid "agent identifier does not match primary identifier of supplied metadata a
 msgstr "代理标识符与所提供的元数据代理提供者组的主要标识符不匹配"
 
 msgid "unable to find built-in agent group for provided 'agent'"
-msgstr "无法为所提供的 “agent” 找到内置代理组"
+msgstr "无法为指定的 “agent” 找到内置代理组"
 
 msgid "unable to find entry for provided 'metadataAgentProviderGroupId'"
 msgstr "无法为所提供的 “metadataAgentProviderGroupId” 找到条目"
