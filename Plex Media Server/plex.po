@@ -333,7 +333,7 @@ msgid "An unexpected error occurred"
 msgstr "出现意外错误。"
 
 msgid "An unknown error occurred"
-msgstr "发生未知错误"
+msgstr "出现未知错误"
 
 msgid "Analyze audio tracks for loudness"
 msgstr "分析音轨的音量"
@@ -1569,7 +1569,7 @@ msgid "Live Albums"
 msgstr "现场专辑"
 
 msgid "Live TV & DVR"
-msgstr "直播电视与数字录像机"
+msgstr "直播电视和数字录像机"
 
 msgid "Load album reviews and critic ratings from the cloud. Might make you reconsider your taste in music."
 msgstr "从云端加载乐评与媒体评分。说不定会让您重新审视自己的音乐品味。"
@@ -1629,7 +1629,7 @@ msgid "Maximum video output resolution for the transcoder"
 msgstr "转码器的最大视频输出分辨率"
 
 msgid "May"
-msgstr "5月"
+msgstr "五月"
 
 msgid "Media download by {1}"
 msgstr "{1} 下载了媒体"
@@ -1641,7 +1641,7 @@ msgid "Media that has not been watched in this many weeks will not appear in Con
 msgstr "超过这么多周未观看的媒体不会出现在「继续观看」中。"
 
 msgid "Medium"
-msgstr "中速"
+msgstr "中等"
 
 msgid "Medium quality (480p)"
 msgstr "中画质（480p）"
@@ -1735,7 +1735,7 @@ msgid "My Upcoming Shows"
 msgstr "即将播出的电视节目"
 
 msgid "Name"
-msgstr "标题"
+msgstr "名称"
 
 msgid "Neither direct play nor conversion is available."
 msgstr "无法直接播放，也无法转码播放。"
@@ -2929,7 +2929,7 @@ msgid "Tuner in use by another process"
 msgstr "调谐器正被其他进程占用"
 
 msgid "Type"
-msgstr "类别"
+msgstr "类型"
 
 msgid "Ultra fast"
 msgstr "极速"
