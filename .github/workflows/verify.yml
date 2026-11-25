@@ -11,12 +11,17 @@ permissions:
 
 jobs:
   verify:
-    name: 校验语言文件
-    runs-on: ubuntu-latest
+    name: 校验语言文件 (py${{ matrix.python-version }})
+    runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false
       matrix:
-        python-version: ["3.9", "3.12"]
+        include:
+          # 3.9 在 ubuntu-24.04 上没有现成构建，单独用 22.04 跑，保证老系统也能用
+          - python-version: "3.9"
+            os: ubuntu-22.04
+          - python-version: "3.12"
+            os: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v4
