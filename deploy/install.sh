@@ -57,39 +57,41 @@ mkdir -p "${PACK_DIR}" || die "无法创建 ${PACK_DIR}"
 
 cp -f "${SCRIPT_DIR}/apply.sh" "${PACK_DIR}/apply.sh"
 cp -f "${SCRIPT_DIR}/hook.sh" "${PACK_DIR}/hook.sh"
+cp -f "${SCRIPT_DIR}/watch.sh" "${PACK_DIR}/watch.sh"
 cp -f "${SRC_DIR}/Web Clients/zh.json" "${PACK_DIR}/zh.json"
 cp -f "${SRC_DIR}/Plex Media Server/plex.mo" "${PACK_DIR}/plex.mo"
-chmod 755 "${PACK_DIR}/apply.sh" "${PACK_DIR}/hook.sh"
+chmod 755 "${PACK_DIR}/apply.sh" "${PACK_DIR}/hook.sh" "${PACK_DIR}/watch.sh"
 chmod 644 "${PACK_DIR}/zh.json" "${PACK_DIR}/plex.mo"
 info "已复制 zh.json（$(wc -c < "${PACK_DIR}/zh.json") 字节）、plex.mo（$(wc -c < "${PACK_DIR}/plex.mo") 字节）"
 
-# ---------- 2. 探测初始化系统 ----------
-PROBE=$(docker exec "$CONTAINER" sh -c '
-	if [ -d /custom-cont-init.d ]; then echo lsio
-	elif [ -d /etc/cont-init.d ]; then echo s6v2
-	elif [ -d /etc/s6-overlay/s6-rc.d ]; then echo s6v3
-	else echo unknown
-	fi' 2>/dev/null)
+# ---------- 2. 探测镜像与初始化系统 ----------
+IMAGE=$(docker inspect -f '{{.Config.Image}}' "$CONTAINER" 2>/dev/null)
 
-case "$PROBE" in
-	lsio)
+case "$IMAGE" in
+	*linuxserver*)
+		# linuxserver 镜像的 /custom-cont-init.d 默认可能不存在，
+		# 添加映射时 Docker 会自动创建该目录，无需预先存在。
 		HOOK_TARGET="/custom-cont-init.d/99-zh-pack"
 		HOOK_DESC="linuxserver 镜像（/custom-cont-init.d）"
 		;;
-	s6v2)
-		HOOK_TARGET="/etc/cont-init.d/99-zh-pack"
-		HOOK_DESC="s6-overlay v2（/etc/cont-init.d，Plex 官方镜像）"
-		;;
-	s6v3)
-		HOOK_TARGET=""
-		HOOK_DESC="s6-overlay v3（无直接兼容目录）"
-		;;
 	*)
-		HOOK_TARGET=""
-		HOOK_DESC="未识别的初始化系统"
+		if docker exec "$CONTAINER" test -d /etc/cont-init.d 2>/dev/null; then
+			HOOK_TARGET="/etc/cont-init.d/99-zh-pack"
+			HOOK_DESC="s6-overlay v2（/etc/cont-init.d）"
+		elif docker exec "$CONTAINER" test -d /etc/s6-overlay/s6-rc.d 2>/dev/null; then
+			HOOK_TARGET=""
+			HOOK_DESC="s6-overlay v3（无通用自定义入口，改用定时器兜底）"
+		elif docker exec "$CONTAINER" test -d /custom-cont-init.d 2>/dev/null; then
+			HOOK_TARGET="/custom-cont-init.d/99-zh-pack"
+			HOOK_DESC="自定义 init 目录（/custom-cont-init.d）"
+		else
+			HOOK_TARGET=""
+			HOOK_DESC="未识别的初始化系统（改用定时器兜底）"
+		fi
 		;;
 esac
 
+info "镜像：${IMAGE}"
 info "容器初始化系统：${HOOK_DESC}"
 
 # ---------- 3. 生成覆盖文件 ----------
@@ -163,11 +165,17 @@ $( [ -n "$HOOK_TARGET" ] && printf '  %-46s -> %s\n' "${PACK_DIR}/hook.sh" "${HO
 ============================================================
 升级容器后
 ============================================================
-  映射和启动钩子都在宿主机上，拉新镜像重建容器后会自动重新应用。
-  若个别版本钩子未生效，执行一次兜底命令即可：
+  语言包文件在宿主机目录、映射写在 compose 里，拉新镜像重建容器后自动生效，
+  宿主机上不需要安装任何服务或定时任务。
+
+  启动钩子会顺带在容器内拉起一个看护进程（每 5 分钟复查），
+  用于覆盖「Plex 在启动之后才自动升级、换掉 Plug-ins-<哈希> 目录」的情况。
+  它只活在容器里，容器重建后由钩子自动重新拉起，不涉及宿主机。
+
+  若某次钩子未生效，一条命令兜底：
     docker exec ${CONTAINER} sh /zh-pack/apply.sh && docker restart ${CONTAINER}
 
-  可选：在飞牛「计划任务」里加一条每 10 分钟执行的兜底任务
-    docker exec ${CONTAINER} sh /zh-pack/apply.sh >/dev/null 2>&1
+  查看看护进程是否在跑：
+    docker exec ${CONTAINER} ps -eo pid,args | grep watch.sh
 
 EOF
