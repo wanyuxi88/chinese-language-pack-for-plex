@@ -189,7 +189,7 @@ msgid "Airing was not on the required channel"
 msgstr "节目未在指定的频道播出"
 
 msgid "Airings"
-msgstr "播出"
+msgstr "播出安排"
 
 msgid "Album"
 msgstr "专辑"
@@ -318,7 +318,7 @@ msgid "Amount in past seconds to retain before pruning segments from a transcode
 msgstr "从转码分片中裁剪数据前保留的时长（秒）。"
 
 msgid "Amount in seconds to buffer before throttling the transcoder."
-msgstr "在对转码器进行节流前缓冲的秒数。"
+msgstr "对转码器限速前需要缓冲的秒数。"
 
 msgid "An error occurred"
 msgstr "出现错误"
@@ -381,7 +381,7 @@ msgid "App cannot direct play this item. No direct play music profile exists for
 msgstr "应用程序无法直接播放此项目。协议 {1}（容器为 {2}、编解码器为 {3}）没有可直接播放的音乐配置文件。"
 
 msgid "App cannot direct play this item. No direct play photo profile exists for {1}."
-msgstr "应用程序无法直接播放此项目。{1} 没有直接播放照片配置文件。"
+msgstr "应用程序无法直接播放此项目。没有适用于 {1} 的照片直接播放配置文件。"
 
 msgid "App cannot direct play this item. No direct play video profile exists for protocol {1}, with container {2}, and video codec {3}."
 msgstr "应用程序无法直接播放此项目。协议 {1}（容器为 {2}、视频编解码器为 {3}）没有可直接播放的视频配置文件。"
@@ -402,7 +402,7 @@ msgid "App cannot direct play this item. Selected embedded subtitle stream is no
 msgstr "应用无法直接播放此项目。所选内嵌字幕不是第一条内嵌字幕。"
 
 msgid "App cannot direct play this item. Selected embedded subtitle stream must be extracted to sidecar."
-msgstr "应用程序无法直接播放此项目。需要将选择的内封字幕提取到附属文件中。"
+msgstr "应用程序无法直接播放此项目。需要将所选的内封字幕提取为旁挂字幕文件。"
 
 msgid "App cannot direct play this item. Selected sidecar subtitle stream cannot be direct played."
 msgstr "应用程序无法直接播放此项目。所选的旁挂字幕流无法直接播放。"
@@ -614,10 +614,10 @@ msgid "Cannot convert this item. Implementation for {1} {2} '{3}' not found."
 msgstr "无法转换此项。找不到 {1} {2} '{3}' 的实现。"
 
 msgid "Cannot convert this item. No conversion audio and video encoders could be found in app profile."
-msgstr "无法转换此项目。在应用程序配置文件中找不到音频和视频转换编码器。"
+msgstr "无法转换此项目。应用配置文件中找不到音频和视频转码编码器。"
 
 msgid "Cannot convert this item. No conversion profile found for protocol {1}."
-msgstr "无法转换此项目。找不到协议 {1} 的转换配置文件。"
+msgstr "无法转换此项目。找不到协议 {1} 的转码配置文件。"
 
 msgid "Cannot direct play this item. Required bandwidth is not known and only {2}kbps is available."
 msgstr "无法直接播放此项目。所需带宽未知，当前仅有 {2} kbps 可用。"
@@ -659,7 +659,7 @@ msgid "Choose how quickly episodes are removed after they no longer meet downloa
 msgstr "设置剧集不再符合下载条件后多久将其删除。"
 
 msgid "Choose the minimum resolution for airings to be recorded."
-msgstr "选择要录制播出的最小分辨率。"
+msgstr "选择录制节目的最低分辨率。"
 
 msgid "Choose whether a recording may begin for an airing already in progress."
 msgstr "选择是否允许录制已经开始播出的节目。"
@@ -671,7 +671,7 @@ msgid "Choose whether to restrict recording to a specific airing time."
 msgstr "选择是否将录制限定在特定播出时间。"
 
 msgid "Choose whether to restrict recording to a specific channel."
-msgstr "选择是否将录制限制到特定频道。"
+msgstr "选择是否只录制指定的频道。"
 
 msgid "Cleaning Bundles"
 msgstr "正在清理数据包"
@@ -744,19 +744,19 @@ msgid "Conversion encoder or decoder not found."
 msgstr "未找到转码所需的编码器或解码器。"
 
 msgid "Conversion failed. A required codec could not be found or failed to install."
-msgstr "转换失败。找不到或无法安装所需编码解码器。"
+msgstr "转换失败。所需的编解码器缺失或安装失败。"
 
 msgid "Conversion failed. The transcoder exited due to an error."
 msgstr "转换失败。转码器因错误退出。"
 
 msgid "Conversion failed. The transcoder failed to start up."
-msgstr "转码器无法启动，转换失败。"
+msgstr "转换失败。转码器未能启动。"
 
 msgid "Conversion failed. The transcoder process crashed."
-msgstr "转码器进程崩溃，转换失败。"
+msgstr "转换失败。转码器进程崩溃。"
 
 msgid "Convert video while recording"
-msgstr "录制时转换视频"
+msgstr "录制时转码"
 
 msgid "Could not communicate with device"
 msgstr "无法与设备通信"
@@ -798,10 +798,10 @@ msgid "Custom server access URLs"
 msgstr "自定义服务器访问地址"
 
 msgid "DLNA client preferences"
-msgstr "DLNA 客户端首选项"
+msgstr "DLNA 客户端偏好设置"
 
 msgid "DLNA default protocol info"
-msgstr "DLNA 默认的协议信息"
+msgstr "DLNA 默认协议信息"
 
 msgid "DLNA media renderer discovery interval"
 msgstr "DLNA 媒体渲染器发现间隔"
@@ -822,7 +822,7 @@ msgid "DVD order"
 msgstr "DVD 顺序"
 
 msgid "DVR Schedule"
-msgstr "数字录像机时间表"
+msgstr "录制计划"
 
 msgid "DVR is not using this lineup."
 msgstr "数字录像机未使用此频道表。"
@@ -1548,7 +1548,7 @@ msgid "Limit to airing time"
 msgstr "限定播出时间"
 
 msgid "Limit to channel"
-msgstr "限制频道"
+msgstr "限制到指定频道"
 
 msgid "Limits the number of shows which will appear Continue Watching. Setting it too high can affect performance."
 msgstr "限制“继续观看”中显示的剧集数量，设得过高可能影响性能。"
@@ -1626,7 +1626,7 @@ msgid "Maximum number of simultaneous streams each user is allowed when not on t
 msgstr "用户不在局域网时允许同时进行的串流数量上限。"
 
 msgid "Maximum video output resolution for the transcoder"
-msgstr "视频转码输出的最大分辨率"
+msgstr "转码器的最大视频输出分辨率"
 
 msgid "May"
 msgstr "五月"
@@ -1807,16 +1807,16 @@ msgid "Not enough bandwidth for any playback of this item. Required bandwidth is
 msgstr "带宽不足，无法播放此项目。所需带宽未知，当前仅有 {1} kbps 可用。"
 
 msgid "Not enough bandwidth for any playback of this item. Required bandwidth is {1}kbps and only {2}kbps is available."
-msgstr "带宽不足，无法播放此项目。所需带宽为 {1} kbps，但当前只有 {2} kbps 可用带宽。"
+msgstr "带宽不足，无法播放此项目。所需带宽为 {1} kbps，当前仅有 {2} kbps 可用。"
 
 msgid "Not enough bandwidth for any playback of this item. Required minimum bandwidth is {1}kbps and only {2}kbps is available."
-msgstr "带宽不足，无法播放此项目。所需最低带宽为 {1} kbps，但当前只有 {2} kbps 可用带宽。"
+msgstr "带宽不足，无法播放此项目。所需最低带宽为 {1} kbps，当前仅有 {2} kbps 可用。"
 
 msgid "Not enough bandwidth for direct play of this item."
 msgstr "带宽不足，无法直接播放此项目。"
 
 msgid "Not enough bandwidth for direct play of this item. Required bandwidth is {1}kbps and only {2}kbps is available."
-msgstr "带宽不足，无法直接播放此项目。所需带宽为 {1} kbps，但当前只有 {2} kbps 可用带宽。"
+msgstr "带宽不足，无法直接播放此项目。所需带宽为 {1} kbps，当前仅有 {2} kbps 可用。"
 
 msgid "Not enough bandwidth for requested quality."
 msgstr "带宽不足，无法提供所需质量。"
@@ -2671,7 +2671,7 @@ msgid "The device is in use with an existing DVR"
 msgstr "该设备已被现有的数字录像机占用"
 
 msgid "The device is not in use by this DVR"
-msgstr "该设备并未被这台数字录像机使用"
+msgstr "此数字录像机未使用该设备"
 
 msgid "The directory in which database backups are stored."
 msgstr "存储数据库备份的目录。"
@@ -2710,10 +2710,10 @@ msgid "The recording failed"
 msgstr "录制失败"
 
 msgid "The recording was aborted"
-msgstr "录制已经中止"
+msgstr "录制已中止"
 
 msgid "The recording was cancelled"
-msgstr "录制已经取消"
+msgstr "录制已取消"
 
 msgid "The recording was not started because airing was in progress"
 msgstr "录制未开始，因为节目已在播出中"
@@ -2755,7 +2755,7 @@ msgid "There is a duplicate channel mapping"
 msgstr "存在重复的频道映射"
 
 msgid "There is a duplicate recording already active"
-msgstr "发现重复的激活记录"
+msgstr "已有相同的录制正在进行"
 
 msgid "There was a transcoder error"
 msgstr "转码器发生错误"
@@ -2824,7 +2824,7 @@ msgid "Timeline"
 msgstr "时间轴"
 
 msgid "Timeout in seconds segmented transcodes wait for the transcoder to begin writing data."
-msgstr "分段转码等待转码器开始写入数据的超时时间（以秒为单位）。"
+msgstr "分段转码等待转码器开始写入数据的超时秒数。"
 
 msgid "Title"
 msgstr "标题"
@@ -3432,7 +3432,7 @@ msgid "Downloads temporary directory"
 msgstr "下载缓存目录"
 
 msgid "Maximum simultaneous background video transcode"
-msgstr "最大同时后台视频转码数量"
+msgstr "后台视频转码最大并发数"
 
 msgid "Limit the number of simultaneous video transcode your server can utilize for the optimizer and downloads"
 msgstr "限制服务器为优化和下载同时进行视频转码的数量。"
@@ -3525,7 +3525,7 @@ msgid "File is missing"
 msgstr "文件缺失"
 
 msgid "File is unplayable. DoVi (Profile 5) color space is not supported."
-msgstr "文件无法播放。不支持 DoVi（配置文件 5）色彩空间。"
+msgstr "文件无法播放。不支持 Dolby Vision（Profile 5）色彩空间。"
 
 msgid "How to sort the albums for this artist."
 msgstr "如何排序此艺人的专辑。"
